@@ -1,0 +1,21 @@
+Fri May 14 13:44:40 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri May 14 13:44:40 2021
+No ARsim registration found!
+
+Fri May 14 13:44:40 2021
+InstanceName: 01d748b6861ffcd0
+
+Fri May 14 13:44:40 2021
+WorkingDirectory: D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\ZariadenieNaPreklapanieRotorov\Temp\Simulation\Config2\PC\
+
+Fri May 14 13:44:40 2021
+COMMAND_COLDSTART
+
+Fri May 14 13:44:42 2021
+Version: A4.73
+
+Fri May 14 13:44:52 2021
+COMMAND_TERMINATE
+

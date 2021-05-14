@@ -1,1 +1,0 @@
-Embraco_ZariadenieNaPreklapanieRotorov_A2021001

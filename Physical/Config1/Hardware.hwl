@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="05/18/2021 14:43:45" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BM01" Type="X20BM01" X="276" Y="175" />
+    <Module Name="X20BM11" Type="X20BM11" X="289" Y="175" />
+    <Module Name="AB3_16DI" Type="X20DIF371" X="289" Y="175" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="289" Y="202" />
+    <Module Name="X20BM11a" Type="X20BM11" X="302" Y="175" />
+    <Module Name="AB4_16DO" Type="X20DOF322" X="302" Y="175" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="302" Y="202" />
+    <Module Name="AB2_CANslave" Type="X20BR7300" X="276" Y="175" />
+    <Module Name="X20TB12" Type="X20TB12" X="276" Y="202" />
+    <Module Name="AB1_PLC" Type="4PPC30.043F-21B" X="100" Y="100" />
+  </Modules>
+  <Links>
+    <Link From="AB1_PLC" To="AB2_CANslave" FromPort="IF4" ToPort="CAN1" IsRoutedByUser="False">
+      <Point X="161" Y="171.2" />
+      <Point X="161" Y="171.2" />
+      <Point X="161" Y="176.2" />
+      <Point X="161" Y="214" />
+      <Point X="275" Y="214" />
+      <Point X="283" Y="214" />
+      <Point X="283" Y="214" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

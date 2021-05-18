@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.0.9.68"?>
+<Template>
+  <Property Name="Width" Value="320" />
+  <Property Name="Height" Value="240" />
+  <Property Name="AvailableForAllResolutions" Value="true" />
+  <Descriptions>
+    <Description Language="en" Value="Template visualization with 320x240 pixel (QVGA resolution) or higher with 32 bit color setting and extended scale of benefits." />
+    <Description Language="de" Value="Vorlage f&#252;r eine Visualisierung mit 320x240 Pixel (QVGA Aufl&#246;sung) oder h&#246;her mit 32 Bit Farbtiefe und erweitertem Standardumfang." />
+  </Descriptions>
+</Template>

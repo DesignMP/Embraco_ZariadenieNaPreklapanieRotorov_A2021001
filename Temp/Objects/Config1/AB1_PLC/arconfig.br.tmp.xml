@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="4PPC30.043F-21B">
+    <Parameter ID="HardwareModuleName" Value="AB1_PLC" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="SimulationModeOpcUa" Value="on" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF3" Hardware="4PPC30.043F-21B">
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF3.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF4.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+  <Module ID="IF4.ST1" Hardware="X20BR7300">
+    <Parameter ID="HardwareModuleName" Value="AB2_CANslave" />
+    <Parameter ID="IdleTimeDI" Value="640" Type="UINT" />
+    <Parameter ID="InhibitTimeDI" Value="5" Type="UINT" />
+    <Parameter ID="IdleTimeDO" Value="640" Type="UINT" />
+    <Parameter ID="IdleTimeAI" Value="640" Type="UINT" />
+    <Parameter ID="InhibitTimeAI" Value="20" Type="UINT" />
+    <Parameter ID="IdleTimeAO" Value="640" Type="UINT" />
+    <Parameter ID="Multiplier" Value="1" Type="USINT" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST1" Hardware="X20BR7300io" />
+  <Module ID="IF4.ST1.IF1.ST1.IO" Hardware="X20BR7300io">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST2" Hardware="X20DIF371">
+    <Parameter ID="HardwareModuleName" Value="AB3_16DI" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST2.IO" Hardware="X20DIF371">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="254" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST3" Hardware="X20DOF322">
+    <Parameter ID="HardwareModuleName" Value="AB4_16DO" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST3.IO" Hardware="X20DOF322">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="254" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="on" />
+  </Module>
+  <Module ID="IF6.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+</IOCFG>

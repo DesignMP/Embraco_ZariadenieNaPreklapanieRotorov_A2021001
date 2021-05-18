@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="GlobalArea">
+  <Property Name="Description" Value="Bitmap group for global area elements"/>
+  <Property Name="Index" Value="4"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="1070" Value="None"/>
+    <BitmapRef ID="1071" Value="Source[local].Bitmap[global_area_gradient_upside]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="1070" Value="0"/>
+    <Index ID="1071" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

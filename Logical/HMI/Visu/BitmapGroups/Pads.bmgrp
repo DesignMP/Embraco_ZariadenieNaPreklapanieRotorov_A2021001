@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Pads">
+  <Property Name="Description" Value="Bitmap group for input pads"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2406" Value="Source[local].Bitmap[Key_NumPad]"/>
+    <BitmapRef ID="2407" Value="Source[local].Bitmap[Key_NumPad_pressed]"/>
+    <BitmapRef ID="2408" Value="Source[local].Bitmap[Key_AlphaPad]"/>
+    <BitmapRef ID="2409" Value="Source[local].Bitmap[Key_AlphaPad_pressed]"/>
+    <BitmapRef ID="2410" Value="Source[local].Bitmap[Key_ListPadVer]"/>
+    <BitmapRef ID="2411" Value="Source[local].Bitmap[Key_ListPadVer_pressed]"/>
+    <BitmapRef ID="2412" Value="Source[local].Bitmap[Key_ListPadHor]"/>
+    <BitmapRef ID="2413" Value="Source[local].Bitmap[Key_ListPadHor_pressed]"/>
+    <BitmapRef ID="2414" Value="Source[local].Bitmap[Key_EditPad]"/>
+    <BitmapRef ID="2415" Value="Source[local].Bitmap[Key_EditPad_pressed]"/>
+    <BitmapRef ID="2416" Value="Source[local].Bitmap[Key_NumPadLimits]"/>
+    <BitmapRef ID="2417" Value="Source[local].Bitmap[Key_NumPadLimits_pressed]"/>
+    <BitmapRef ID="2418" Value="Source[local].Bitmap[Key_EditPad]"/>
+    <BitmapRef ID="2419" Value="Source[local].Bitmap[Key_EditPad_pressed]"/>
+    <BitmapRef ID="2420" Value="Source[local].Bitmap[Key_NumPadLimits]"/>
+    <BitmapRef ID="2421" Value="Source[local].Bitmap[Key_NumPadLimits_pressed]"/>
+    <BitmapRef ID="2422" Value="Source[local].Bitmap[Key_AlphaPadQVGA_Layer3]"/>
+    <BitmapRef ID="2423" Value="Source[local].Bitmap[Key_AlphaPadQVGA_Layer3_pressed]"/>
+    <BitmapRef ID="2424" Value="Source[local].Bitmap[Key_EditPad]"/>
+    <BitmapRef ID="2425" Value="Source[local].Bitmap[Key_AlphaPadQVGA_Layer3_pressed]"/>
+    <BitmapRef ID="2426" Value="Source[local].Bitmap[Key_NumPadLimits_pressed]"/>
+    <BitmapRef ID="2427" Value="Source[local].Bitmap[Key_EditPad_pressed]"/>
+    <BitmapRef ID="2428" Value="Source[local].Bitmap[Key_AlphaPadQVGA_Layer3]"/>
+    <BitmapRef ID="2429" Value="Source[local].Bitmap[Key_NumPadLimits]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2406" Value="0"/>
+    <Index ID="2407" Value="1"/>
+    <Index ID="2408" Value="20"/>
+    <Index ID="2409" Value="21"/>
+    <Index ID="2410" Value="40"/>
+    <Index ID="2411" Value="41"/>
+    <Index ID="2412" Value="42"/>
+    <Index ID="2413" Value="43"/>
+    <Index ID="2414" Value="2"/>
+    <Index ID="2415" Value="3"/>
+    <Index ID="2416" Value="4"/>
+    <Index ID="2417" Value="5"/>
+    <Index ID="2418" Value="50"/>
+    <Index ID="2419" Value="56"/>
+    <Index ID="2420" Value="52"/>
+    <Index ID="2421" Value="58"/>
+    <Index ID="2422" Value="54"/>
+    <Index ID="2423" Value="60"/>
+    <Index ID="2424" Value="51"/>
+    <Index ID="2425" Value="61"/>
+    <Index ID="2426" Value="59"/>
+    <Index ID="2427" Value="57"/>
+    <Index ID="2428" Value="55"/>
+    <Index ID="2429" Value="53"/>
+  </IndexMap>
+</BitmapGroup>

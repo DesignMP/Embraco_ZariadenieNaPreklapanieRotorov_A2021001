@@ -7,3 +7,29 @@
  ********************************************************************
  * Global variables of project Zamazat_1
  ********************************************************************)
+(******************Blikaèe*****************************)
+VAR
+	Blikac100ms : BOOL;
+	Blikac200ms : BOOL;
+	Blikac500ms : BOOL;
+	Blikac1s : BOOL;
+END_VAR
+(**********Nastavenie èasu**************)
+VAR
+	DTSetTime_0 : DTSetTime := (0);
+	DTGetTime_0 : DTGetTime := (0);
+END_VAR
+(*****************Alarmy*****************************)
+VAR
+	Alarmy : ARRAY[0..100] OF BOOL;
+	NastalaPorucha : BOOL;
+	PotvrdenieAlarmov : BOOL;
+END_VAR
+(*************Všeobecné premenné*************)
+VAR
+	Hardware : HardwareSTAV_typ := (0);
+	Zariadenie : Zariadenie_typ := (0);
+	Vizu : Vizu_typ := (0);
+	Preklapac : Preklapac_typ := (0);
+	SC_Preklapac : SequenceControlTyp := (0);
+END_VAR

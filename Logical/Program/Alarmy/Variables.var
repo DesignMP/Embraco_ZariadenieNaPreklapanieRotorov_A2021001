@@ -1,0 +1,5 @@
+VAR
+	a : USINT := 0;
+	CasKontroly_KarietPLC : TON;
+	CasKontroly_TlakuVzduchu : TON;
+END_VAR

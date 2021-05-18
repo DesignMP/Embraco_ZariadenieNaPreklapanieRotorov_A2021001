@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Borders">
+  <Property Name="Description" Value="Bitmap group for borders"/>
+  <Property Name="Index" Value="3"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="1128" Value="Source[local].Bitmap[button_default]"/>
+    <BitmapRef ID="1129" Value="Source[local].Bitmap[button_default_pressed]"/>
+    <BitmapRef ID="1130" Value="Source[local].Bitmap[button_global_area]"/>
+    <BitmapRef ID="1131" Value="Source[local].Bitmap[button_global_area_pressed]"/>
+    <BitmapRef ID="1132" Value="Source[local].Bitmap[checkbox_small_gray]"/>
+    <BitmapRef ID="1133" Value="None"/>
+    <BitmapRef ID="1134" Value="None"/>
+    <BitmapRef ID="1135" Value="None"/>
+    <BitmapRef ID="1136" Value="None"/>
+    <BitmapRef ID="1137" Value="None"/>
+    <BitmapRef ID="1138" Value="Source[local].Bitmap[button_radio_selected]"/>
+    <BitmapRef ID="1139" Value="Source[local].Bitmap[button_radio]"/>
+    <BitmapRef ID="1140" Value="Source[local].Bitmap[checkbox_small_checked]"/>
+    <BitmapRef ID="1141" Value="Source[local].Bitmap[checkbox_small]"/>
+    <BitmapRef ID="1142" Value="Source[local].Bitmap[button_scroll_right]"/>
+    <BitmapRef ID="1143" Value="Source[local].Bitmap[button_scroll_right_pressed]"/>
+    <BitmapRef ID="1144" Value="Source[local].Bitmap[button_scroll_left]"/>
+    <BitmapRef ID="1145" Value="Source[local].Bitmap[button_scroll_left_pressed]"/>
+    <BitmapRef ID="1146" Value="Source[local].Bitmap[button_scroll_up]"/>
+    <BitmapRef ID="1147" Value="Source[local].Bitmap[button_scroll_up_pressed]"/>
+    <BitmapRef ID="1148" Value="Source[local].Bitmap[button_scroll_down]"/>
+    <BitmapRef ID="1149" Value="Source[local].Bitmap[button_scroll_down_pressed]"/>
+    <BitmapRef ID="1150" Value="Source[local].Bitmap[button_scroll_up_multi]"/>
+    <BitmapRef ID="1151" Value="Source[local].Bitmap[button_scroll_up_multi_pressed]"/>
+    <BitmapRef ID="1152" Value="Source[local].Bitmap[button_scroll_down_multi]"/>
+    <BitmapRef ID="1153" Value="Source[local].Bitmap[button_scroll_down_multi_pressed]"/>
+    <BitmapRef ID="1154" Value="None"/>
+    <BitmapRef ID="1155" Value="Source[local].Bitmap[frame_header]"/>
+    <BitmapRef ID="1156" Value="Source[local].Bitmap[button_off]"/>
+    <BitmapRef ID="1157" Value="Source[local].Bitmap[button_on]"/>
+    <BitmapRef ID="1158" Value="Source[local].Bitmap[button_ready]"/>
+    <BitmapRef ID="1159" Value="None"/>
+    <BitmapRef ID="1160" Value="Source[local].Bitmap[button_error]"/>
+    <BitmapRef ID="1161" Value="None"/>
+    <BitmapRef ID="1162" Value="Source[local].Bitmap[ProgressBorder]"/>
+    <BitmapRef ID="1163" Value="None"/>
+    <BitmapRef ID="1164" Value="Source[local].Bitmap[button_global_area]"/>
+    <BitmapRef ID="1165" Value="None"/>
+    <BitmapRef ID="1166" Value="Source[local].Bitmap[button_increase]"/>
+    <BitmapRef ID="1167" Value="Source[local].Bitmap[button_increase_pressed]"/>
+    <BitmapRef ID="1168" Value="Source[local].Bitmap[button_decrease]"/>
+    <BitmapRef ID="1169" Value="Source[local].Bitmap[button_decrease_pressed]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="1128" Value="1"/>
+    <Index ID="1129" Value="2"/>
+    <Index ID="1130" Value="3"/>
+    <Index ID="1131" Value="4"/>
+    <Index ID="1132" Value="11"/>
+    <Index ID="1133" Value="14"/>
+    <Index ID="1134" Value="7"/>
+    <Index ID="1135" Value="8"/>
+    <Index ID="1136" Value="9"/>
+    <Index ID="1137" Value="10"/>
+    <Index ID="1138" Value="6"/>
+    <Index ID="1139" Value="5"/>
+    <Index ID="1140" Value="13"/>
+    <Index ID="1141" Value="12"/>
+    <Index ID="1142" Value="15"/>
+    <Index ID="1143" Value="16"/>
+    <Index ID="1144" Value="17"/>
+    <Index ID="1145" Value="18"/>
+    <Index ID="1146" Value="19"/>
+    <Index ID="1147" Value="20"/>
+    <Index ID="1148" Value="21"/>
+    <Index ID="1149" Value="22"/>
+    <Index ID="1150" Value="23"/>
+    <Index ID="1151" Value="24"/>
+    <Index ID="1152" Value="25"/>
+    <Index ID="1153" Value="26"/>
+    <Index ID="1154" Value="27"/>
+    <Index ID="1155" Value="28"/>
+    <Index ID="1156" Value="29"/>
+    <Index ID="1157" Value="30"/>
+    <Index ID="1158" Value="31"/>
+    <Index ID="1159" Value="33"/>
+    <Index ID="1160" Value="32"/>
+    <Index ID="1161" Value="34"/>
+    <Index ID="1162" Value="38"/>
+    <Index ID="1163" Value="39"/>
+    <Index ID="1164" Value="40"/>
+    <Index ID="1165" Value="41"/>
+    <Index ID="1166" Value="45"/>
+    <Index ID="1167" Value="44"/>
+    <Index ID="1168" Value="42"/>
+    <Index ID="1169" Value="43"/>
+  </IndexMap>
+</BitmapGroup>

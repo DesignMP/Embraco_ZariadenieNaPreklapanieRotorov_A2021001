@@ -1,0 +1,11 @@
+VAR
+	SC_VstupnyDotlacac : SequenceControlTyp := (0);
+	VstupnyDotlacac_VYSUN : BOOL := FALSE;
+	VstupnyDotlacac_ZASUN : BOOL := FALSE;
+	SC_Zdvih : SequenceControlTyp := (0);
+	Zdvih_VYSUN : BOOL := FALSE;
+	Zdvih_ZASUN : BOOL := FALSE;
+	SC_VystupnyDotlacac : SequenceControlTyp := (0);
+	VystupnyDotlacac_VYSUN : BOOL := FALSE;
+	VystupnyDotlacac_ZASUN : BOOL := FALSE;
+END_VAR

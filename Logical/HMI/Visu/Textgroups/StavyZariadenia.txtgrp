@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="StavyZariadenia">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="234552" Value="Zariadenie je vypnuté."/>
+    <Text ID="234553" Value="Prebieha inicializacia zariadenia."/>
+    <Text ID="234554" Value="Zariadenie beží v automatickom režime."/>
+    <Text ID="234555" Value="Robot nieje prepnutý do automatického režimu !!!"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="234552" Value=""/>
+    <Text ID="234553" Value=""/>
+    <Text ID="234554" Value=""/>
+    <Text ID="234555" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="234552" Value="0"/>
+    <Index ID="234553" Value="1"/>
+    <Index ID="234554" Value="2"/>
+    <Index ID="234555" Value="3"/>
+  </IndexMap>
+</TextGroup>

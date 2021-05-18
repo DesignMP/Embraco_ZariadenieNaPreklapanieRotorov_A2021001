@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.4.149"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
 <DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="Internal">
   <Property Name="AutoRefresh" Value="True"/>
   <Property Name="DefaultUpdateTime" Value="200"/>
@@ -12,7 +12,7 @@
       <Property Name="FolderType" Value="Struct"/>
       <DataPoint Name="Brightness">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="Vizualizacia\Visu"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="Brightness (0 - 100)"/>
         <Property Name="PLCType" Value="USINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -21,7 +21,7 @@
       </DataPoint>
       <DataPoint Name="Contrast">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="Vizualizacia\Visu"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="Contrast (0 - 100)"/>
         <Property Name="PLCType" Value="USINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -66,7 +66,7 @@
       <Property Name="FolderType" Value="Struct"/>
       <DataPoint Name="CPU">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="Vizualizacia\Visu"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="DPLimit" Value="Default"/>
         <Property Name="Description" Value="Temperature of Processor"/>
         <Property Name="PLCType" Value="USINT"/>
@@ -78,7 +78,7 @@
       </DataPoint>
       <DataPoint Name="Room">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="Vizualizacia\Visu"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="DPLimit" Value="Default"/>
         <Property Name="Description" Value="Temperature inside case"/>
         <Property Name="PLCType" Value="USINT"/>
@@ -94,7 +94,7 @@
       <Property Name="FolderType" Value="Struct"/>
       <DataPoint Name="Day">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Day"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -103,7 +103,7 @@
       </DataPoint>
       <DataPoint Name="Hour">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Hour"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -112,7 +112,7 @@
       </DataPoint>
       <DataPoint Name="Minute">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Minute"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -121,7 +121,7 @@
       </DataPoint>
       <DataPoint Name="Month">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Month"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -130,7 +130,7 @@
       </DataPoint>
       <DataPoint Name="Second">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Second"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -139,7 +139,7 @@
       </DataPoint>
       <DataPoint Name="Year">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value=""/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value="System Time - Year"/>
         <Property Name="PLCType" Value="UINT"/>
         <Property Name="UpdateTime" Value="Default"/>

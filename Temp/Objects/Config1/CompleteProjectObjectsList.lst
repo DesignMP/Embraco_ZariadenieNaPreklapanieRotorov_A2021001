@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<Objects>
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132658093024437758" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132658142239095111"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132657961446325451"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132654707300913859" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Runtime\Binary.lby"
+    LogicalPath="Libraries.Runtime"
+    Type="Library"
+    LastWriteTime="130560330440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Runtime\runtime.var"
+    LogicalPath="Libraries.Runtime.runtime.var"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Runtime\runtime.typ"
+    LogicalPath="Libraries.Runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Runtime\runtime.fun"
+    LogicalPath="Libraries.Runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Operator\Binary.lby"
+    LogicalPath="Libraries.Operator"
+    Type="Library"
+    LastWriteTime="130560330440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\Operator\operator.fun"
+    LogicalPath="Libraries.Operator.operator.fun"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="130560330440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="130560330440000000" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="130560330440000000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="130996673257630830" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="130996673257260809"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="130996673257510823"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="130996673257570827"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsBrStr\Binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="130997563866721883" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="130997563866501870"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="130997563866571874"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="130997563866661880"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\FileIO\Binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="130999971059944933" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="130999971059514908"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="130999971059744921"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="130999971059804924"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\sys_lib\binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="132292752262474537" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="132292752262424707"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="132292752262444652"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="132292752262464605"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\SC\IEC.lby"
+    LogicalPath="Libraries.SC"
+    Type="Library"
+    LastWriteTime="132654664849977591" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\SC\Types.typ"
+    LogicalPath="Libraries.SC.Types.typ"
+    Type="File"
+    LastWriteTime="132654664849663360"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\SC\Constants.var"
+    LogicalPath="Libraries.SC.Constants.var"
+    Type="File"
+    LastWriteTime="132654664849683305"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\SC\SC.fun"
+    LogicalPath="Libraries.SC.SC.fun"
+    Type="File"
+    LastWriteTime="132654664849693296"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\SC\SequenceControl.st"
+    LogicalPath="Libraries.SC.SequenceControl.st"
+    Type="File"
+    LastWriteTime="132654664849977591"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\IecCheck\IEC.lby"
+    LogicalPath="Libraries.IecCheck"
+    Type="Library"
+    LastWriteTime="132654707300883940" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\IecCheck\IecCheck.fun"
+    LogicalPath="Libraries.IecCheck.IecCheck.fun"
+    Type="File"
+    LastWriteTime="132654707300863996"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Libraries\IecCheck\IecCheck.st"
+    LogicalPath="Libraries.IecCheck.IecCheck.st"
+    Type="File"
+    LastWriteTime="132654707300863996"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Package.pkg"
+    LogicalPath="Program"
+    Type="Package"
+    LastWriteTime="132658022446085275" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\IEC.prg"
+    LogicalPath="Program.Main"
+    Type="Program"
+    LastWriteTime="132292721313264046" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Main.st"
+    LogicalPath="Program.Main.Main.st"
+    Type="File"
+    LastWriteTime="132658144988261505"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Types.typ"
+    LogicalPath="Program.Main.Types.typ"
+    Type="File"
+    LastWriteTime="132318530641715475"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Variables.var"
+    LogicalPath="Program.Main.Variables.var"
+    Type="File"
+    LastWriteTime="132318530733296758"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\IEC.prg"
+    LogicalPath="Program.Preklapac"
+    Type="Program"
+    LastWriteTime="132658046888208115" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Main.st"
+    LogicalPath="Program.Preklapac.Main.st"
+    Type="File"
+    LastWriteTime="132658140907306398"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Types.typ"
+    LogicalPath="Program.Preklapac.Types.typ"
+    Type="File"
+    LastWriteTime="132657955491624416"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Variables.var"
+    LogicalPath="Program.Preklapac.Variables.var"
+    Type="File"
+    LastWriteTime="132658038532813923"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\VstupnyDotlacac.st"
+    LogicalPath="Program.Preklapac.VstupnyDotlacac.st"
+    Type="File"
+    LastWriteTime="132658048722299232"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Zdvih.st"
+    LogicalPath="Program.Preklapac.Zdvih.st"
+    Type="File"
+    LastWriteTime="132658048723466000"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\VystupnyDotlacac.st"
+    LogicalPath="Program.Preklapac.VystupnyDotlacac.st"
+    Type="File"
+    LastWriteTime="132658048716930375"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Alarmy\IEC.prg"
+    LogicalPath="Program.Alarmy"
+    Type="Program"
+    LastWriteTime="132658022374772890" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Alarmy\Main.st"
+    LogicalPath="Program.Alarmy.Main.st"
+    Type="File"
+    LastWriteTime="132658153290666621"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Alarmy\Types.typ"
+    LogicalPath="Program.Alarmy.Types.typ"
+    Type="File"
+    LastWriteTime="132658022374752912"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Alarmy\Variables.var"
+    LogicalPath="Program.Alarmy.Variables.var"
+    Type="File"
+    LastWriteTime="132658152335081200"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\Package.pkg"
+    LogicalPath="HMI"
+    Type="Package"
+    LastWriteTime="132658093263317588" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\IEC.prg"
+    LogicalPath="HMI.OvladanieVizu"
+    Type="Program"
+    LastWriteTime="132658093137858820" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\Main.st"
+    LogicalPath="HMI.OvladanieVizu.Main.st"
+    Type="File"
+    LastWriteTime="132658093137828896"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\Types.typ"
+    LogicalPath="HMI.OvladanieVizu.Types.typ"
+    Type="File"
+    LastWriteTime="132658093137838876"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\Variables.var"
+    LogicalPath="HMI.OvladanieVizu.Variables.var"
+    Type="File"
+    LastWriteTime="132658093137848940"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Package.pkg"
+    LogicalPath="Blikace"
+    Type="Package"
+    LastWriteTime="132654700485607058" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie100ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie100ms"
+    Type="Program"
+    LastWriteTime="132654700485186632" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie100ms\Blikanie100ms.st"
+    LogicalPath="Blikace.Blikanie100ms.Blikanie100ms.st"
+    Type="File"
+    LastWriteTime="132654700485176652"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie200ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie200ms"
+    Type="Program"
+    LastWriteTime="132654700485206590" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie200ms\Blikanie200ms.st"
+    LogicalPath="Blikace.Blikanie200ms.Blikanie200ms.st"
+    Type="File"
+    LastWriteTime="132654700485206590"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie500ms\IEC.prg"
+    LogicalPath="Blikace.Blikanie500ms"
+    Type="Program"
+    LastWriteTime="132654700485577280" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie500ms\Blikanie500ms.st"
+    LogicalPath="Blikace.Blikanie500ms.Blikanie500ms.st"
+    Type="File"
+    LastWriteTime="132654700485577280"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie1s\IEC.prg"
+    LogicalPath="Blikace.Blikanie1s"
+    Type="Program"
+    LastWriteTime="132654700485607058" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Blikace\Blikanie1s\Blikanie1s.st"
+    LogicalPath="Blikace.Blikanie1s.Blikanie1s.st"
+    Type="File"
+    LastWriteTime="132654700485607058"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\Package.pkg"
+    LogicalPath="DatumCasPLC"
+    Type="Package"
+    LastWriteTime="132654702055020672" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasGlobal.var"
+    LogicalPath="DatumCasPLC.DatumCasGlobal.var"
+    Type="File"
+    LastWriteTime="132654702054951059"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasGlobal.typ"
+    LogicalPath="DatumCasPLC.DatumCasGlobal.typ"
+    Type="File"
+    LastWriteTime="132654702054980777"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasPLC\IEC.prg"
+    LogicalPath="DatumCasPLC.DatumCasPLC"
+    Type="Program"
+    LastWriteTime="132654702055010691" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasPLC\Main.st"
+    LogicalPath="DatumCasPLC.DatumCasPLC.Main.st"
+    Type="File"
+    LastWriteTime="132654702055000719"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasPLC\Types.typ"
+    LogicalPath="DatumCasPLC.DatumCasPLC.Types.typ"
+    Type="File"
+    LastWriteTime="132654702055000719"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\DatumCasPLC\DatumCasPLC\Variables.var"
+    LogicalPath="DatumCasPLC.DatumCasPLC.Variables.var"
+    Type="File"
+    LastWriteTime="132654702055010691"
+    Private="true" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132654692655447478" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="132657954812362287"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132657954818655443"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Cpu.pkg"
+    LogicalPath="Config1.AB1_PLC"
+    Type="Cpu"
+    LastWriteTime="132658005055996900" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Cpu.sw"
+    LogicalPath="Config1.AB1_PLC.Cpu.sw"
+    Type="File"
+    LastWriteTime="132658093263347509"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Cpu.per"
+    LogicalPath="Config1.AB1_PLC.Cpu.per"
+    Type="File"
+    LastWriteTime="132654675803597532"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\IoMap.iom"
+    LogicalPath="Config1.AB1_PLC.IoMap.iom"
+    Type="File"
+    LastWriteTime="132658054776195291"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\PvMap.vvm"
+    LogicalPath="Config1.AB1_PLC.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132654675803657606"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Connectivity\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.Connectivity"
+    Type="Package"
+    LastWriteTime="132654675803990430" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="132654675803960458" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\TextSystem\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.TextSystem"
+    Type="Package"
+    LastWriteTime="132654675804010568" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\UnitSystem\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.UnitSystem"
+    Type="Package"
+    LastWriteTime="132654675804030518" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132654675804330173" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132654675804110294" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="132654675804090355"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="132654675804110294"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132654675804270217" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132654675804180117" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132654675804160172" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132654675804170465" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132654675804210705" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132654675804200759" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132654675804240318" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132654675804260249" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132654675804290170" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="132654675804320129" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.AB1_PLC.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="132654675804320129"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\mappControl\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.mappControl"
+    Type="Package"
+    LastWriteTime="132654675804350376" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\mappMotion\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.mappMotion"
+    Type="Package"
+    LastWriteTime="132654675804379973" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\mappServices\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.mappServices"
+    Type="Package"
+    LastWriteTime="132654675804409894" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\mappView\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.mappView"
+    Type="Package"
+    LastWriteTime="132654675804439809" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\mappCockpit\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.mappCockpit"
+    Type="Package"
+    LastWriteTime="132654675804459752" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\VC\Package.pkg"
+    LogicalPath="Config1.AB1_PLC.VC"
+    Type="Package"
+    LastWriteTime="132654675825206999" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\VC\4PPC30_043F_21B.dis"
+    LogicalPath="Config1.AB1_PLC.VC.4PPC30_043F_21B.dis"
+    Type="File"
+    LastWriteTime="132654675825265879"
+    Private="false" />
+  <Object
+    Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132657954818725263"
+    Private="false" />
+</Objects>

@@ -56,11 +56,17 @@ PROGRAM _CYCLIC
     
     //**************************************Ukonèenie pracovného cyklu na pracovisku**********************************************//
     IF Zariadenie.KoniecCyklu THEN
+        Zariadenie.STAV.UkoncenieCyklu_BUSY:= TRUE;
         IF Preklapac.Automat THEN
             Preklapac.KoniecCyklu:= TRUE;
         END_IF
         Zariadenie.KoniecCyklu:= FALSE;
     END_IF  
+    
+    IF NOT Zariadenie.STAV.Automat THEN
+        Zariadenie.STAV.UkoncenieCyklu_BUSY:= FALSE;
+    END_IF
+    
     
     //****************************************Resetovanie pracoviska****************************************************************//
     //Normálne//

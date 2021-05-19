@@ -1,0 +1,16 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Physical/Config1/AB1_PLC/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Blikanie10" Source="Blikace.Blikanie100ms.prg" />
+      <Task Name="Blikanie20" Source="Blikace.Blikanie200ms.prg" />
+      <Task Name="DatumCasPL" Source="DatumCasPLC.DatumCasPLC.prg" />
+      <Task Name="Preklapac" Source="Program.Preklapac.prg" />
+      <Task Name="Alarmy" Source="Program.Alarmy.prg" />
+      <Task Name="OvladanieV" Source="HMI.OvladanieVizu.prg" />
+      <Task Name="Blikanie50" Source="Blikace.Blikanie500ms.prg" />
+      <Task Name="Blikanie1s" Source="Blikace.Blikanie1s.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

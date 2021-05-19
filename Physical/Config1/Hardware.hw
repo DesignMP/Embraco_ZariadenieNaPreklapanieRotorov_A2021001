@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.7.6.114?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
-  <Module Name="AB1_PLC" Type="4PPC30.043F-21B" Version="1.0.1.0">
+  <Module Name="AB1_PLC" Type="4PPC30.043F-21B" Version="1.1.3.0">
     <Connector Name="IF3">
       <Parameter ID="ActivateDevice" Value="1" />
       <Parameter ID="Mode" Value="Manual" />
-      <Parameter ID="InternetAddress" Value="192.168.0.2" />
+      <Parameter ID="InternetAddress" Value="192.168.1.2" />
       <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="0" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncMaxConnections1" Value="2" />
+      <Parameter ID="VncRefreshRate1" Value="100" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="ZariadenieNaPreklapanieRotorov_Config1" />
-    <Parameter ID="UserPartitionSize" Value="500" />
-    <Parameter ID="UserRamSize" Value="3000" />
-    <Parameter ID="RemMemSize" Value="4936" />
-    <Parameter ID="PermanentPvSize" Value="2000" />
+    <Parameter ID="PermanentPvSize" Value="500" />
     <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
     <Parameter ID="Cyclic1Duration" Value="1000" />
     <Parameter ID="Cyclic1Tolerance" Value="0" />
@@ -35,7 +38,7 @@
     <Parameter ID="RotationAngle" Value="180" />
     <Parameter ID="KeyMappingFile" Value="VC\4PPC30_043F_21B.dis" />
   </Module>
-  <Module Name="AB2_CANslave" Type="X20BR7300" Version="1.2.1.0">
+  <Module Name="AB2_CANslave" Type="X20BR7300" Version="1.4.0.0">
     <Connection Connector="CAN1" TargetModule="AB1_PLC" TargetConnector="IF4" />
     <Connection Connector="SL" TargetModule="X20BM01" TargetConnector="SL1" />
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />

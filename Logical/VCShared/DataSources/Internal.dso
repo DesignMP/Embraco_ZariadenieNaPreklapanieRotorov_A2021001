@@ -21,7 +21,7 @@
       </DataPoint>
       <DataPoint Name="Contrast">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+        <Property Name="ConnectingVisus" Value=""/>
         <Property Name="Description" Value="Contrast (0 - 100)"/>
         <Property Name="PLCType" Value="USINT"/>
         <Property Name="UpdateTime" Value="Default"/>

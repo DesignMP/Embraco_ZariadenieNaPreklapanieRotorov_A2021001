@@ -30,6 +30,8 @@ TYPE
 		TL_StartAutomat_DISABLE : BOOL;
 		TL_UkoncenieCyklu_DISABLE : BOOL;
 		TL_Reset_DISABLE : BOOL;
+		TL_RR_PreklapacDotlacace_DISABLE : BOOL;
+		TL_RR_PreklapacZdvih_DISABLE : BOOL;
 		Slider : USINT;
 		FarbaTlacitkaAlarm_Index : BOOL;
 		ZobrazSymbolAlarmu : BOOL;

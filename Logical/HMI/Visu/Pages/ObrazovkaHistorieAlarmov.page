@@ -49,9 +49,9 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial12_Bold]"/>
-          <Property Name="Height" Value="25"/>
-          <Property Name="Left" Value="180"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="140"/>
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value=""/>
@@ -59,8 +59,8 @@
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="9"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="65"/>
-          <Property Name="Width" Value="300"/>
+          <Property Name="Top" Value="45"/>
+          <Property Name="Width" Value="200"/>
         </Control>
         <Control ClassId="0x00001009" Name="AlarmHistory">
           <Property Name="AcknowledgeState_Alignment" Value="Right"/>
@@ -92,26 +92,26 @@
           <Property Name="DateTime_FormatStringTextGroup" Value="Source[global].TextGroup[DateTimeFormats]"/>
           <Property Name="DateTime_Position" Value="Column 1"/>
           <Property Name="DateTime_SeparatorTextGroup" Value="None"/>
-          <Property Name="DateTime_Width" Value="193"/>
+          <Property Name="DateTime_Width" Value="150"/>
           <Property Name="Description" Value=""/>
           <Property Name="Event_Position" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial11]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial9]"/>
           <Property Name="ForeColor" Value="40"/>
           <Property Name="GroupNumber_Position" Value="None"/>
-          <Property Name="Height" Value="272"/>
-          <Property Name="Left" Value="0"/>
+          <Property Name="Height" Value="158"/>
+          <Property Name="Left" Value="3"/>
           <Property Name="Node1" Value="User order"/>
           <Property Name="Priority_Position" Value="None"/>
           <Property Name="SortColumn" Value="Time"/>
           <Property Name="SortOrder" Value="Descending"/>
           <Property Name="Source" Value="History"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="0"/>
-          <Property Name="Width" Value="480"/>
+          <Property Name="Top" Value="70"/>
+          <Property Name="Width" Value="410"/>
         </Control>
         <Control ClassId="0x00001002" Name="cmdAlarmUp">
           <Property Name="BackColor" Value="42"/>
-          <Property Name="Bitmap" Value="Source[local].Bitmap[Up48x48_1]"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SipkaHore_32x32]"/>
           <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
           <Property Name="BitmapIndexDatapoint" Value="None"/>
           <Property Name="BitmapSource" Value="SingleBitmap"/>
@@ -120,9 +120,9 @@
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
           <Property Name="ForeColor" Value="0"/>
-          <Property Name="Height" Value="50"/>
+          <Property Name="Height" Value="45"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="418"/>
+          <Property Name="Left" Value="421"/>
           <Property Name="PressedBackColor" Value="0"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
           <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
@@ -132,13 +132,13 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="103"/>
+          <Property Name="Top" Value="70"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmUp]"/>
-          <Property Name="Width" Value="62"/>
+          <Property Name="Width" Value="50"/>
         </Control>
         <Control ClassId="0x00001002" Name="cmdAlarmDown">
           <Property Name="BackColor" Value="42"/>
-          <Property Name="Bitmap" Value="Source[local].Bitmap[Down48x48]"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[SipkaDole_32x32]"/>
           <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
           <Property Name="BitmapIndexDatapoint" Value="None"/>
           <Property Name="BitmapSource" Value="SingleBitmap"/>
@@ -147,9 +147,9 @@
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
           <Property Name="ForeColor" Value="0"/>
-          <Property Name="Height" Value="50"/>
+          <Property Name="Height" Value="45"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="418"/>
+          <Property Name="Left" Value="421"/>
           <Property Name="PressedBackColor" Value="0"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
           <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
@@ -159,63 +159,9 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="222"/>
+          <Property Name="Top" Value="183"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmDown]"/>
-          <Property Name="Width" Value="62"/>
-        </Control>
-        <Control ClassId="0x00001002" Name="cmdAlarmPgUp">
-          <Property Name="BackColor" Value="42"/>
-          <Property Name="Bitmap" Value="Source[local].Bitmap[PageUP2_32x32]"/>
-          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="SingleBitmap"/>
-          <Property Name="Border" Value="Source[local].Border[Button_Global_Area]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="ForeColor" Value="0"/>
-          <Property Name="Height" Value="50"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="418"/>
-          <Property Name="PressedBackColor" Value="0"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-          <Property Name="PressedForeColor" Value="0"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[ScrollUpMulti]"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="167"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmPgUp]"/>
-          <Property Name="Width" Value="62"/>
-        </Control>
-        <Control ClassId="0x00001002" Name="cmdAlarmPgDown">
-          <Property Name="BackColor" Value="42"/>
-          <Property Name="Bitmap" Value="Source[local].Bitmap[PageDOWN2_32x32]"/>
-          <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="SingleBitmap"/>
-          <Property Name="Border" Value="Source[local].Border[Button_Global_Area]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="ForeColor" Value="0"/>
-          <Property Name="Height" Value="50"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="418"/>
-          <Property Name="PressedBackColor" Value="0"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-          <Property Name="PressedForeColor" Value="0"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[ScrollDownMulti]"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="222"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[AlarmPgDown]"/>
-          <Property Name="Width" Value="62"/>
+          <Property Name="Width" Value="50"/>
         </Control>
       </Controls>
       <KeyMapping>

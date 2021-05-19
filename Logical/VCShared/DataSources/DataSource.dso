@@ -140,25 +140,25 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="INTEGER"/>
       </DataPoint>
-      <DataPoint Name="TL_RR_HomingServa_DISABLE">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
-      <DataPoint Name="TL_RR_OvladanieServa_DISABLE">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
       <DataPoint Name="TL_Reset_DISABLE">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL"/>
+      </DataPoint>
+      <DataPoint Name="TL_RR_PreklapacDotlacace_DISABLE">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL"/>
+      </DataPoint>
+      <DataPoint Name="TL_RR_PreklapacZdvih_DISABLE">
         <Property Name="ConnectedBySharedResource" Value="False"/>
         <Property Name="ConnectingVisus" Value="HMI\Visu"/>
         <Property Name="Description" Value=""/>
@@ -198,15 +198,6 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="BOOL"/>
       </DataPoint>
-      <DataPoint Name="OsvetlenieBunky">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
       <DataPoint Name="KoniecCyklu">
         <Property Name="ConnectedBySharedResource" Value="False"/>
         <Property Name="ConnectingVisus" Value="HMI\Visu"/>
@@ -216,6 +207,50 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="BOOL"/>
       </DataPoint>
+      <Folder Name="OUT">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="Safety_RESET">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="IN">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="TlakVzduchu_OK_S1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Safety_SpatnaVazba_KF1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Safety_Aktivne_KF1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
     </Folder>
     <DataPoint Name="PotvrdenieAlarmov">
       <Property Name="ConnectedBySharedResource" Value="False"/>
@@ -252,169 +287,6 @@
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="BOOL"/>
     </DataPoint>
-    <Folder Name="Safety">
-      <Property Name="Description" Value=""/>
-      <Property Name="FolderType" Value="Struct"/>
-      <DataPoint Name="RESET_ZonyCS">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
-    </Folder>
-    <DataPoint Name="UlozPremenne">
-      <Property Name="ConnectedBySharedResource" Value="False"/>
-      <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-      <Property Name="Description" Value=""/>
-      <Property Name="PLCType" Value="BOOL"/>
-      <Property Name="UpdateTime" Value="Default"/>
-      <Property Name="UserID" Value="None"/>
-      <Property Name="VCType" Value="BOOL"/>
-    </DataPoint>
-    <Folder Name="RemPremenne">
-      <Property Name="Description" Value=""/>
-      <Property Name="FolderType" Value="Struct"/>
-      <DataPoint Name="Bruska_RychlosOtacania">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="DPLimit" Value="None"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="REAL"/>
-        <Property Name="PLCUnit" Value="None"/>
-        <Property Name="UnitGroup" Value="None"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="SCALED"/>
-      </DataPoint>
-      <DataPoint Name="Bruska_VychodziaPoziciaNatocenia">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="DPLimit" Value="None"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="LREAL"/>
-        <Property Name="PLCUnit" Value="None"/>
-        <Property Name="UnitGroup" Value="None"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="SCALED"/>
-      </DataPoint>
-    </Folder>
-    <Folder Name="Bruska">
-      <Property Name="Description" Value=""/>
-      <Property Name="FolderType" Value="Struct"/>
-      <Folder Name="IN">
-        <Property Name="Description" Value=""/>
-        <Property Name="FolderType" Value="Struct"/>
-        <DataPoint Name="ReferencnySnimac_IS1">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="BOOL"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="BOOL"/>
-        </DataPoint>
-      </Folder>
-      <Folder Name="STAV">
-        <Property Name="Description" Value=""/>
-        <Property Name="FolderType" Value="Struct"/>
-        <DataPoint Name="Servo_HomingOK">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="BOOL"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="BOOL"/>
-        </DataPoint>
-        <DataPoint Name="Servo_AktualnaPozicia">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-          <Property Name="DPLimit" Value="None"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="LREAL"/>
-          <Property Name="PLCUnit" Value="None"/>
-          <Property Name="UnitGroup" Value="None"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="SCALED"/>
-        </DataPoint>
-      </Folder>
-      <Folder Name="PAR">
-        <Property Name="Description" Value=""/>
-        <Property Name="FolderType" Value="Struct"/>
-        <DataPoint Name="Servo_JoggRychlost">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-          <Property Name="DPLimit" Value="None"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="REAL"/>
-          <Property Name="PLCUnit" Value="None"/>
-          <Property Name="UnitGroup" Value="None"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="SCALED"/>
-        </DataPoint>
-      </Folder>
-      <DataPoint Name="Servo_JoggVZAD">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
-      <DataPoint Name="Servo_JoggVPRED">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
-      <DataPoint Name="Servo_HOME_SWITCH">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="BOOL"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="BOOL"/>
-      </DataPoint>
-    </Folder>
-    <Folder Name="SC_Bruska">
-      <Property Name="Description" Value=""/>
-      <Property Name="FolderType" Value="Struct"/>
-      <DataPoint Name="StepName">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="STRING"/>
-        <Property Name="StringLength" Value="200"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="STRING"/>
-      </DataPoint>
-    </Folder>
-    <Folder Name="SC_Robot">
-      <Property Name="Description" Value=""/>
-      <Property Name="FolderType" Value="Struct"/>
-      <DataPoint Name="StepName">
-        <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
-        <Property Name="Description" Value=""/>
-        <Property Name="PLCType" Value="STRING"/>
-        <Property Name="StringLength" Value="200"/>
-        <Property Name="UpdateTime" Value="Default"/>
-        <Property Name="UserID" Value="None"/>
-        <Property Name="VCType" Value="STRING"/>
-      </DataPoint>
-    </Folder>
     <Folder Name="SC_Preklapac">
       <Property Name="Description" Value=""/>
       <Property Name="FolderType" Value="Struct"/>
@@ -428,6 +300,166 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="STRING"/>
       </DataPoint>
+    </Folder>
+    <Folder Name="Preklapac">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="IN">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="VstupnyDotlacac_VYSUNUTY_MS1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VstupnyDotlacac_ZASUNUTY_MS2">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VystupnyDotlacac_VYSUNUTY_MS3">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VystupnyDotlacac_ZASUNUTY_MS4">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Vytah_HornaPoloha_MS5">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Vytah_SpodnaPoloha_MS6">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VstupnyDotlacac_PritomRotora_IS1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Vytah_Pozicia1_PritomRotora_OS1">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Vytah_Pozicia2_PritomRotora_OS2">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VystupnyDopravnik_PLNY_OS3">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <Folder Name="Program">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Package"/>
+      <Folder Name="Preklapac">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Program"/>
+        <DataPoint Name="VystupnyDotlacac_ZASUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VystupnyDotlacac_VYSUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Zdvih_ZASUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Zdvih_VYSUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VstupnyDotlacac_ZASUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="VstupnyDotlacac_VYSUN">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
     </Folder>
   </DataPoints>
 </DataSource>

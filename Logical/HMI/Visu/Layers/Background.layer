@@ -44,7 +44,7 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="FillStyle" Value="Opaque"/>
-      <Property Name="Height" Value="50"/>
+      <Property Name="Height" Value="40"/>
       <Property Name="Left" Value="0"/>
       <Property Name="SimulationIndex" Value="0"/>
       <Property Name="SimulationValue" Value=""/>
@@ -57,7 +57,7 @@
     </Control>
     <Control ClassId="0x00001002" Name="Button_2">
       <Property Name="BackColor" Value="7"/>
-      <Property Name="Bitmap" Value="Source[local].Bitmap[EmergencyButton32x32]"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[EmergencyButton24x24]"/>
       <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
       <Property Name="BitmapIndexDatapoint" Value="None"/>
       <Property Name="BitmapSource" Value="SingleBitmap"/>
@@ -70,13 +70,12 @@
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_69]"/>
       <Property Name="Font" Value="Source[local].Font[Input]"/>
       <Property Name="ForeColor" Value="0"/>
-      <Property Name="Height" Value="40"/>
+      <Property Name="Height" Value="30"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
       <Property Name="Left" Value="6"/>
       <Property Name="Multiline" Value="Automatic"/>
       <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-      <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-      <Property Name="PressedForeColor" Value="0"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
       <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
       <Property Name="SpacingHorizontal" Value="16"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
@@ -85,9 +84,9 @@
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="7"/>
+      <Property Name="Top" Value="6"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_69]"/>
-      <Property Name="Width" Value="125"/>
+      <Property Name="Width" Value="119"/>
     </Control>
     <Control ClassId="0x00001004" Name="Text_3">
       <Property Name="BackColor" Value="8"/>
@@ -95,7 +94,7 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="FillStyle" Value="Opaque"/>
-      <Property Name="Height" Value="50"/>
+      <Property Name="Height" Value="40"/>
       <Property Name="Left" Value="0"/>
       <Property Name="SimulationIndex" Value="0"/>
       <Property Name="SimulationValue" Value=""/>
@@ -103,7 +102,7 @@
       <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
       <Property Name="TextIndexOffset" Value="7"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="222"/>
+      <Property Name="Top" Value="232"/>
       <Property Name="Width" Value="480"/>
     </Control>
     <Control ClassId="0x00001005" Name="Bitmap_2">
@@ -122,7 +121,7 @@
       <Property Name="Width" Value="60"/>
     </Control>
     <Control ClassId="0x0000100A" Name="DateTime_1">
-      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentHorizontal" Value="Right"/>
       <Property Name="BackColor" Value="254"/>
       <Property Name="Border" Value="Source[local].Border[SunkenNGgray]"/>
       <Property Name="ControlID" Value="0"/>
@@ -131,15 +130,15 @@
       <Property Name="Font" Value="Source[local].Font[Arial12_Bold]"/>
       <Property Name="ForeColor" Value="15"/>
       <Property Name="Height" Value="30"/>
-      <Property Name="Left" Value="243"/>
+      <Property Name="Left" Value="267"/>
       <Property Name="SimulationValue" Value=""/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
       <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
       <Property Name="TextIndex" Value="1"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="12"/>
+      <Property Name="Top" Value="6"/>
       <Property Name="ValueDatapoint" Value="None"/>
-      <Property Name="Width" Value="230"/>
+      <Property Name="Width" Value="207"/>
     </Control>
     <Control ClassId="0x00001003" Name="HotSpot_1">
       <Property Name="ControlID" Value="0"/>
@@ -147,11 +146,11 @@
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
       <Property Name="Height" Value="22"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
-      <Property Name="Left" Value="246"/>
+      <Property Name="Left" Value="269"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-      <Property Name="Top" Value="17"/>
+      <Property Name="Top" Value="11"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
-      <Property Name="Width" Value="221"/>
+      <Property Name="Width" Value="203"/>
     </Control>
     <Control ClassId="0x00001002" Name="Button_6">
       <Property Name="BackColor" Value="7"/>
@@ -182,7 +181,7 @@
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="230"/>
+      <Property Name="Top" Value="232"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_75]"/>
       <Property Name="Width" Value="130"/>
     </Control>
@@ -213,7 +212,7 @@
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="230"/>
+      <Property Name="Top" Value="232"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[button_AutomatickyRezim]"/>
       <Property Name="Width" Value="130"/>
     </Control>
@@ -247,7 +246,7 @@
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>
       <Property Name="TextSource" Value="SingleText"/>
-      <Property Name="Top" Value="230"/>
+      <Property Name="Top" Value="232"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[button_RucnyRezim]"/>
       <Property Name="Width" Value="130"/>
     </Control>
@@ -278,7 +277,7 @@
           <Property Name="Name" Value="Action_0"/>
           <Property Name="ResetValue" Value="0"/>
           <Property Name="SetValue" Value="1"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Safety.RESET_ZonyCS]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]"/>
         </KeyAction>
       </KeyActions>
     </VirtualKey>

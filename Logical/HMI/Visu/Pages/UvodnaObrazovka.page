@@ -4,7 +4,7 @@
   <Property Name="Description" Value=""/>
   <Property Name="EditBackColor" Value="0"/>
   <Property Name="Height" Value="272"/>
-  <Property Name="Index" Value="26"/>
+  <Property Name="Index" Value="0"/>
   <Property Name="MoveFocus" Value="Circular"/>
   <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
   <Property Name="Width" Value="480"/>

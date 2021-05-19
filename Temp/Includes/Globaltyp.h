@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1621341735_1_
-#define _BUR_1621341735_1_
+#ifndef _BUR_1621416302_1_
+#define _BUR_1621416302_1_
 
 #include <bur/plctypes.h>
 
@@ -22,6 +22,9 @@ typedef struct Vizu_typ
 	plcbit TL_RezimManual_DISABLE;
 	plcbit TL_StartAutomat_DISABLE;
 	plcbit TL_UkoncenieCyklu_DISABLE;
+	plcbit TL_Reset_DISABLE;
+	plcbit TL_RR_PreklapacDotlacace_DISABLE;
+	plcbit TL_RR_PreklapacZdvih_DISABLE;
 	unsigned char Slider;
 	plcbit FarbaTlacitkaAlarm_Index;
 	plcbit ZobrazSymbolAlarmu;
@@ -124,5 +127,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1621341735_1_ */
+#endif /* _BUR_1621416302_1_ */
 

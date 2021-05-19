@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<?xml-stylesheet type="text/xsl" href="SG4_Import_ToDo_Generator.xsl"?>
+<ImportLog>
+  <Header>
+    <Property Name="ImportDate" Value="19.05.2021 7:53"/>
+    <Property Name="SourceVisualization" Value="D:\Projekty BER\Embraco_VymenaRobotaUR_A2021002\Logical\HMI\Visu"/>
+    <Property Name="TargetVisualization" Value="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\Visu"/>
+  </Header>
+  <Resources>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[SchemaBezpecnosti]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[SchemaTlacitkaStart]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[StavyPracoviska]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[StavyZariadenia]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[TlacitkoAlarm]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].ColorMaps[cervena_zelena]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="1"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[HMI\Visu].Palette[Palette]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+  </Resources>
+</ImportLog>

@@ -31,23 +31,17 @@
         <TextLayer LanguageId="en">
           <Text ID="236814" Value="ŠTART"/>
           <Text ID="236815" Value="STOP"/>
-          <Text ID="236816" Value="STOP"/>
           <Text ID="236937" Value="RESET"/>
-          <Text ID="236938" Value="STOP"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="236814" Value=""/>
           <Text ID="236815" Value=""/>
-          <Text ID="236816" Value=""/>
           <Text ID="236937" Value=""/>
-          <Text ID="236938" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="236814" Value="6"/>
           <Index ID="236815" Value="8"/>
-          <Index ID="236816" Value="9"/>
           <Index ID="236937" Value="2"/>
-          <Index ID="236938" Value="3"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -70,18 +64,15 @@
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="PressedBackColor" Value="0"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-          <Property Name="PressedForeColor" Value="0"/>
-          <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="PressedTextIndex" Value="9"/>
-          <Property Name="PressedTextSource" Value="SingleText"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndex" Value="8"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="151"/>
+          <Property Name="Top" Value="163"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_39]"/>
           <Property Name="Width" Value="140"/>
         </Control>
@@ -90,8 +81,6 @@
           <Property Name="BitmapIndexDatapoint" Value="None"/>
           <Property Name="BitmapSource" Value="None"/>
           <Property Name="Border" Value="Source[local].Border[RaisedInner]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[SchemaTlacitkaStart]"/>
-          <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_34]"/>
@@ -106,8 +95,7 @@
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="PressedBackColor" Value="0"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-          <Property Name="PressedForeColor" Value="0"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
           <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
@@ -115,7 +103,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="151"/>
+          <Property Name="Top" Value="163"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_34]"/>
           <Property Name="Width" Value="140"/>
         </Control>
@@ -138,18 +126,15 @@
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="PressedBackColor" Value="0"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
-          <Property Name="PressedForeColor" Value="0"/>
-          <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="PressedTextIndex" Value="3"/>
-          <Property Name="PressedTextSource" Value="SingleText"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndex" Value="2"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="151"/>
+          <Property Name="Top" Value="163"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_40]"/>
           <Property Name="Width" Value="140"/>
         </Control>
@@ -165,7 +150,7 @@
           <Property Name="Left" Value="5"/>
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="54"/>
+          <Property Name="Top" Value="42"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.SC_Preklapac.StepName]"/>
           <Property Name="Width" Value="470"/>
         </Control>

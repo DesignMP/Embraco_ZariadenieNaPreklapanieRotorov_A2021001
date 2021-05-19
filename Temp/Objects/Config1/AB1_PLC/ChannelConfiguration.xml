@@ -8,7 +8,7 @@
     <Channel ID="TemperatureCPU" Description="Temperature CPU [0.1 °C]" Ext="/HW" Address="4" Direction="IN" Type="INT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="1" />
     <Channel ID="TemperatureENV" Description="Temperature CPU board [0.1 °C]" Ext="/HW" Address="5" Direction="IN" Type="INT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="2" />
     <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="9" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
-    <Channel ID="IF4.TerminatingResistor" Description="Abschlusswiderstand" FromVersion="A4.31" Ext="/HW" Address="1" Direction="IN" Type="BOOL" ChannelType="Statistic" />
+    <Channel ID="IF4.TerminatingResistor" Description="Terminating Resistor" FromVersion="A4.31" Ext="/HW" Address="1" Direction="IN" Type="BOOL" ChannelType="Statistic" />
     <Channel ID="IF6.TerminatingResistor" Description="Terminating Resistor" FromVersion="A4.31" Ext="/HW" Address="1" Direction="IN" Type="BOOL" ChannelType="Statistic" />
   </Module>
   <Module ID="IF4.ST1" Hardware="X20BR7300" HardwareModuleName="AB2_CANslave" ModuleID="7">

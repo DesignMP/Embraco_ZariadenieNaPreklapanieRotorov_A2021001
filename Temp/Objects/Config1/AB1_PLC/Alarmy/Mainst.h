@@ -86,6 +86,9 @@ typedef struct Vizu_typ
 	plcbit TL_RezimManual_DISABLE;
 	plcbit TL_StartAutomat_DISABLE;
 	plcbit TL_UkoncenieCyklu_DISABLE;
+	plcbit TL_Reset_DISABLE;
+	plcbit TL_RR_PreklapacDotlacace_DISABLE;
+	plcbit TL_RR_PreklapacZdvih_DISABLE;
 	unsigned char Slider;
 	plcbit FarbaTlacitkaAlarm_Index;
 	plcbit ZobrazSymbolAlarmu;

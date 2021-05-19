@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1621341735_4_
-#define _BUR_1621341735_4_
+#ifndef _BUR_1621416302_4_
+#define _BUR_1621416302_4_
 
 #include <bur/plctypes.h>
 
@@ -34,5 +34,5 @@ __asm__(".ascii \"iecfile \\\"Logical/DatumCasPLC/DatumCasGlobal.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1621341735_4_ */
+#endif /* _BUR_1621416302_4_ */
 

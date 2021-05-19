@@ -1,255 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\blikanie100ms.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\blikanie200ms.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\arconfig.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\main.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\main.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\main.st.c">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu\visu.mak">
+    <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\blikanie500ms.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\main.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\blikanie100ms.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\blikanie200ms.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\main.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\main.st.o">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\main.st" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\blikanie500ms.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\a.out">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20\blikanie20.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\blikanie1s.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ashwac.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck\ieccheck.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck\ieccheck.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sc\sequencecontrol.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sc\sequencecontrol.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\udbdef.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\tcdata\tcdata.imx">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10\blikanie10.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie10.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50\blikanie50.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl\datumcaspl.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac\preklapac.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy\alarmy.ox">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sys_lib.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\asbrstr.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\runtime.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\blikanie1s.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sc\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie20.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\_bur_pvdef.st.c">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck\ieccheck.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sc\sc.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sc.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy.br">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox" differs.
+</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s\blikanie1s.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\iomap.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sysconf.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\asfw.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ashwd.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\tcdata\tcdata.s18d">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\role.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\user.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\fwrules.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\tcdata.br">
-    <BuildReason>Rebuild.</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br">
+    <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\ab1_plc\transfer.lst">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br" differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

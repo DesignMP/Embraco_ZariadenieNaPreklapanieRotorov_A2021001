@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="global_area_gradient_downside_0" ClsId="0x306" Version="1" TargetIndex="426" Type="GFX" RefString="Source[local].Bitmap[global_area_gradient_downside_0]">
+        <UInt16 Name="Width">1024</UInt16>
+        <UInt16 Name="Height">21</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAABAAAAAAVCAYAAADYSZy4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADYSURBVHhe7cMhCoQAEADA/Ynxms1mu2QyWSyGK4IgCCLq5/f+sczAxPu+qaqqqtYez/OkqqqqWnvc952qqqpq7XFdV6qqqqq1x3meqaqqqtYex3GkqqqqWnvs+56qqqpq7bFtW6qqqqq1x7quqaqqqtYev98vVVVV1dpjWZZUVVVVa495nlNVVVWtPaZpSlVVVbX2GMcxVVVV1dpjGIZUVVVVa4/v95uqqqpq7dH3faqqqqq1R9d1qaqqqtYebdumqqqqWnt8Pp9UVVVVa4+maVJVVVWtvMk/8kxV9/W85zkAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

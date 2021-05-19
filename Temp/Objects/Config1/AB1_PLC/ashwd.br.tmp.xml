@@ -1151,7 +1151,8 @@
       <Parameter ID="Transparent" Value="1" Type="UDINT" />
       <Parameter ID="Classcode" Value="0x200000fe" Type="UDINT" />
       <Parameter ID="DDriverName" Value="DdVxSfTouchHal" />
-      <Parameter ID="Key0" Value="-172,-551,991,456,3,127" />
+      <Parameter ID="Key0" Value="-172,-551,991,551,3,127" />
+      <Parameter ID="KeyOutOfArea" Value="126" Type="DINT" />
     </Resource>
     <Resource ID="SRAM">
       <Parameter ID="Classcode" Value="0x00000500" Type="UDINT" />

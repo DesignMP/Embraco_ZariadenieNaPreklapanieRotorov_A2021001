@@ -8,14 +8,14 @@
   ActivateSdm="true"
   WebServer="true"
   ARMSimulation="False"
-  ArVersion="C4.72">
+  ArVersion="D4.73">
   <ModuleMemoryData>
     <Module
       Name=""
-      Memory="2000" />
+      Memory="500" />
   </ModuleMemoryData>
   <Memories
     PermanentAnalogMemory="0"
-    PermanentDigitalMemory="2000"
+    PermanentDigitalMemory="500"
     VolatileMemory="65535" />
 </ConfigurationOptions>

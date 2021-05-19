@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="AutomatickyRezimDefault" TargetIndex="Source[local].Page[AutomatickyRezim].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Button_8" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_8]">
+            <UInt32 Name="Left">170</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">309</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_39]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+            </Group>
+            <Group Name="Border">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[RaisedInner]</Reference>
+            </Group>
+            <Group Name="Locking">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">13</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="LockingDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Vizu.TL_UkoncenieCyklu_DISABLE]</Reference>
+            </Group>
+            <Group Name="LockingLevel">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">1</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">51</UInt32>
+            </Group>
+            <Group Name="PressedBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial18_Bold]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">8</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">8</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_1" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_1]">
+            <UInt32 Name="Left">7</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">146</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_34]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+            </Group>
+            <Group Name="Border">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[RaisedInner]</Reference>
+            </Group>
+            <Group Name="Locking">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">13</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="LockingDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Vizu.TL_StartAutomat_DISABLE]</Reference>
+            </Group>
+            <Group Name="LockingLevel">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">1</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">10</UInt32>
+            </Group>
+            <Group Name="PressedBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial18_Bold]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">6</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">6</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Button_9" ClsId="0x1002" Version="1" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_9]">
+            <UInt32 Name="Left">333</UInt32>
+            <UInt32 Name="Top">163</UInt32>
+            <UInt32 Name="Right">472</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_40]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <UInt32 Name="Script1">4294967295</UInt32>
+            <UInt32 Name="Script2">4294967295</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="PressedBorder">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+            </Group>
+            <Group Name="Border">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[RaisedInner]</Reference>
+            </Group>
+            <Group Name="Locking">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="Multiline">
+              <UInt16 Name="Offset">13</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="LockingDatapoint">
+              <UInt16 Name="Offset">16</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Vizu.TL_Reset_DISABLE]</Reference>
+            </Group>
+            <Group Name="LockingLevel">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">1</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">124</UInt32>
+            </Group>
+            <Group Name="PressedBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial18_Bold]</Reference>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="PressedTextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="TextIndex">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">2</UInt16>
+            </Group>
+            <Group Name="PressedTextIndex">
+              <UInt16 Name="Offset">54</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">2</UInt16>
+            </Group>
+            <Group Name="PressedBitmapSource">
+              <UInt16 Name="Offset">66</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">97</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="BitmapSource">
+              <UInt16 Name="Offset">98</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="PressedTextSource">
+              <UInt16 Name="Offset">99</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexDatapoint">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="BitmapIndexDatapoint">
+              <UInt16 Name="Offset">104</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="String_1" ClsId="0x100B" Version="1" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[String_1]">
+            <UInt32 Name="Left">5</UInt32>
+            <UInt32 Name="Top">42</UInt32>
+            <UInt32 Name="Right">474</UInt32>
+            <UInt32 Name="Bottom">66</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.SC_Preklapac.StepName]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Default]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="BRD">Source[local].Border[SunkenNG]</Reference>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">249</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">28</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_34" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_34]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Zariadenie.Automat]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_39" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_39]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Zariadenie.KoniecCyklu]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_40" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_40]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <Int32 Name="ActionID">353</Int32>
+              <UInt32 Name="ActionDataSize">36</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Double Name="SetValue">1</Double>
+              <Double Name="ResetValue">0</Double>
+              <Double Name="CompletionValue">0</Double>
+              <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.Zariadenie.Reset]</Reference>
+              <UInt32 Name="CompletionDatapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved1">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[AutomatickyRezim].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">4</UInt32>
+          <Reference Name="Button_8" Type="CTRL">Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_8]</Reference>
+          <Reference Name="Button_1" Type="CTRL">Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_1]</Reference>
+          <Reference Name="Button_9" Type="CTRL">Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_9]</Reference>
+          <Reference Name="String_1" Type="CTRL">Source[local].Page[AutomatickyRezim].Layer[Default].Control[String_1]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="PAutomatickyRezim.LDefault" TargetIndex="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">3</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">2</UInt32>
+            <UInt32 Name="TextIndex">236937</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">6</UInt32>
+            <UInt32 Name="TextIndex">236814</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">8</UInt32>
+            <UInt32 Name="TextIndex">236815</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">236814</UInt32>
+                <UInt32 Name="TextOffset">40</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">236815</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">236937</UInt32>
+                <UInt32 Name="TextOffset">62</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"ŠTART"</String>
+              <String Name="Text" Encoding="Unicode">"STOP"</String>
+              <String Name="Text" Encoding="Unicode">"RESET"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded].Language[de]">
+            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">236814</UInt32>
+                <UInt32 Name="TextOffset">40</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">236815</UInt32>
+                <UInt32 Name="TextOffset">42</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">236937</UInt32>
+                <UInt32 Name="TextOffset">44</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="AutomatickyRezim" ClsId="0x400" Version="1" TargetIndex="2" Type="PAGE" RefString="Source[local].Page[AutomatickyRezim]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">None</Reference>
+        <UInt32 Name="LayerCount">2</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[Default]</Reference>
+          <UInt16 Name="StyleTableSize">36</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="EditForeColor">
+            <UInt16 Name="Offset">0</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">46</UInt32>
+          </Group>
+          <Group Name="EditBackColor">
+            <UInt16 Name="Offset">4</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">0</UInt32>
+          </Group>
+          <Group Name="ForeColor">
+            <UInt16 Name="Offset">28</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">46</UInt32>
+          </Group>
+          <Group Name="BackColor">
+            <UInt16 Name="Offset">32</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">254</UInt32>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Page[AutomatickyRezim].Layer[Default]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[Background]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">0</UInt32>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

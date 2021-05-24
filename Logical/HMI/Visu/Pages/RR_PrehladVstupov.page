@@ -83,7 +83,7 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_1">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
+          <Property Name="BackColor" Value="250"/>
           <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

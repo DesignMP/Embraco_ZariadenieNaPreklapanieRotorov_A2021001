@@ -418,7 +418,7 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox" LastWriteTime="2021-05-19 12:16:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab1_plc\cpu.per" LastWriteTime="2021-05-14 12:06:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
@@ -431,7 +431,7 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out" LastWriteTime="2021-05-19 12:16:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -439,8 +439,8 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\OvladanieV\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\OvladanieV\OvladanieV.ox&quot; -T SG4 -M ARM -r Cyclic4 -G V6.3.0  -B D4.73 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-19 12:16:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.o" LastWriteTime="2021-05-19 12:16:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-24 06:46:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.o" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -448,7 +448,7 @@
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\OvladanieV\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\OvladanieV\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\OvladanieV\a.out&quot; -G V6.3.0  -T SG4 -M ARM &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\AB1_PLC\libIecCheck.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\AB1_PLC\libSC.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libAsIecCon.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libsys_lib.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libFileIO.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libastime.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libAsBrStr.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libstandard.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libOperator.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\D0473\SG4\Arm\libRuntime.a&quot; -specs=ARMspecs_brelf -nostdlib -lm" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\main.st" LastWriteTime="2021-05-19 12:16:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\main.st" LastWriteTime="2021-05-24 06:46:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -457,7 +457,7 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c" LastWriteTime="2021-05-19 12:16:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -467,7 +467,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c">
     <Prerequisite ID="c:\brautomation\as47\as\gnuinst\v6.3.0\arm-eabi\include\bur\_bur_pvdef.st" LastWriteTime="2019-10-10 08:00:38" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-19 12:16:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -476,8 +476,8 @@
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c" LastWriteTime="2021-05-19 12:16:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-19 12:16:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c" LastWriteTime="2021-05-24 06:46:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" LastWriteTime="2021-05-24 06:46:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2016-02-11 12:28:44" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\variables.var" LastWriteTime="2021-05-19 06:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2021-05-18 07:22:24" />
@@ -677,7 +677,7 @@
     <CommandLine Parameter="&quot;HMI.Visu&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\Visu.br&quot; -T SG4 -B D4.73 -c &quot;Config1&quot; -S &quot;AB1_PLC&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -V &quot;V4.72.4&quot; -apj &quot;ZariadenieNaPreklapanieRotorov&quot; -v V1.00.0 -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -w2 -sfas" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu\visu.mak" LastWriteTime="2021-05-19 12:16:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu\visu.mak" LastWriteTime="2021-05-24 06:46:36" />
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\AB1_PLC\#cpu_vc.mak&quot; -k" />
   </Rule>
   <Rule ID="#cpu_tp.mak">
@@ -700,7 +700,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\datumcaspl.br" LastWriteTime="2021-05-19 09:35:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\preklapac.br" LastWriteTime="2021-05-19 09:35:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\alarmy.br" LastWriteTime="2021-05-19 09:35:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br" LastWriteTime="2021-05-19 12:16:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br" LastWriteTime="2021-05-24 06:46:36" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie50.br" LastWriteTime="2021-05-19 09:35:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\blikanie1s.br" LastWriteTime="2021-05-19 09:35:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ieccheck.br" LastWriteTime="2021-05-19 09:25:06" />
@@ -708,7 +708,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\sys_lib.br" LastWriteTime="2021-03-02 18:50:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\asbrstr.br" LastWriteTime="2021-03-02 18:49:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\runtime.br" LastWriteTime="2021-03-02 18:50:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br" LastWriteTime="2021-05-19 12:09:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br" LastWriteTime="2021-05-24 06:46:42" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\ab1_plc\cpu.sw" LastWriteTime="2021-05-18 12:43:44" />
     <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\ZariadenieNaPreklapanieRotorov.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\BrAutomation\AS47&quot; -S &quot;AB1_PLC&quot; -A &quot;PPC3x&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\AB1_PLC\Cpu.sw&quot; -Z &quot;UnitSystem: n.d, Connectivity: n.d, TextSystem: n.d, ProgrammingSystem: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.2 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M ARM -T SG4" />
   </Rule>

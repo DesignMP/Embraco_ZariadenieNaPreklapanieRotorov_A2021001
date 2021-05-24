@@ -59,6 +59,8 @@ PROGRAM _CYCLIC
         Vizu.TL_StartAutomat_DISABLE:= TRUE;
     ELSIF NOT Zariadenie.STAV.READY_TO_START THEN
         Vizu.TL_StartAutomat_DISABLE:= TRUE;
+    ELSIF Zariadenie.STAV.Automat THEN
+        Vizu.TL_StartAutomat_DISABLE:= TRUE;
     ELSE    
         Vizu.TL_StartAutomat_DISABLE:= FALSE;
     END_IF    

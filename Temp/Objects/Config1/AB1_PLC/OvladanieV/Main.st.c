@@ -64,6 +64,8 @@ if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
 (Vizu.TL_StartAutomat_DISABLE=1);
 }else if((Zariadenie.STAV.READY_TO_START^1)){
 (Vizu.TL_StartAutomat_DISABLE=1);
+}else if(Zariadenie.STAV.Automat){
+(Vizu.TL_StartAutomat_DISABLE=1);
 }else{
 (Vizu.TL_StartAutomat_DISABLE=0);
 }
@@ -111,13 +113,13 @@ if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
 
 
 }imp1_end11_0:;}
-#line 108 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.nodebug"
-#line 110 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.st"
+#line 110 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.nodebug"
+#line 112 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
 
 
 }}
-#line 113 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.nodebug"
+#line 115 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/HMI/OvladanieVizu/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 

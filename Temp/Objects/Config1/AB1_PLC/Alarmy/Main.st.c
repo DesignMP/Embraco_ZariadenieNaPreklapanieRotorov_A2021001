@@ -52,7 +52,7 @@ brsmemset(((unsigned long)(&Alarmy)),0,101);
 }
 
 
-(CasKontroly_TlakuVzduchu.IN=(Zariadenie.IN.Safety_Aktivne_KF1&(Zariadenie.IN.TlakVzduchu_OK_S1^1)));
+(CasKontroly_TlakuVzduchu.IN=(Zariadenie.IN.Safety_Aktivne&(Zariadenie.IN.TlakVzduchu_OK_S1^1)));
 
 if(CasKontroly_TlakuVzduchu.Q){
 (Alarmy[CheckBounds(0,0,100)]=1);
@@ -62,7 +62,7 @@ if(CasKontroly_TlakuVzduchu.Q){
 TON(&CasKontroly_TlakuVzduchu);
 
 
-(CasKontroly_KarietPLC.IN=(Zariadenie.IN.Safety_Aktivne_KF1&(Zariadenie.STAV.Hardware_OK^1)));
+(CasKontroly_KarietPLC.IN=(Zariadenie.IN.Safety_Aktivne&(Zariadenie.STAV.Hardware_OK^1)));
 
 
 if(CasKontroly_KarietPLC.Q){
@@ -83,12 +83,12 @@ TON(&CasKontroly_KarietPLC);
 
 
 
-if(((((unsigned long)(unsigned char)Zariadenie.IN.Safety_Aktivne_KF1==(unsigned long)(unsigned char)0))&~Edge0000100000&1?((Edge0000100000=(((unsigned long)(unsigned char)Zariadenie.IN.Safety_Aktivne_KF1==(unsigned long)(unsigned char)0))&1),1):((Edge0000100000=(((unsigned long)(unsigned char)Zariadenie.IN.Safety_Aktivne_KF1==(unsigned long)(unsigned char)0))&1),0))){
-(Alarmy[CheckBounds(4,0,100)]=1);
-}
 
 
-}imp1_else9_0:imp1_end9_0:;}
+
+
+
+}}
 #line 86 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Alarmy/Main.nodebug"
 #line 88 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Alarmy/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
@@ -132,7 +132,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Alarmy/Types.typ\\\" scope \\\"loc
 __asm__(".ascii \"iecfile \\\"Logical/Program/Alarmy/Variables.var\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Temp/Objects/Config1/AB1_PLC/Alarmy/Main.st.var\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"plcreplace \\\"D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Temp/Objects/Config1/AB1_PLC/Alarmy/Main.st.c\\\" \\\"D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Alarmy/Main.st\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Temp/Objects/Config1/AB1_PLC/Alarmy/Main.st.var\\\" scope \\\"local\\\"\\n\"");
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");

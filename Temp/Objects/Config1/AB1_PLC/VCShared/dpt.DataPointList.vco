@@ -23,7 +23,7 @@
       <Object Name="DataSource.Zariadenie.OUT.Safety_RESET" ClsId="0x0" Version="0" TargetIndex="17" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]" />
       <Object Name="DataSource.Zariadenie.IN.TlakVzduchu_OK_S1" ClsId="0x0" Version="0" TargetIndex="18" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]" />
       <Object Name="DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1" ClsId="0x0" Version="0" TargetIndex="19" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]" />
-      <Object Name="DataSource.Zariadenie.IN.Safety_Aktivne_KF1" ClsId="0x0" Version="0" TargetIndex="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne_KF1]" />
+      <Object Name="DataSource.Zariadenie.IN.Safety_Aktivne" ClsId="0x0" Version="0" TargetIndex="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]" />
       <Object Name="DataSource.SC_Preklapac.StepName" ClsId="0x0" Version="0" TargetIndex="21" Type="DP" RefString="Source[global].Variable[DataSource.SC_Preklapac.StepName]" />
       <Object Name="DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1" ClsId="0x0" Version="0" TargetIndex="22" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1]" />
       <Object Name="DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2" ClsId="0x0" Version="0" TargetIndex="23" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2]" />
@@ -291,7 +291,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Zariadenie.IN.Safety_Aktivne_KF1">
+        <Group Name="Zariadenie.IN.Safety_Aktivne">
           <UInt32 Name="DPID">20</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>

@@ -64,11 +64,11 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="249"/>
-          <Property Name="Border" Value="Source[local].Border[Mp_SunkenNG]"/>
+          <Property Name="Border" Value="Source[local].Border[ProgressBarBorder]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="20"/>
           <Property Name="Left" Value="128"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -84,11 +84,11 @@
         <Control ClassId="0x00001004" Name="Text_1">
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="250"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="6"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -103,7 +103,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_4">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -118,12 +118,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_3">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="165"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -138,12 +138,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_5">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="6"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -158,7 +158,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_5">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -173,12 +173,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_6">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="165"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -193,12 +193,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_8">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="6"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -212,8 +212,8 @@
           <Property Name="Width" Value="155"/>
         </Control>
         <Control ClassId="0x00001001" Name="Shape_6">
-          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne_KF1]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -228,12 +228,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_9">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="165"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -248,12 +248,12 @@
         </Control>
         <Control ClassId="0x00001004" Name="Text_11">
           <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="BackColor" Value="8"/>
-          <Property Name="Border" Value="Source[local].Border[SliderBorder09]"/>
+          <Property Name="BackColor" Value="250"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_TabActive]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="37"/>
           <Property Name="Left" Value="6"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -268,7 +268,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_7">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -283,7 +283,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_8">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -298,7 +298,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_9">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
@@ -313,7 +313,7 @@
         </Control>
         <Control ClassId="0x00001001" Name="Shape_10">
           <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDopravnik_PLNY_OS3]"/>
-          <Property Name="ColorMap" Value="Source[local].ColorMap[cervena_zelena]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[siva_zelena]"/>
           <Property Name="ColorMapIndexOffset" Value="0"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>

@@ -3,42 +3,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu\visu.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\hmi\ovladanievizu\main.st" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.c" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\_bur_pvdef.st.c" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\main.st.o" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\a.out" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev\ovladaniev.ox" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\ab1_plc\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\ovladaniev.br" differs.
-</BuildReason>
   </Rule>
 </BuildReasons>

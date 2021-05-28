@@ -64,7 +64,7 @@
   <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]" />
   <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]" />
   <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]" />
-  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne_KF1]" />
+  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]" />
   <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[DataSource.SC_Preklapac.StepName]" />
   <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1]" />
   <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2]" />
@@ -479,12 +479,204 @@
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="249" Type="GFX" RefString="Source[local].Bitmap[SipkaHore_32x32]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="8" Type="GFX" RefString="Source[local].Bitmap[Historia24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="9" Type="GFX" RefString="Source[local].Bitmap[YES_24x24]" />
-  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="10" Type="GFX" RefString="Source[local].Bitmap[CentralStop_24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="11" Type="GFX" RefString="Source[local].Bitmap[EmergencyButton24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="12" Type="GFX" RefString="Source[local].Bitmap[PageDOWN2_24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="13" Type="GFX" RefString="Source[local].Bitmap[PageUP2_24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7114" Type="GFX" RefString="Source[local].Bitmap[Mechanik1_32x32]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7115" Type="GFX" RefString="Source[local].Bitmap[Mechanik1_48x48]" />
+  <Symbol Name="\Projects\Visu" Index="1040" Type="REF" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics]" />
+  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_en]" />
+  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_de]" />
+  <Symbol Name="\Projects\Visu" Index="1005" Type="REF" RefString="Source[local].BitmapGroup[MpStateGroup]" />
+  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_en]" />
+  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_de]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="89" Type="GFX" RefString="Source[local].Bitmap[BarieraAktivna_50x50]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="91" Type="GFX" RefString="Source[local].Bitmap[BarieraNeaktivna_50x50]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="92" Type="GFX" RefString="Source[local].Bitmap[CentralStopAktivny_50x50]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="93" Type="GFX" RefString="Source[local].Bitmap[CentralStopNeaktivny_50x50]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="48" Type="GFX" RefString="Source[local].Bitmap[Brewing]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="129" Type="GFX" RefString="Source[local].Bitmap[Cappucino]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="49" Type="GFX" RefString="Source[local].Bitmap[CoffeeCup]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="130" Type="GFX" RefString="Source[local].Bitmap[Coffee]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="69" Type="GFX" RefString="Source[local].Bitmap[CustomCoffee]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="131" Type="GFX" RefString="Source[local].Bitmap[Espresso]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="38" Type="GFX" RefString="Source[local].Bitmap[Gauge1Scaled]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1509" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_AcknowledgeReset]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1506" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_Active]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1507" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_Inactive]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1503" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_NotQuit]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1504" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_Quit]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1510" Type="GFX" RefString="Source[local].Bitmap[MpAlarm_ResetAcknowledge]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5202" Type="GFX" RefString="Source[local].Bitmap[MpAudit_3rdPartyEvent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5200" Type="GFX" RefString="Source[local].Bitmap[MpAudit_CheckBox]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5201" Type="GFX" RefString="Source[local].Bitmap[MpAudit_CheckBox_checked]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5203" Type="GFX" RefString="Source[local].Bitmap[MpAudit_CustomEvent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5205" Type="GFX" RefString="Source[local].Bitmap[MpAudit_UserEvent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5204" Type="GFX" RefString="Source[local].Bitmap[MpAudit_VC4Event]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7000" Type="GFX" RefString="Source[local].Bitmap[MpAxis_Alarm]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7002" Type="GFX" RefString="Source[local].Bitmap[MpAxis_Gear_Off]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7003" Type="GFX" RefString="Source[local].Bitmap[MpAxis_Gear_On]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7001" Type="GFX" RefString="Source[local].Bitmap[MpAxis_Warning]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1455" Type="GFX" RefString="Source[local].Bitmap[MpBackTransparent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1517" Type="GFX" RefString="Source[local].Bitmap[MpBackgroundSemiTransparent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1000" Type="GFX" RefString="Source[local].Bitmap[MpBackgroundVGA_Logo]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1454" Type="GFX" RefString="Source[local].Bitmap[MpBorderSlider09x09]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1433" Type="GFX" RefString="Source[local].Bitmap[MpButton_device_selected_left]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1434" Type="GFX" RefString="Source[local].Bitmap[MpButton_device_unselected_left]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1511" Type="GFX" RefString="Source[local].Bitmap[MpCheckBoxGray]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1512" Type="GFX" RefString="Source[local].Bitmap[MpCheckBoxOrange]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1062" Type="GFX" RefString="Source[local].Bitmap[MpClickMe]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="67" Type="GFX" RefString="Source[local].Bitmap[MpCoffee_Cooling]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="68" Type="GFX" RefString="Source[local].Bitmap[MpCoffee_Heating]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4503" Type="GFX" RefString="Source[local].Bitmap[MpComLoggerAlarm]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4501" Type="GFX" RefString="Source[local].Bitmap[MpComLoggerInformation]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4500" Type="GFX" RefString="Source[local].Bitmap[MpComLoggerUI]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4502" Type="GFX" RefString="Source[local].Bitmap[MpComLoggerWarning]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4103" Type="GFX" RefString="Source[local].Bitmap[MpFile_ArrowDown]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4100" Type="GFX" RefString="Source[local].Bitmap[MpFile_ArrowLeft]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4101" Type="GFX" RefString="Source[local].Bitmap[MpFile_ArrowRight]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4102" Type="GFX" RefString="Source[local].Bitmap[MpFile_ArrowUp]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4010" Type="GFX" RefString="Source[local].Bitmap[MpFile_BMP]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4008" Type="GFX" RefString="Source[local].Bitmap[MpFile_CSV]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4104" Type="GFX" RefString="Source[local].Bitmap[MpFile_Cancel]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4005" Type="GFX" RefString="Source[local].Bitmap[MpFile_DOC]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4002" Type="GFX" RefString="Source[local].Bitmap[MpFile_FILE]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4001" Type="GFX" RefString="Source[local].Bitmap[MpFile_FOLDER]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4004" Type="GFX" RefString="Source[local].Bitmap[MpFile_HTML]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4009" Type="GFX" RefString="Source[local].Bitmap[MpFile_JPG]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4105" Type="GFX" RefString="Source[local].Bitmap[MpFile_OK]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4011" Type="GFX" RefString="Source[local].Bitmap[MpFile_PDF]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4003" Type="GFX" RefString="Source[local].Bitmap[MpFile_TXT]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4099" Type="GFX" RefString="Source[local].Bitmap[MpFile_UNKOWN]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4098" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER10]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4089" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4090" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER2]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4091" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER3]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4092" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER4]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4093" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER5]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4094" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER6]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4095" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER7]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4096" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER8]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4097" Type="GFX" RefString="Source[local].Bitmap[MpFile_USER9]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4006" Type="GFX" RefString="Source[local].Bitmap[MpFile_XLS]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4007" Type="GFX" RefString="Source[local].Bitmap[MpFile_XML]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1492" Type="GFX" RefString="Source[local].Bitmap[MpFrameInvisible]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="995" Type="GFX" RefString="Source[local].Bitmap[MpGroupControlAlarm]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="999" Type="GFX" RefString="Source[local].Bitmap[MpGroupControl_0]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3000" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAlarmClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3001" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAlarmXClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1539" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAlarmX]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1522" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAlarm]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3002" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAuditClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1524" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAudit]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3003" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAxis1Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1526" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAxis1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3004" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAxisClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1540" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpAxis]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1528" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCnc1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3005" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCnc2Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3006" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCnc3Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1541" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCnc]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="126" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCoffeeClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3007" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpComClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1542" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpCom]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3008" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpDataClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1530" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpData]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1532" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpDelta1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3009" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpDelta3Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3010" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpDelta4Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1543" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpDelta]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3011" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpEnergyClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1544" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpEnergy]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3012" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpFileClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1534" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpFile]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1545" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpHeat]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3013" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpOeeClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3032" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpOeeList]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3030" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpOeeTimeline]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3031" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpOeeTrend]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1546" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpOee]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3014" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpPackMLClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1537" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpPackML]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3015" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRecipeClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3016" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRecipeXClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1547" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRecipeX]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1538" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRecipe]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3017" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm4Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1550" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm4]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3018" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm5Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1551" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm5]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3019" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm6Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1552" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpRoboArm6]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1554" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpScara1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3020" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpScara2Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3021" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpScara4Click]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1553" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpScara]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3022" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpSpindleClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1555" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpSpindle]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3023" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpTeachClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1556" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpTeach]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3024" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpTrendClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1557" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpTrend]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1561" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpUser1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3026" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpUserClick1]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3025" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpUserClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1548" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpUser]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3027" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpWebXsClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1558" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpWebXs]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="3028" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpWinderClick]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1559" Type="GFX" RefString="Source[local].Bitmap[MpIcon_MpWinder]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1549" Type="GFX" RefString="Source[local].Bitmap[MpIcon_mapp]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1071" Type="GFX" RefString="Source[local].Bitmap[MpImg_ActiveWarning]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="77" Type="GFX" RefString="Source[local].Bitmap[MpImg_Coffee]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1072" Type="GFX" RefString="Source[local].Bitmap[MpImg_Config]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1073" Type="GFX" RefString="Source[local].Bitmap[MpImg_Diagnostics]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1074" Type="GFX" RefString="Source[local].Bitmap[MpImg_Home]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1075" Type="GFX" RefString="Source[local].Bitmap[MpImg_Warning]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1077" Type="GFX" RefString="Source[local].Bitmap[MpImg_Warning_0]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="997" Type="GFX" RefString="Source[local].Bitmap[MpLabelBorder_0]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1560" Type="GFX" RefString="Source[local].Bitmap[MpLogoTransparent]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4204" Type="GFX" RefString="Source[local].Bitmap[MpOeeList]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4201" Type="GFX" RefString="Source[local].Bitmap[MpOeeList_64x64]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4205" Type="GFX" RefString="Source[local].Bitmap[MpOeeTimeline]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4203" Type="GFX" RefString="Source[local].Bitmap[MpOeeTimeline_64x64]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4206" Type="GFX" RefString="Source[local].Bitmap[MpOeeTrend]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="4200" Type="GFX" RefString="Source[local].Bitmap[MpOeeTrend_64x64]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6001" Type="GFX" RefString="Source[local].Bitmap[MpPackML_BlueOFF]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6002" Type="GFX" RefString="Source[local].Bitmap[MpPackML_BlueON]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6003" Type="GFX" RefString="Source[local].Bitmap[MpPackML_GreenOFF]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6004" Type="GFX" RefString="Source[local].Bitmap[MpPackML_GreenON]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6000" Type="GFX" RefString="Source[local].Bitmap[MpPackML_Main]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6005" Type="GFX" RefString="Source[local].Bitmap[MpPackML_YellowOFF]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="6006" Type="GFX" RefString="Source[local].Bitmap[MpPackML_YellowON]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1450" Type="GFX" RefString="Source[local].Bitmap[MpSlider_BallGray]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="1448" Type="GFX" RefString="Source[local].Bitmap[MpSlider_BallGray_small]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7104" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Add]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7107" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Copy]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7108" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Cut]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7105" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Delete]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7103" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Export]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7100" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Generate]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7106" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Import]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7101" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Insert]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7109" Type="GFX" RefString="Source[local].Bitmap[MpTeach_MoveDown]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7110" Type="GFX" RefString="Source[local].Bitmap[MpTeach_MoveUp]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7111" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Paste]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7102" Type="GFX" RefString="Source[local].Bitmap[MpTeach_Replace]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5101" Type="GFX" RefString="Source[local].Bitmap[MpUser_CriteriaError]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5102" Type="GFX" RefString="Source[local].Bitmap[MpUser_CriteriaOK]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5023" Type="GFX" RefString="Source[local].Bitmap[MpUser_UserEdit]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="5024" Type="GFX" RefString="Source[local].Bitmap[MpUser_UserGroupEdit]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="101" Type="GFX" RefString="Source[local].Bitmap[NeedleActScaled]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="125" Type="GFX" RefString="Source[local].Bitmap[NeedleSetScaled]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="50" Type="GFX" RefString="Source[local].Bitmap[Transport_belt]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="114" Type="GFX" RefString="Source[local].Bitmap[state_gray16]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="115" Type="GFX" RefString="Source[local].Bitmap[state_gray24]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="116" Type="GFX" RefString="Source[local].Bitmap[state_green16]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="118" Type="GFX" RefString="Source[local].Bitmap[state_green24]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="119" Type="GFX" RefString="Source[local].Bitmap[state_red16]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="117" Type="GFX" RefString="Source[local].Bitmap[state_red24]" />
+  <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="10" Type="GFX" RefString="Source[local].Bitmap[Emergency_stop_button24x24]" />
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="0" Type="BRD" RefString="Source[local].Border[Button_Backward]" />
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="1" Type="BRD" RefString="Source[local].Border[Button_Backward_pressed]" />
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="2" Type="BRD" RefString="Source[local].Border[Button_Forward]" />
@@ -493,47 +685,90 @@
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="5" Type="BRD" RefString="Source[local].Border[Flat_grey]" />
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="6" Type="BRD" RefString="Source[local].Border[FrameGlobal]" />
   <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="7" Type="BRD" RefString="Source[local].Border[FrameInvisible]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="8" Type="BRD" RefString="Source[local].Border[Mp_TabActive]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="9" Type="BRD" RefString="Source[local].Border[OverdriveBorder]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="10" Type="BRD" RefString="Source[local].Border[RaisedInner]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="11" Type="BRD" RefString="Source[local].Border[Raised]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="12" Type="BRD" RefString="Source[local].Border[SliderBorder09]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="13" Type="BRD" RefString="Source[local].Border[SunkenOuter]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="14" Type="BRD" RefString="Source[local].Border[Sunken]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="15" Type="BRD" RefString="Source[local].Border[TabActive]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="16" Type="BRD" RefString="Source[local].Border[Button]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="17" Type="BRD" RefString="Source[local].Border[Button_Decrease]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="18" Type="BRD" RefString="Source[local].Border[Button_Decrease_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="19" Type="BRD" RefString="Source[local].Border[Button_Global_Area]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="20" Type="BRD" RefString="Source[local].Border[Button_Global_Area_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="21" Type="BRD" RefString="Source[local].Border[Button_Increase]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="22" Type="BRD" RefString="Source[local].Border[Button_Increase_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="23" Type="BRD" RefString="Source[local].Border[Button_KeyRingOff]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="24" Type="BRD" RefString="Source[local].Border[Button_KeyRingOn]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="25" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Down]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="26" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Down_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="27" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Up]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="28" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Up_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="29" Type="BRD" RefString="Source[local].Border[Button_Radio]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="30" Type="BRD" RefString="Source[local].Border[Button_Radio_selected]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="31" Type="BRD" RefString="Source[local].Border[Button_Scoll_Up]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="32" Type="BRD" RefString="Source[local].Border[Button_Scoll_Up_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="33" Type="BRD" RefString="Source[local].Border[Button_Scroll_Down]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="34" Type="BRD" RefString="Source[local].Border[Button_Scroll_Down_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="35" Type="BRD" RefString="Source[local].Border[Button_Scroll_Left]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="36" Type="BRD" RefString="Source[local].Border[Button_Scroll_Left_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="37" Type="BRD" RefString="Source[local].Border[Button_Scroll_Right]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="38" Type="BRD" RefString="Source[local].Border[Button_Scroll_Right_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="39" Type="BRD" RefString="Source[local].Border[Button_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="40" Type="BRD" RefString="Source[local].Border[CheckBox_checked]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="41" Type="BRD" RefString="Source[local].Border[FrameHeader]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="42" Type="BRD" RefString="Source[local].Border[Mp_Button_Control]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="43" Type="BRD" RefString="Source[local].Border[Mp_Button_Control_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="44" Type="BRD" RefString="Source[local].Border[Mp_Button_pressed]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="45" Type="BRD" RefString="Source[local].Border[Mp_SunkenNG]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="46" Type="BRD" RefString="Source[local].Border[ProgressBarBorder]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="47" Type="BRD" RefString="Source[local].Border[SunkenNG]" />
-  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="48" Type="BRD" RefString="Source[local].Border[SunkenNGgray]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="8" Type="BRD" RefString="Source[local].Border[OverdriveBorder]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="9" Type="BRD" RefString="Source[local].Border[RaisedInner]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="10" Type="BRD" RefString="Source[local].Border[Raised]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="11" Type="BRD" RefString="Source[local].Border[SliderBorder09]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="12" Type="BRD" RefString="Source[local].Border[SunkenOuter]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="13" Type="BRD" RefString="Source[local].Border[Sunken]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="14" Type="BRD" RefString="Source[local].Border[TabActive]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="15" Type="BRD" RefString="Source[local].Border[Button]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="16" Type="BRD" RefString="Source[local].Border[Button_Decrease]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="17" Type="BRD" RefString="Source[local].Border[Button_Decrease_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="18" Type="BRD" RefString="Source[local].Border[Button_Global_Area]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="19" Type="BRD" RefString="Source[local].Border[Button_Global_Area_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="20" Type="BRD" RefString="Source[local].Border[Button_Increase]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="21" Type="BRD" RefString="Source[local].Border[Button_Increase_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="22" Type="BRD" RefString="Source[local].Border[Button_KeyRingOff]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="23" Type="BRD" RefString="Source[local].Border[Button_KeyRingOn]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="24" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Down]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="25" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Down_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="26" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Up]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="27" Type="BRD" RefString="Source[local].Border[Button_Multi_Scroll_Up_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="28" Type="BRD" RefString="Source[local].Border[Button_Radio]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="29" Type="BRD" RefString="Source[local].Border[Button_Radio_selected]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="30" Type="BRD" RefString="Source[local].Border[Button_Scoll_Up]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="31" Type="BRD" RefString="Source[local].Border[Button_Scoll_Up_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="32" Type="BRD" RefString="Source[local].Border[Button_Scroll_Down]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="33" Type="BRD" RefString="Source[local].Border[Button_Scroll_Down_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="34" Type="BRD" RefString="Source[local].Border[Button_Scroll_Left]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="35" Type="BRD" RefString="Source[local].Border[Button_Scroll_Left_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="36" Type="BRD" RefString="Source[local].Border[Button_Scroll_Right]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="37" Type="BRD" RefString="Source[local].Border[Button_Scroll_Right_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="38" Type="BRD" RefString="Source[local].Border[Button_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="39" Type="BRD" RefString="Source[local].Border[CheckBox_checked]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="40" Type="BRD" RefString="Source[local].Border[FrameHeader]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="41" Type="BRD" RefString="Source[local].Border[ProgressBarBorder]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="42" Type="BRD" RefString="Source[local].Border[SunkenNG]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="43" Type="BRD" RefString="Source[local].Border[SunkenNGgray]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="44" Type="BRD" RefString="Source[local].Border[Mp_AttentionOff]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="45" Type="BRD" RefString="Source[local].Border[Mp_AttentionOn]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="46" Type="BRD" RefString="Source[local].Border[Mp_Button]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="47" Type="BRD" RefString="Source[local].Border[Mp_Button_Control]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="48" Type="BRD" RefString="Source[local].Border[Mp_Button_Control_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="49" Type="BRD" RefString="Source[local].Border[Mp_Button_Device_Select_Left]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="50" Type="BRD" RefString="Source[local].Border[Mp_Button_Device_Unselect_Left]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="51" Type="BRD" RefString="Source[local].Border[Mp_Button_KeyRingOff]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="52" Type="BRD" RefString="Source[local].Border[Mp_Button_KeyRingOn]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="53" Type="BRD" RefString="Source[local].Border[Mp_Button_Multi_Scroll_Down]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="54" Type="BRD" RefString="Source[local].Border[Mp_Button_Multi_Scroll_Dwn_press]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="55" Type="BRD" RefString="Source[local].Border[Mp_Button_Multi_Scroll_Up]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="56" Type="BRD" RefString="Source[local].Border[Mp_Button_Multi_Scroll_Up_press]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="57" Type="BRD" RefString="Source[local].Border[Mp_Button_Scoll_Up]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="58" Type="BRD" RefString="Source[local].Border[Mp_Button_Scoll_Up_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="59" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Down]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="60" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Down_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="61" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Left]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="62" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Left_Multi]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="63" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Left_Multi_pres]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="64" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Left_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="65" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Right]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="66" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Right_Multi]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="67" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Right_Multi_pr]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="68" Type="BRD" RefString="Source[local].Border[Mp_Button_Scroll_Right_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="69" Type="BRD" RefString="Source[local].Border[Mp_Button_pressed]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="70" Type="BRD" RefString="Source[local].Border[Mp_CheckBox_checked]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="71" Type="BRD" RefString="Source[local].Border[Mp_Flat_grey]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="72" Type="BRD" RefString="Source[local].Border[Mp_FrameInvisible]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="73" Type="BRD" RefString="Source[local].Border[Mp_GroupControlAlarm]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="74" Type="BRD" RefString="Source[local].Border[Mp_GroupControl]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="75" Type="BRD" RefString="Source[local].Border[Mp_InputBorderInactive]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="76" Type="BRD" RefString="Source[local].Border[Mp_InputBorder]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="77" Type="BRD" RefString="Source[local].Border[Mp_LabelBorderDown]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="78" Type="BRD" RefString="Source[local].Border[Mp_LabelBorder]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="79" Type="BRD" RefString="Source[local].Border[Mp_MoveOff]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="80" Type="BRD" RefString="Source[local].Border[Mp_MoveOn]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="81" Type="BRD" RefString="Source[local].Border[Mp_OutputBorder]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="82" Type="BRD" RefString="Source[local].Border[Mp_SliderBorder09]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="83" Type="BRD" RefString="Source[local].Border[Mp_SunkenNG]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="84" Type="BRD" RefString="Source[local].Border[Mp_SunkenNGgray]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="85" Type="BRD" RefString="Source[local].Border[Mp_TabActive]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="86" Type="BRD" RefString="Source[local].Border[Mp_TeachInputBorderActive]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="87" Type="BRD" RefString="Source[local].Border[Mp_TeachInputBorderInactive]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="88" Type="BRD" RefString="Source[local].Border[Mp_PackML_States]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="89" Type="BRD" RefString="Source[local].Border[Mp_State_gray]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="90" Type="BRD" RefString="Source[local].Border[Mp_State_green]" />
+  <Symbol Name="\Projects\Visu\BorderManager\POBJ\BorderObjects" Index="91" Type="BRD" RefString="Source[local].Border[Mp_State_red]" />
   <Symbol Name="\Projects\Visu\Localizer\POBJ" Index="0" Type="LOC" RefString="Source[local].Localizer[en]" />
   <Symbol Name="\Projects\Visu\LogFonts" Index="1001" Type="FNT" RefString="Source[local].Font[MpDefault]" />
   <Symbol Name="\Projects\Visu\LogFonts" Index="1109" Type="FNT" RefString="Source[local].Font[MpPackMLStateNames]" />
@@ -581,12 +816,15 @@
   <Symbol Name="Source[local].ColorMap[StavyZariadenia]" Index="1073741827" Type="CLM" RefString="Source[local].ColorMap[StavyZariadenia]" />
   <Symbol Name="Source[local].ColorMap[TlacitkoAlarm]" Index="1073741828" Type="CLM" RefString="Source[local].ColorMap[TlacitkoAlarm]" />
   <Symbol Name="Source[local].ColorMap[cervena_zelena]" Index="1073741829" Type="CLM" RefString="Source[local].ColorMap[cervena_zelena]" />
+  <Symbol Name="Source[local].ColorMap[siva_zelena]" Index="1073741830" Type="CLM" RefString="Source[local].ColorMap[siva_zelena]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="0" Type="PAGE" RefString="Source[local].Page[UvodnaObrazovka]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="2" Type="PAGE" RefString="Source[local].Page[AutomatickyRezim]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="306" Type="PAGE" RefString="Source[local].Page[NastavenieCasuDatumu]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="21" Type="PAGE" RefString="Source[local].Page[ObrazovkaAlarmov]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="22" Type="PAGE" RefString="Source[local].Page[ObrazovkaHistorieAlarmov]" />
   <Symbol Name="\Projects\Visu\Forms\POBJ" Index="23" Type="PAGE" RefString="Source[local].Page[RR_Preklapac]" />
+  <Symbol Name="\Projects\Visu\Forms\POBJ" Index="1" Type="PAGE" RefString="Source[local].Page[RR_HlavnaObrazovka]" />
+  <Symbol Name="\Projects\Visu\Forms\POBJ" Index="3" Type="PAGE" RefString="Source[local].Page[RR_PrehladVstupov]" />
   <Symbol Name="\Projects\Visu\TextGroupBase\Buttons_PageTexts" Index="14" Type="TG" RefString="Source[local].TextGroup[Buttons_PageTexts]" />
   <Symbol Name="\Projects\Visu\TextGroupBase\HeaderBar" Index="12" Type="TG" RefString="Source[local].TextGroup[HeaderBar]" />
   <Symbol Name="\Projects\Visu\TextGroupBase\InstantMessages" Index="10" Type="TG" RefString="Source[local].TextGroup[InstantMessages]" />
@@ -594,8 +832,6 @@
   <Symbol Name="\Projects\Visu\TextGroupBase\Languages" Index="0" Type="TG" RefString="Source[local].TextGroup[Languages]" />
   <Symbol Name="\Projects\Visu\TextGroupBase\NumPad_Limits" Index="1" Type="TG" RefString="Source[local].TextGroup[NumPad_Limits]" />
   <Symbol Name="\Projects\Visu\TextGroupBase\StavyZariadenia" Index="27" Type="TG" RefString="Source[local].TextGroup[StavyZariadenia]" />
-  <Symbol Name="\Projects\Visu\Forms\POBJ" Index="1" Type="PAGE" RefString="Source[local].Page[RR_HlavnaObrazovka]" />
-  <Symbol Name="\Projects\Visu\Forms\POBJ" Index="3" Type="PAGE" RefString="Source[local].Page[RR_PrehladVstupov]" />
   <Symbol Name="Source[local].Driver[DriverPanelKeysIPC0]" Index="1073741824" Type="DRV" RefString="Source[local].Driver[DriverPanelKeysIPC0]" />
   <Symbol Name="Source[local].KeySource[VNCServer]" Index="1073741824" Type="KS" RefString="Source[local].KeySource[VNCServer]" />
   <Symbol Name="Source[local].Driver[DisplayCx335]" Index="1073741825" Type="DRV" RefString="Source[local].Driver[DisplayCx335]" />
@@ -680,213 +916,213 @@
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_10]" Index="1073741840" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_10]" />
   <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer]" Index="1073741830" Type="LAY" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer]" />
   <Symbol Name="Source[local].Page[RR_Preklapac].Layer[Default]" Index="1073741831" Type="LAY" RefString="Source[local].Page[RR_Preklapac].Layer[Default]" />
-  <Symbol Name="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" Index="1073741875" Type="CTRL" RefString="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" />
-  <Symbol Name="Source[local].Layer[Pozadie_DMP]" Index="1073741832" Type="LAY" RefString="Source[local].Layer[Pozadie_DMP]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Text_2]" Index="1073741876" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_2]" Index="1073741877" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Text_3]" Index="1073741878" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_3]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Bitmap_2]" Index="1073741879" Type="CTRL" RefString="Source[local].Layer[Background].Control[Bitmap_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[DateTime_1]" Index="1073741880" Type="CTRL" RefString="Source[local].Layer[Background].Control[DateTime_1]" />
-  <Symbol Name="Source[local].Layer[Background].Control[HotSpot_1]" Index="1073741881" Type="CTRL" RefString="Source[local].Layer[Background].Control[HotSpot_1]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_6]" Index="1073741882" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_6]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_8]" Index="1073741883" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_8]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_11]" Index="1073741884" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_11]" />
-  <Symbol Name="Source[local].Layer[Background]" Index="1073741833" Type="LAY" RefString="Source[local].Layer[Background]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" Index="1073741885" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" Index="1073741886" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" Index="1073741887" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" Index="1073741834" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" Index="1073741835" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" Index="1073741888" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" Index="1073741889" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" Index="1073741890" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" Index="1073741891" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" Index="1073741892" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" Index="1073741893" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" Index="1073741894" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" Index="1073741895" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" Index="1073741896" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" Index="1073741897" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" Index="1073741898" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" Index="1073741899" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" Index="1073741900" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" Index="1073741901" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" Index="1073741902" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" Index="1073741836" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[Default]" Index="1073741837" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[Default]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" Index="1073741876" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" Index="1073741877" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_1]" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_2]" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" Index="1073741832" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" Index="1073741833" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" Index="1073741878" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" Index="1073741879" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" Index="1073741880" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" Index="1073741881" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" Index="1073741882" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" Index="1073741883" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" Index="1073741884" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" Index="1073741885" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" Index="1073741886" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" Index="1073741887" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" Index="1073741888" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" Index="1073741889" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" Index="1073741890" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" Index="1073741891" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" Index="1073741892" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" Index="1073741834" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[Default]" Index="1073741835" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[Default]" />
+  <Symbol Name="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" Index="1073741893" Type="CTRL" RefString="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" />
+  <Symbol Name="Source[local].Layer[Pozadie_DMP]" Index="1073741836" Type="LAY" RefString="Source[local].Layer[Pozadie_DMP]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Text_2]" Index="1073741894" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_2]" Index="1073741895" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Text_3]" Index="1073741896" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_3]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Bitmap_2]" Index="1073741897" Type="CTRL" RefString="Source[local].Layer[Background].Control[Bitmap_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[DateTime_1]" Index="1073741898" Type="CTRL" RefString="Source[local].Layer[Background].Control[DateTime_1]" />
+  <Symbol Name="Source[local].Layer[Background].Control[HotSpot_1]" Index="1073741899" Type="CTRL" RefString="Source[local].Layer[Background].Control[HotSpot_1]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_6]" Index="1073741900" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_6]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_8]" Index="1073741901" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_8]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_11]" Index="1073741902" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_11]" />
+  <Symbol Name="Source[local].Layer[Background]" Index="1073741837" Type="LAY" RefString="Source[local].Layer[Background]" />
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" Index="1073741826" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741827" Type="TG" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].TextGroup[Embedded]" Index="1073741828" Type="TG" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].TextGroup[Embedded]" Index="1073741829" Type="TG" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741830" Type="TG" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].TextGroup[Embedded]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741831" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded]" />
   <Symbol Name="Source[local].TextGroup[HeaderBar].Snippet[DateTime]" Index="1073741824" Type="SNP" RefString="Source[local].TextGroup[HeaderBar].Snippet[DateTime]" />
   <Symbol Name="Source[local].TextGroup[InstantMessages].Snippet[WaterTemp]" Index="1073741825" Type="SNP" RefString="Source[local].TextGroup[InstantMessages].Snippet[WaterTemp]" />
-  <Symbol Name="Source[local].Layer[Background].TextGroup[Embedded]" Index="1073741831" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741833" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded]" />
+  <Symbol Name="Source[local].Layer[Background].TextGroup[Embedded]" Index="1073741833" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded]" />
   <Symbol Name="Source[local].StyleSheet[Default]" Index="1073741824" Type="SS" RefString="Source[local].StyleSheet[Default]" />
-  <Symbol Name="Source[local].VirtualKey[AlarmAcknowledge]" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[AlarmAcknowledge]" />
-  <Symbol Name="Source[local].VirtualKey[CalibTouch]" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[CalibTouch]" />
-  <Symbol Name="Source[local].VirtualKey[ContrastMinus]" Index="1073741843" Type="VKEY" RefString="Source[local].VirtualKey[ContrastMinus]" />
-  <Symbol Name="Source[local].VirtualKey[ContrastPlus]" Index="1073741844" Type="VKEY" RefString="Source[local].VirtualKey[ContrastPlus]" />
-  <Symbol Name="Source[local].VirtualKey[LanguageDown]" Index="1073741845" Type="VKEY" RefString="Source[local].VirtualKey[LanguageDown]" />
-  <Symbol Name="Source[local].VirtualKey[LanguageUp]" Index="1073741846" Type="VKEY" RefString="Source[local].VirtualKey[LanguageUp]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_0]" Index="1073741847" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_1]" Index="1073741848" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_2]" Index="1073741849" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_3]" Index="1073741850" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_4]" Index="1073741851" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_5]" Index="1073741852" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_5]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_6]" Index="1073741853" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_6]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_7]" Index="1073741854" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_7]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_8]" Index="1073741855" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_8]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_9]" Index="1073741856" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_9]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_A]" Index="1073741857" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_A]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Ampersand]" Index="1073741858" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Ampersand]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" Index="1073741859" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" Index="1073741860" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Asterisk]" Index="1073741861" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Asterisk]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_At_sign]" Index="1073741862" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_At_sign]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_B]" Index="1073741863" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_B]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Backquote]" Index="1073741864" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Backquote]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" Index="1073741865" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Bigger]" Index="1073741866" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Bigger]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_C]" Index="1073741867" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_C]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Care]" Index="1073741868" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Care]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebrace]" Index="1073741869" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebrace]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebracket]" Index="1073741870" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebracket]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closeparen]" Index="1073741871" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closeparen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Colon]" Index="1073741872" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Colon]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Comma]" Index="1073741873" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Comma]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_DOT]" Index="1073741874" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_DOT]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_D]" Index="1073741875" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_D]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dollar]" Index="1073741876" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dollar]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_E]" Index="1073741877" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_E]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Equal]" Index="1073741878" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Equal]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Exclamation]" Index="1073741879" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Exclamation]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_F]" Index="1073741880" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_F]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_G]" Index="1073741881" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_G]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_H]" Index="1073741882" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_H]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Hash]" Index="1073741883" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Hash]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_I]" Index="1073741884" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_I]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_J]" Index="1073741885" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_J]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_K]" Index="1073741886" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_K]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_L]" Index="1073741887" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_L]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_M]" Index="1073741888" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_M]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Minus]" Index="1073741889" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Minus]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_N]" Index="1073741890" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_N]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_O]" Index="1073741891" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_O]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbrace]" Index="1073741892" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbrace]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbracket]" Index="1073741893" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbracket]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openparen]" Index="1073741894" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openparen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_P]" Index="1073741895" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_P]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Percent]" Index="1073741896" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Percent]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Plus]" Index="1073741897" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Plus]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Q]" Index="1073741898" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Q]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quest]" Index="1073741899" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quest]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quotes]" Index="1073741900" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quotes]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_R]" Index="1073741901" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_R]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_S]" Index="1073741902" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_S]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Semicolon]" Index="1073741903" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Semicolon]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Slash]" Index="1073741904" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Slash]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Small]" Index="1073741905" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Small]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Space]" Index="1073741906" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Space]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_T]" Index="1073741907" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_T]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Tilde]" Index="1073741908" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Tilde]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_U]" Index="1073741909" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_U]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Underscore]" Index="1073741910" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Underscore]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_VBar]" Index="1073741911" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_VBar]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_V]" Index="1073741912" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_V]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_W]" Index="1073741913" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_W]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_X]" Index="1073741914" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_X]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Y]" Index="1073741915" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Y]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Z]" Index="1073741916" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Z]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sa]" Index="1073741917" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sa]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sb]" Index="1073741918" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sb]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sc]" Index="1073741919" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sc]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sd]" Index="1073741920" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sd]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_se]" Index="1073741921" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_se]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sf]" Index="1073741922" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sf]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sg]" Index="1073741923" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sg]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sh]" Index="1073741924" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sh]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_si]" Index="1073741925" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_si]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sj]" Index="1073741926" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sj]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sk]" Index="1073741927" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sk]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sl]" Index="1073741928" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sl]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sm]" Index="1073741929" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sm]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sn]" Index="1073741930" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sn]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_so]" Index="1073741931" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_so]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sp]" Index="1073741932" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sp]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sq]" Index="1073741933" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sq]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sr]" Index="1073741934" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sr]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_ss]" Index="1073741935" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_ss]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_st]" Index="1073741936" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_st]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_su]" Index="1073741937" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_su]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sv]" Index="1073741938" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sv]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sw]" Index="1073741939" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sw]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sx]" Index="1073741940" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sx]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sy]" Index="1073741941" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sy]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sz]" Index="1073741942" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sz]" />
-  <Symbol Name="Source[local].VirtualKey[TP_BACKSPACE]" Index="1073741943" Type="VKEY" RefString="Source[local].VirtualKey[TP_BACKSPACE]" />
-  <Symbol Name="Source[local].VirtualKey[TP_CANCEL]" Index="1073741944" Type="VKEY" RefString="Source[local].VirtualKey[TP_CANCEL]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Left]" Index="1073741945" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Left]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Right]" Index="1073741946" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Right]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ENTER]" Index="1073741947" Type="VKEY" RefString="Source[local].VirtualKey[TP_ENTER]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent1]" Index="1073741948" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent2]" Index="1073741949" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent3]" Index="1073741950" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent4]" Index="1073741951" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER0]" Index="1073741952" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER2]" Index="1073741953" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER4]" Index="1073741954" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SIGN_CHANGE]" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[TP_SIGN_CHANGE]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Shift0]" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Shift1]" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Shift2]" Index="1073741958" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Shift3]" Index="1073741959" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Shift4]" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ShiftCapsLock0]" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ShiftCapsLock1]" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_TAB]" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[TP_TAB]" />
-  <Symbol Name="Source[local].VirtualKey[pageAlarm]" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[pageAlarm]" />
-  <Symbol Name="Source[local].VirtualKey[pageHome]" Index="1073741965" Type="VKEY" RefString="Source[local].VirtualKey[pageHome]" />
-  <Symbol Name="Source[local].VirtualKey[pageSDM]" Index="1073741966" Type="VKEY" RefString="Source[local].VirtualKey[pageSDM]" />
-  <Symbol Name="Source[local].VirtualKey[pageSetup]" Index="1073741967" Type="VKEY" RefString="Source[local].VirtualKey[pageSetup]" />
-  <Symbol Name="Source[local].VirtualKey[pageTrend]" Index="1073741968" Type="VKEY" RefString="Source[local].VirtualKey[pageTrend]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Confirm]" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[TP_Confirm]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Copy]" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[TP_Copy]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Down]" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Down]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Up]" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Up]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cut]" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cut]" />
-  <Symbol Name="Source[local].VirtualKey[TP_End]" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[TP_End]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Home]" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[TP_Home]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Insert]" Index="1073741976" Type="VKEY" RefString="Source[local].VirtualKey[TP_Insert]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Page_Down]" Index="1073741977" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Down]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Page_Up]" Index="1073741978" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Up]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Paste]" Index="1073741979" Type="VKEY" RefString="Source[local].VirtualKey[TP_Paste]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SelectionMode]" Index="1073741980" Type="VKEY" RefString="Source[local].VirtualKey[TP_SelectionMode]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_61]" Index="1073741981" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_61]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_69]" Index="1073741982" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_69]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_75]" Index="1073741983" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_75]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_88]" Index="1073741984" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_88]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_90]" Index="1073741985" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_90]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Euro]" Index="1073741986" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Euro]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Pound]" Index="1073741987" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Pound]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Yen]" Index="1073741988" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Yen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Alpha_And]" Index="1073741989" Type="VKEY" RefString="Source[local].VirtualKey[TP_Alpha_And]" />
-  <Symbol Name="Source[local].VirtualKey[TP_INCR_LAYER1]" Index="1073741990" Type="VKEY" RefString="Source[local].VirtualKey[TP_INCR_LAYER1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_KeyDown]" Index="1073741991" Type="VKEY" RefString="Source[local].VirtualKey[TP_KeyDown]" />
-  <Symbol Name="Source[local].VirtualKey[TP_KeyUp]" Index="1073741992" Type="VKEY" RefString="Source[local].VirtualKey[TP_KeyUp]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER1]" Index="1073741993" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER3]" Index="1073741994" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER3]" />
-  <Symbol Name="Source[local].VirtualKey[buttonHome]" Index="1073741995" Type="VKEY" RefString="Source[local].VirtualKey[buttonHome]" />
-  <Symbol Name="Source[local].VirtualKey[buttonPotvrdAlarm]" Index="1073741996" Type="VKEY" RefString="Source[local].VirtualKey[buttonPotvrdAlarm]" />
-  <Symbol Name="Source[local].VirtualKey[buttonPrihlasenieUzivatela]" Index="1073741997" Type="VKEY" RefString="Source[local].VirtualKey[buttonPrihlasenieUzivatela]" />
-  <Symbol Name="Source[local].VirtualKey[button_ResetZariadenia]" Index="1073741998" Type="VKEY" RefString="Source[local].VirtualKey[button_ResetZariadenia]" />
-  <Symbol Name="Source[local].VirtualKey[button_AutomatickyRezim]" Index="1073741999" Type="VKEY" RefString="Source[local].VirtualKey[button_AutomatickyRezim]" />
-  <Symbol Name="Source[local].VirtualKey[button_RucnyRezim]" Index="1073742000" Type="VKEY" RefString="Source[local].VirtualKey[button_RucnyRezim]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_1]" Index="1073742001" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_2]" Index="1073742002" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]" />
+  <Symbol Name="Source[local].VirtualKey[AlarmAcknowledge]" Index="1073741843" Type="VKEY" RefString="Source[local].VirtualKey[AlarmAcknowledge]" />
+  <Symbol Name="Source[local].VirtualKey[CalibTouch]" Index="1073741844" Type="VKEY" RefString="Source[local].VirtualKey[CalibTouch]" />
+  <Symbol Name="Source[local].VirtualKey[ContrastMinus]" Index="1073741845" Type="VKEY" RefString="Source[local].VirtualKey[ContrastMinus]" />
+  <Symbol Name="Source[local].VirtualKey[ContrastPlus]" Index="1073741846" Type="VKEY" RefString="Source[local].VirtualKey[ContrastPlus]" />
+  <Symbol Name="Source[local].VirtualKey[LanguageDown]" Index="1073741847" Type="VKEY" RefString="Source[local].VirtualKey[LanguageDown]" />
+  <Symbol Name="Source[local].VirtualKey[LanguageUp]" Index="1073741848" Type="VKEY" RefString="Source[local].VirtualKey[LanguageUp]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_0]" Index="1073741849" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_1]" Index="1073741850" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_2]" Index="1073741851" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_3]" Index="1073741852" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_4]" Index="1073741853" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_5]" Index="1073741854" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_5]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_6]" Index="1073741855" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_6]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_7]" Index="1073741856" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_7]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_8]" Index="1073741857" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_8]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_9]" Index="1073741858" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_9]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_A]" Index="1073741859" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_A]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Ampersand]" Index="1073741860" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Ampersand]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" Index="1073741861" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" Index="1073741862" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Asterisk]" Index="1073741863" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Asterisk]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_At_sign]" Index="1073741864" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_At_sign]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_B]" Index="1073741865" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_B]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Backquote]" Index="1073741866" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Backquote]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" Index="1073741867" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Bigger]" Index="1073741868" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Bigger]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_C]" Index="1073741869" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_C]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Care]" Index="1073741870" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Care]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebrace]" Index="1073741871" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebrace]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebracket]" Index="1073741872" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebracket]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closeparen]" Index="1073741873" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closeparen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Colon]" Index="1073741874" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Colon]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Comma]" Index="1073741875" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Comma]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_DOT]" Index="1073741876" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_DOT]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_D]" Index="1073741877" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_D]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dollar]" Index="1073741878" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dollar]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_E]" Index="1073741879" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_E]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Equal]" Index="1073741880" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Equal]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Exclamation]" Index="1073741881" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Exclamation]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_F]" Index="1073741882" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_F]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_G]" Index="1073741883" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_G]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_H]" Index="1073741884" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_H]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Hash]" Index="1073741885" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Hash]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_I]" Index="1073741886" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_I]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_J]" Index="1073741887" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_J]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_K]" Index="1073741888" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_K]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_L]" Index="1073741889" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_L]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_M]" Index="1073741890" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_M]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Minus]" Index="1073741891" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Minus]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_N]" Index="1073741892" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_N]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_O]" Index="1073741893" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_O]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbrace]" Index="1073741894" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbrace]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbracket]" Index="1073741895" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbracket]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openparen]" Index="1073741896" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openparen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_P]" Index="1073741897" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_P]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Percent]" Index="1073741898" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Percent]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Plus]" Index="1073741899" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Plus]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Q]" Index="1073741900" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Q]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quest]" Index="1073741901" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quest]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quotes]" Index="1073741902" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quotes]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_R]" Index="1073741903" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_R]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_S]" Index="1073741904" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_S]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Semicolon]" Index="1073741905" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Semicolon]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Slash]" Index="1073741906" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Slash]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Small]" Index="1073741907" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Small]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Space]" Index="1073741908" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Space]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_T]" Index="1073741909" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_T]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Tilde]" Index="1073741910" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Tilde]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_U]" Index="1073741911" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_U]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Underscore]" Index="1073741912" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Underscore]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_VBar]" Index="1073741913" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_VBar]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_V]" Index="1073741914" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_V]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_W]" Index="1073741915" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_W]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_X]" Index="1073741916" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_X]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Y]" Index="1073741917" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Y]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Z]" Index="1073741918" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Z]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sa]" Index="1073741919" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sa]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sb]" Index="1073741920" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sb]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sc]" Index="1073741921" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sc]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sd]" Index="1073741922" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sd]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_se]" Index="1073741923" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_se]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sf]" Index="1073741924" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sf]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sg]" Index="1073741925" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sg]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sh]" Index="1073741926" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sh]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_si]" Index="1073741927" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_si]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sj]" Index="1073741928" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sj]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sk]" Index="1073741929" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sk]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sl]" Index="1073741930" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sl]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sm]" Index="1073741931" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sm]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sn]" Index="1073741932" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sn]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_so]" Index="1073741933" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_so]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sp]" Index="1073741934" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sp]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sq]" Index="1073741935" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sq]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sr]" Index="1073741936" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sr]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_ss]" Index="1073741937" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_ss]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_st]" Index="1073741938" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_st]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_su]" Index="1073741939" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_su]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sv]" Index="1073741940" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sv]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sw]" Index="1073741941" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sw]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sx]" Index="1073741942" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sx]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sy]" Index="1073741943" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sy]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sz]" Index="1073741944" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sz]" />
+  <Symbol Name="Source[local].VirtualKey[TP_BACKSPACE]" Index="1073741945" Type="VKEY" RefString="Source[local].VirtualKey[TP_BACKSPACE]" />
+  <Symbol Name="Source[local].VirtualKey[TP_CANCEL]" Index="1073741946" Type="VKEY" RefString="Source[local].VirtualKey[TP_CANCEL]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Left]" Index="1073741947" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Left]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Right]" Index="1073741948" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Right]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ENTER]" Index="1073741949" Type="VKEY" RefString="Source[local].VirtualKey[TP_ENTER]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent1]" Index="1073741950" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent2]" Index="1073741951" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent3]" Index="1073741952" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent4]" Index="1073741953" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER0]" Index="1073741954" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER2]" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER4]" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SIGN_CHANGE]" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[TP_SIGN_CHANGE]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Shift0]" Index="1073741958" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Shift1]" Index="1073741959" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Shift2]" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Shift3]" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Shift4]" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[TP_Shift4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ShiftCapsLock0]" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ShiftCapsLock1]" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[TP_ShiftCapsLock1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_TAB]" Index="1073741965" Type="VKEY" RefString="Source[local].VirtualKey[TP_TAB]" />
+  <Symbol Name="Source[local].VirtualKey[pageAlarm]" Index="1073741966" Type="VKEY" RefString="Source[local].VirtualKey[pageAlarm]" />
+  <Symbol Name="Source[local].VirtualKey[pageHome]" Index="1073741967" Type="VKEY" RefString="Source[local].VirtualKey[pageHome]" />
+  <Symbol Name="Source[local].VirtualKey[pageSDM]" Index="1073741968" Type="VKEY" RefString="Source[local].VirtualKey[pageSDM]" />
+  <Symbol Name="Source[local].VirtualKey[pageSetup]" Index="1073741969" Type="VKEY" RefString="Source[local].VirtualKey[pageSetup]" />
+  <Symbol Name="Source[local].VirtualKey[pageTrend]" Index="1073741970" Type="VKEY" RefString="Source[local].VirtualKey[pageTrend]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Confirm]" Index="1073741971" Type="VKEY" RefString="Source[local].VirtualKey[TP_Confirm]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Copy]" Index="1073741972" Type="VKEY" RefString="Source[local].VirtualKey[TP_Copy]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Down]" Index="1073741973" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Down]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Up]" Index="1073741974" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Up]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cut]" Index="1073741975" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cut]" />
+  <Symbol Name="Source[local].VirtualKey[TP_End]" Index="1073741976" Type="VKEY" RefString="Source[local].VirtualKey[TP_End]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Home]" Index="1073741977" Type="VKEY" RefString="Source[local].VirtualKey[TP_Home]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Insert]" Index="1073741978" Type="VKEY" RefString="Source[local].VirtualKey[TP_Insert]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Page_Down]" Index="1073741979" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Down]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Page_Up]" Index="1073741980" Type="VKEY" RefString="Source[local].VirtualKey[TP_Page_Up]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Paste]" Index="1073741981" Type="VKEY" RefString="Source[local].VirtualKey[TP_Paste]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SelectionMode]" Index="1073741982" Type="VKEY" RefString="Source[local].VirtualKey[TP_SelectionMode]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_61]" Index="1073741983" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_61]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_69]" Index="1073741984" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_69]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_75]" Index="1073741985" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_75]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_88]" Index="1073741986" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_88]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_90]" Index="1073741987" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_90]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Euro]" Index="1073741988" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Euro]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Pound]" Index="1073741989" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Pound]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Yen]" Index="1073741990" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Yen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Alpha_And]" Index="1073741991" Type="VKEY" RefString="Source[local].VirtualKey[TP_Alpha_And]" />
+  <Symbol Name="Source[local].VirtualKey[TP_INCR_LAYER1]" Index="1073741992" Type="VKEY" RefString="Source[local].VirtualKey[TP_INCR_LAYER1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_KeyDown]" Index="1073741993" Type="VKEY" RefString="Source[local].VirtualKey[TP_KeyDown]" />
+  <Symbol Name="Source[local].VirtualKey[TP_KeyUp]" Index="1073741994" Type="VKEY" RefString="Source[local].VirtualKey[TP_KeyUp]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER1]" Index="1073741995" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER3]" Index="1073741996" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER3]" />
+  <Symbol Name="Source[local].VirtualKey[buttonHome]" Index="1073741997" Type="VKEY" RefString="Source[local].VirtualKey[buttonHome]" />
+  <Symbol Name="Source[local].VirtualKey[buttonPotvrdAlarm]" Index="1073741998" Type="VKEY" RefString="Source[local].VirtualKey[buttonPotvrdAlarm]" />
+  <Symbol Name="Source[local].VirtualKey[buttonPrihlasenieUzivatela]" Index="1073741999" Type="VKEY" RefString="Source[local].VirtualKey[buttonPrihlasenieUzivatela]" />
+  <Symbol Name="Source[local].VirtualKey[button_ResetZariadenia]" Index="1073742000" Type="VKEY" RefString="Source[local].VirtualKey[button_ResetZariadenia]" />
+  <Symbol Name="Source[local].VirtualKey[button_AutomatickyRezim]" Index="1073742001" Type="VKEY" RefString="Source[local].VirtualKey[button_AutomatickyRezim]" />
+  <Symbol Name="Source[local].VirtualKey[button_RucnyRezim]" Index="1073742002" Type="VKEY" RefString="Source[local].VirtualKey[button_RucnyRezim]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" Index="1073741903" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad_QVGA]" Index="1073741824" Type="OVL" RefString="Source[local].TouchPad[AlphaPad_QVGA]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" Index="1073741904" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" />
@@ -979,17 +1215,17 @@
   <Symbol Name="\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" Index="1073741831" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgDown]#\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" Index="1073741832" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgUp]#\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" />
   <Symbol Name="\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" Index="1073741833" Type="VKEY" RefString="Source[local].VirtualKey[AlarmUp]#\Projects\Visu\Layers\ObrazovkaHistorieAlarmovDefault\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741981" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_61]#\Projects\Visu\Layers\Background\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741982" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_69]#\Projects\Visu\Layers\Background\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741983" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_75]#\Projects\Visu\Layers\Background\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741997" Type="VKEY" RefString="Source[local].VirtualKey[buttonPrihlasenieUzivatela]#\Projects\Visu\Layers\Background\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\RR_HlavnaObrazovkaFrameLayer\VKeys\Common" Index="1073742001" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]#\Projects\Visu\Layers\RR_HlavnaObrazovkaFrameLayer\VKeys\Common" />
-  <Symbol Name="\Projects\Visu\Layers\RR_HlavnaObrazovkaFrameLayer\VKeys\Common" Index="1073742002" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]#\Projects\Visu\Layers\RR_HlavnaObrazovkaFrameLayer\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741983" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_61]#\Projects\Visu\Layers\Background\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741984" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_69]#\Projects\Visu\Layers\Background\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741985" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_75]#\Projects\Visu\Layers\Background\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\Layers\Background\VKeys\Common" Index="1073741999" Type="VKEY" RefString="Source[local].VirtualKey[buttonPrihlasenieUzivatela]#\Projects\Visu\Layers\Background\VKeys\Common" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741827" Type="TG" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741828" Type="TG" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741829" Type="TG" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741830" Type="TG" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
+  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741831" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
+  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="14" Type="TG" RefString="Source[local].TextGroup[Buttons_PageTexts].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="12" Type="TG" RefString="Source[local].TextGroup[HeaderBar].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="10" Type="TG" RefString="Source[local].TextGroup[InstantMessages].Language[en]" />
@@ -997,14 +1233,14 @@
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="0" Type="TG" RefString="Source[local].TextGroup[Languages].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1" Type="TG" RefString="Source[local].TextGroup[NumPad_Limits].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="27" Type="TG" RefString="Source[local].TextGroup[StavyZariadenia].Language[en]" />
-  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741831" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded].Language[en]" />
-  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
-  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741833" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded].Language[en]" />
+  <Symbol Name="\Projects\Visu\Language\en\TextGroups\POBJ" Index="1073741833" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741826" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741827" Type="TG" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741828" Type="TG" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741829" Type="TG" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741830" Type="TG" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
+  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741831" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
+  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="14" Type="TG" RefString="Source[local].TextGroup[Buttons_PageTexts].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="12" Type="TG" RefString="Source[local].TextGroup[HeaderBar].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="10" Type="TG" RefString="Source[local].TextGroup[InstantMessages].Language[de]" />
@@ -1012,9 +1248,7 @@
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="0" Type="TG" RefString="Source[local].TextGroup[Languages].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1" Type="TG" RefString="Source[local].TextGroup[NumPad_Limits].Language[de]" />
   <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="27" Type="TG" RefString="Source[local].TextGroup[StavyZariadenia].Language[de]" />
-  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741831" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded].Language[de]" />
-  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741832" Type="TG" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
-  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741833" Type="TG" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].TextGroup[Embedded].Language[de]" />
+  <Symbol Name="\Projects\Visu\Language\de\TextGroups\POBJ" Index="1073741833" Type="TG" RefString="Source[local].Layer[Background].TextGroup[Embedded].Language[de]" />
   <Symbol Name="\Projects\Visu\StyleSheets\Default\0x00000400" Index="1073741838" Type="SC" RefString="Source[local].StyleGroup[0x00000400].StyleClass[Default.Default]" />
   <Symbol Name="\Projects\Visu\StyleSheets\Default\0x00001001" Index="1073741839" Type="SC" RefString="Source[local].StyleGroup[0x00001001].StyleClass[Default.Default]" />
   <Symbol Name="\Projects\Visu\StyleSheets\Default\0x00001002" Index="1073741840" Type="SC" RefString="Source[local].StyleGroup[0x00001002].StyleClass[Default.BackwardButton]" />
@@ -1091,4 +1325,6 @@
   <Symbol Name="\Projects\Visu\VKeys\Common" Index="1073741838" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_8]#\Projects\Visu\VKeys\Common" />
   <Symbol Name="\Projects\Visu\VKeys\Common" Index="1073741839" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_9]#\Projects\Visu\VKeys\Common" />
   <Symbol Name="\Projects\Visu\VKeys\Common" Index="1073741840" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_10]#\Projects\Visu\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\VKeys\Common" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]#\Projects\Visu\VKeys\Common" />
+  <Symbol Name="\Projects\Visu\VKeys\Common" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]#\Projects\Visu\VKeys\Common" />
 </SymbolTable>

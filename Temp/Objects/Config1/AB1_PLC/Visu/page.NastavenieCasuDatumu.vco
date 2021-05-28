@@ -6,10 +6,10 @@
       <Folder Name="Controls">
         <Folder Name="POBJ">
           <Object Name="Shape_3" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_3]">
-            <UInt32 Name="Left">258</UInt32>
-            <UInt32 Name="Top">81</UInt32>
+            <UInt32 Name="Left">13</UInt32>
+            <UInt32 Name="Top">151</UInt32>
             <UInt32 Name="Right">467</UInt32>
-            <UInt32 Name="Bottom">215</UInt32>
+            <UInt32 Name="Bottom">225</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Default]</Reference>
             <UInt16 Name="StyleTableSize">12</UInt16>
@@ -17,7 +17,7 @@
             <Group Name="BackColor">
               <UInt16 Name="Offset">8</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">248</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="End Marker">
               <UInt16 Name="Offset">65535</UInt16>
@@ -26,9 +26,9 @@
           </Object>
           <Object Name="Shape_2" ClsId="0x1001" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_2]">
             <UInt32 Name="Left">13</UInt32>
-            <UInt32 Name="Top">81</UInt32>
-            <UInt32 Name="Right">222</UInt32>
-            <UInt32 Name="Bottom">215</UInt32>
+            <UInt32 Name="Top">71</UInt32>
+            <UInt32 Name="Right">467</UInt32>
+            <UInt32 Name="Bottom">145</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001001].StyleClass[Default]</Reference>
             <UInt16 Name="StyleTableSize">12</UInt16>
@@ -36,7 +36,7 @@
             <Group Name="BackColor">
               <UInt16 Name="Offset">8</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">248</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="End Marker">
               <UInt16 Name="Offset">65535</UInt16>
@@ -44,9 +44,9 @@
             </Group>
           </Object>
           <Object Name="Text_2" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_2]">
-            <UInt32 Name="Left">140</UInt32>
+            <UInt32 Name="Left">141</UInt32>
             <UInt32 Name="Top">45</UInt32>
-            <UInt32 Name="Right">339</UInt32>
+            <UInt32 Name="Right">340</UInt32>
             <UInt32 Name="Bottom">64</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
@@ -56,7 +56,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_SunkenNG]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[ProgressBarBorder]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
@@ -86,7 +86,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -109,10 +109,10 @@
             </Group>
           </Object>
           <Object Name="setSecond" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]">
-            <UInt32 Name="Left">135</UInt32>
-            <UInt32 Name="Top">185</UInt32>
-            <UInt32 Name="Right">194</UInt32>
-            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="Left">385</UInt32>
+            <UInt32 Name="Top">108</UInt32>
+            <UInt32 Name="Right">444</UInt32>
+            <UInt32 Name="Bottom">132</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Second]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -127,7 +127,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -160,10 +160,10 @@
             </Group>
           </Object>
           <Object Name="setMinute" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]">
-            <UInt32 Name="Left">135</UInt32>
-            <UInt32 Name="Top">149</UInt32>
-            <UInt32 Name="Right">194</UInt32>
-            <UInt32 Name="Bottom">173</UInt32>
+            <UInt32 Name="Left">228</UInt32>
+            <UInt32 Name="Top">108</UInt32>
+            <UInt32 Name="Right">287</UInt32>
+            <UInt32 Name="Bottom">132</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Minute]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -178,7 +178,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -211,10 +211,10 @@
             </Group>
           </Object>
           <Object Name="setHour" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]">
-            <UInt32 Name="Left">135</UInt32>
-            <UInt32 Name="Top">113</UInt32>
-            <UInt32 Name="Right">194</UInt32>
-            <UInt32 Name="Bottom">137</UInt32>
+            <UInt32 Name="Left">85</UInt32>
+            <UInt32 Name="Top">108</UInt32>
+            <UInt32 Name="Right">144</UInt32>
+            <UInt32 Name="Bottom">132</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Hour]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -229,7 +229,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -263,9 +263,9 @@
           </Object>
           <Object Name="Text_4" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_4]">
             <UInt32 Name="Left">31</UInt32>
-            <UInt32 Name="Top">102</UInt32>
-            <UInt32 Name="Right">100</UInt32>
-            <UInt32 Name="Bottom">147</UInt32>
+            <UInt32 Name="Top">106</UInt32>
+            <UInt32 Name="Right">102</UInt32>
+            <UInt32 Name="Bottom">133</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -279,7 +279,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -302,10 +302,10 @@
             </Group>
           </Object>
           <Object Name="Text_5" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_5]">
-            <UInt32 Name="Left">31</UInt32>
-            <UInt32 Name="Top">138</UInt32>
-            <UInt32 Name="Right">100</UInt32>
-            <UInt32 Name="Bottom">183</UInt32>
+            <UInt32 Name="Left">175</UInt32>
+            <UInt32 Name="Top">97</UInt32>
+            <UInt32 Name="Right">244</UInt32>
+            <UInt32 Name="Bottom">142</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -319,7 +319,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -342,10 +342,10 @@
             </Group>
           </Object>
           <Object Name="Text_6" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_6]">
-            <UInt32 Name="Left">31</UInt32>
-            <UInt32 Name="Top">174</UInt32>
-            <UInt32 Name="Right">100</UInt32>
-            <UInt32 Name="Bottom">219</UInt32>
+            <UInt32 Name="Left">321</UInt32>
+            <UInt32 Name="Top">97</UInt32>
+            <UInt32 Name="Right">390</UInt32>
+            <UInt32 Name="Bottom">142</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -359,7 +359,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -382,10 +382,10 @@
             </Group>
           </Object>
           <Object Name="setYear" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]">
-            <UInt32 Name="Left">384</UInt32>
-            <UInt32 Name="Top">185</UInt32>
-            <UInt32 Name="Right">443</UInt32>
-            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="Left">385</UInt32>
+            <UInt32 Name="Top">188</UInt32>
+            <UInt32 Name="Right">444</UInt32>
+            <UInt32 Name="Bottom">212</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Year]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -400,7 +400,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -433,10 +433,10 @@
             </Group>
           </Object>
           <Object Name="SetMonth" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]">
-            <UInt32 Name="Left">384</UInt32>
-            <UInt32 Name="Top">149</UInt32>
-            <UInt32 Name="Right">443</UInt32>
-            <UInt32 Name="Bottom">173</UInt32>
+            <UInt32 Name="Left">228</UInt32>
+            <UInt32 Name="Top">188</UInt32>
+            <UInt32 Name="Right">287</UInt32>
+            <UInt32 Name="Bottom">212</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Month]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -451,7 +451,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -484,10 +484,10 @@
             </Group>
           </Object>
           <Object Name="setDay" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]">
-            <UInt32 Name="Left">384</UInt32>
-            <UInt32 Name="Top">113</UInt32>
-            <UInt32 Name="Right">443</UInt32>
-            <UInt32 Name="Bottom">137</UInt32>
+            <UInt32 Name="Left">85</UInt32>
+            <UInt32 Name="Top">188</UInt32>
+            <UInt32 Name="Right">144</UInt32>
+            <UInt32 Name="Bottom">212</UInt32>
             <UInt32 Name="ValueMode">0</UInt32>
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[Internal.DateTime.Day]</Reference>
             <UInt32 Name="MinDatapoint">4294967295</UInt32>
@@ -502,7 +502,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Sunken]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_InputBorder]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
@@ -535,10 +535,10 @@
             </Group>
           </Object>
           <Object Name="Text_8" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_8]">
-            <UInt32 Name="Left">278</UInt32>
-            <UInt32 Name="Top">102</UInt32>
-            <UInt32 Name="Right">347</UInt32>
-            <UInt32 Name="Bottom">147</UInt32>
+            <UInt32 Name="Left">51</UInt32>
+            <UInt32 Name="Top">177</UInt32>
+            <UInt32 Name="Right">120</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -552,7 +552,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -575,10 +575,10 @@
             </Group>
           </Object>
           <Object Name="Text_9" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_9]">
-            <UInt32 Name="Left">278</UInt32>
-            <UInt32 Name="Top">138</UInt32>
-            <UInt32 Name="Right">347</UInt32>
-            <UInt32 Name="Bottom">183</UInt32>
+            <UInt32 Name="Left">174</UInt32>
+            <UInt32 Name="Top">177</UInt32>
+            <UInt32 Name="Right">243</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -592,7 +592,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -615,10 +615,10 @@
             </Group>
           </Object>
           <Object Name="Text_10" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_10]">
-            <UInt32 Name="Left">278</UInt32>
-            <UInt32 Name="Top">174</UInt32>
-            <UInt32 Name="Right">347</UInt32>
-            <UInt32 Name="Bottom">219</UInt32>
+            <UInt32 Name="Left">352</UInt32>
+            <UInt32 Name="Top">177</UInt32>
+            <UInt32 Name="Right">421</UInt32>
+            <UInt32 Name="Bottom">222</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -632,7 +632,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -656,9 +656,9 @@
           </Object>
           <Object Name="Text_12" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_12]">
             <UInt32 Name="Left">13</UInt32>
-            <UInt32 Name="Top">81</UInt32>
-            <UInt32 Name="Right">222</UInt32>
-            <UInt32 Name="Bottom">105</UInt32>
+            <UInt32 Name="Top">71</UInt32>
+            <UInt32 Name="Right">467</UInt32>
+            <UInt32 Name="Bottom">90</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -667,7 +667,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
@@ -687,7 +687,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -710,10 +710,10 @@
             </Group>
           </Object>
           <Object Name="Text_13" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_13]">
-            <UInt32 Name="Left">258</UInt32>
-            <UInt32 Name="Top">81</UInt32>
+            <UInt32 Name="Left">13</UInt32>
+            <UInt32 Name="Top">151</UInt32>
             <UInt32 Name="Right">467</UInt32>
-            <UInt32 Name="Bottom">105</UInt32>
+            <UInt32 Name="Bottom">170</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Default]</Reference>
@@ -722,7 +722,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Flat_black]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
@@ -742,7 +742,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -871,49 +871,49 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236834</UInt32>
-                <UInt32 Name="TextOffset">176</UInt32>
+                <UInt32 Name="TextOffset">178</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236835</UInt32>
-                <UInt32 Name="TextOffset">190</UInt32>
+                <UInt32 Name="TextOffset">194</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236836</UInt32>
-                <UInt32 Name="TextOffset">206</UInt32>
+                <UInt32 Name="TextOffset">212</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236837</UInt32>
-                <UInt32 Name="TextOffset">214</UInt32>
+                <UInt32 Name="TextOffset">222</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236838</UInt32>
-                <UInt32 Name="TextOffset">228</UInt32>
+                <UInt32 Name="TextOffset">238</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236839</UInt32>
-                <UInt32 Name="TextOffset">236</UInt32>
+                <UInt32 Name="TextOffset">248</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">236840</UInt32>
-                <UInt32 Name="TextOffset">268</UInt32>
+                <UInt32 Name="TextOffset">280</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
@@ -921,12 +921,12 @@
             </Table>
             <Group Name="Texts">
               <String Name="Text" Encoding="Unicode">"Nastavenie dátumu a času"</String>
-              <String Name="Text" Encoding="Unicode">"Hodiny"</String>
-              <String Name="Text" Encoding="Unicode">"Minúty"</String>
-              <String Name="Text" Encoding="Unicode">"Sekundy"</String>
-              <String Name="Text" Encoding="Unicode">"Deň"</String>
-              <String Name="Text" Encoding="Unicode">"Mesiac"</String>
-              <String Name="Text" Encoding="Unicode">"Rok"</String>
+              <String Name="Text" Encoding="Unicode">"Hodiny:"</String>
+              <String Name="Text" Encoding="Unicode">"Minúty:"</String>
+              <String Name="Text" Encoding="Unicode">"Sekundy:"</String>
+              <String Name="Text" Encoding="Unicode">"Deň:"</String>
+              <String Name="Text" Encoding="Unicode">"Mesiac:"</String>
+              <String Name="Text" Encoding="Unicode">"Rok:"</String>
               <String Name="Text" Encoding="Unicode">"Nastavenie času"</String>
               <String Name="Text" Encoding="Unicode">"Nastavenie dátumu"</String>
             </Group>
@@ -1163,55 +1163,55 @@
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
           </Group>
           <Group Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
           </Group>
           <Group Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
           </Group>
           <Group Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
           </Group>
           <Group Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]</Reference>
           </Group>
           <Group Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]</Reference>
           </Group>
         </Group>
       </Object>

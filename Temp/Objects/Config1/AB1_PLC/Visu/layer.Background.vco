@@ -62,17 +62,17 @@
             <UInt32 Name="Script1">4294967295</UInt32>
             <UInt32 Name="Script2">4294967295</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
-            <UInt16 Name="StyleTableSize">164</UInt16>
+            <UInt16 Name="StyleTableSize">180</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Group Name="PressedBorder">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_Global_Area_pressed]</Reference>
             </Group>
             <Group Name="Border">
               <UInt16 Name="Offset">4</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[OverdriveBorder]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[RaisedInner]</Reference>
             </Group>
             <Group Name="BitmapAlignmentHorizontal">
               <UInt16 Name="Offset">10</UInt16>
@@ -94,10 +94,20 @@
               <UInt16 Name="Size">4</UInt16>
               <UInt32 Name="Data">7</UInt32>
             </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
+            <Group Name="PressedBackColor">
+              <UInt16 Name="Offset">36</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
+            </Group>
             <Group Name="Font">
               <UInt16 Name="Offset">40</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Input]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextGroup">
               <UInt16 Name="Offset">44</UInt16>
@@ -122,7 +132,7 @@
             <Group Name="Bitmap">
               <UInt16 Name="Offset">56</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="GFX">Source[local].Bitmap[EmergencyButton24x24]</Reference>
+              <Reference Name="Data" Type="GFX">Source[local].Bitmap[Emergency_stop_button24x24]</Reference>
             </Group>
             <Group Name="PressedBitmapSource">
               <UInt16 Name="Offset">66</UInt16>
@@ -132,7 +142,7 @@
             <Group Name="PressedBitmap">
               <UInt16 Name="Offset">68</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="GFX">Source[local].Bitmap[EmergencyButton24x24]</Reference>
+              <Reference Name="Data" Type="GFX">Source[local].Bitmap[Emergency_stop_button24x24]</Reference>
             </Group>
             <Group Name="ColorDatapoint">
               <UInt16 Name="Offset">84</UInt16>
@@ -287,7 +297,7 @@
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">5</UInt16>
               <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">2</Byte>
+              <Byte Name="Data">1</Byte>
             </Group>
             <Group Name="ForeColor">
               <UInt16 Name="Offset">8</UInt16>
@@ -297,12 +307,12 @@
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">254</UInt32>
+              <UInt32 Name="Data">0</UInt32>
             </Group>
             <Group Name="Font">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12]</Reference>
             </Group>
             <Group Name="TextGroup">
               <UInt16 Name="Offset">24</UInt16>
@@ -320,10 +330,10 @@
             </Group>
           </Object>
           <Object Name="HotSpot_1" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Layer[Background].Control[HotSpot_1]">
-            <UInt32 Name="Left">269</UInt32>
-            <UInt32 Name="Top">11</UInt32>
-            <UInt32 Name="Right">471</UInt32>
-            <UInt32 Name="Bottom">32</UInt32>
+            <UInt32 Name="Left">271</UInt32>
+            <UInt32 Name="Top">10</UInt32>
+            <UInt32 Name="Right">473</UInt32>
+            <UInt32 Name="Bottom">31</UInt32>
             <UInt16 Name="KeyMatrixOffset">65535</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_61]</Reference>
@@ -388,7 +398,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">40</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextGroup">
               <UInt16 Name="Offset">44</UInt16>
@@ -527,7 +537,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">40</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextGroup">
               <UInt16 Name="Offset">44</UInt16>
@@ -666,7 +676,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">40</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="TextGroup">
               <UInt16 Name="Offset">44</UInt16>

@@ -102,7 +102,7 @@
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput10" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput10" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_Aktivne_KF1" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_ReleCakaNaReset_KF1" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput11" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput11" Kind="io"/>
@@ -118,12 +118,15 @@
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput14" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput14" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_SpatnaVazba_Ventil_YVS1" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput15" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput15" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_SpatnaVazba_Ventil_YVS2" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput16" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput16" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_Aktivne" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST3.ModuleOk" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST3" DPName="ModuleOk" Kind="io"/>
@@ -174,7 +177,6 @@
 <Cons Device="IF4.ST1.IF1.ST3" DPName="DigitalOutput08" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST1.IF1.ST3.DigitalOutput09" Type="BOOL">
-<Prod Device="TC#1-CPYDEV" DPName="Preklapac.OUT.VystupnyDotlacac_ZASUN_YV4" Kind="pv"/>
 <Cons Device="IF4.ST1.IF1.ST3" DPName="DigitalOutput09" Kind="io"/>
 </LN>
 <LN ID="%QX.IF4.ST1.IF1.ST3.DigitalOutput10" Type="BOOL">

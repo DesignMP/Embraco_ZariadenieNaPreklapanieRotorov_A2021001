@@ -17,12 +17,12 @@
             <UInt32 Name="Script1">4294967295</UInt32>
             <UInt32 Name="Script2">4294967295</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
-            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="StyleTableSize">150</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Group Name="PressedBorder">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_Global_Area_pressed]</Reference>
             </Group>
             <Group Name="Border">
               <UInt16 Name="Offset">4</UInt16>
@@ -58,6 +58,11 @@
               <UInt16 Name="Offset">28</UInt16>
               <UInt16 Name="Size">4</UInt16>
               <UInt32 Name="Data">51</UInt32>
+            </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
             </Group>
             <Group Name="PressedBackColor">
               <UInt16 Name="Offset">36</UInt16>
@@ -136,12 +141,12 @@
             <UInt32 Name="Script1">4294967295</UInt32>
             <UInt32 Name="Script2">4294967295</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
-            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="StyleTableSize">150</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Group Name="PressedBorder">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_Global_Area_pressed]</Reference>
             </Group>
             <Group Name="Border">
               <UInt16 Name="Offset">4</UInt16>
@@ -177,6 +182,11 @@
               <UInt16 Name="Offset">28</UInt16>
               <UInt16 Name="Size">4</UInt16>
               <UInt32 Name="Data">10</UInt32>
+            </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
             </Group>
             <Group Name="PressedBackColor">
               <UInt16 Name="Offset">36</UInt16>
@@ -255,12 +265,12 @@
             <UInt32 Name="Script1">4294967295</UInt32>
             <UInt32 Name="Script2">4294967295</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001002].StyleClass[Default]</Reference>
-            <UInt16 Name="StyleTableSize">142</UInt16>
+            <UInt16 Name="StyleTableSize">150</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
             <Group Name="PressedBorder">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_Button_Control_pressed]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Button_Global_Area_pressed]</Reference>
             </Group>
             <Group Name="Border">
               <UInt16 Name="Offset">4</UInt16>
@@ -296,6 +306,11 @@
               <UInt16 Name="Offset">28</UInt16>
               <UInt16 Name="Size">4</UInt16>
               <UInt32 Name="Data">124</UInt32>
+            </Group>
+            <Group Name="PressedForeColor">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">0</UInt32>
             </Group>
             <Group Name="PressedBackColor">
               <UInt16 Name="Offset">36</UInt16>
@@ -370,13 +385,8 @@
             <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.SC_Preklapac.StepName]</Reference>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100B].StyleClass[Default]</Reference>
-            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="StyleTableSize">33</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
-            <Group Name="Border">
-              <UInt16 Name="Offset">0</UInt16>
-              <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SunkenNG]</Reference>
-            </Group>
             <Group Name="ForeColor">
               <UInt16 Name="Offset">8</UInt16>
               <UInt16 Name="Size">4</UInt16>
@@ -390,7 +400,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11]</Reference>
             </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">28</UInt16>

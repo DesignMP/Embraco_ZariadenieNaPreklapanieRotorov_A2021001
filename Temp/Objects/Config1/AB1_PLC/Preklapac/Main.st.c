@@ -22,7 +22,7 @@ __AS__Action__Zdvih();
 __AS__Action__VystupnyDotlacac();
 
 
-if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
+if((Zariadenie.IN.Safety_Aktivne^1)){
 (SC_Preklapac.Step=0);
 }else if(NastalaPorucha){
 (SC_Preklapac.Step=0);
@@ -43,7 +43,7 @@ case 0:{
 (SC_Zdvih.Step=0);
 (SC_VystupnyDotlacac.Step=0);
 
-if((Zariadenie.IN.Safety_Aktivne_KF1&(NastalaPorucha^1))){
+if((Zariadenie.IN.Safety_Aktivne&(NastalaPorucha^1))){
 (SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=1);
 }
@@ -123,7 +123,7 @@ if((Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1|Preklapac.IN.Vytah_Pozicia2_Pri
 
 }break;case 100:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"100 - Automaticky Rezim - cakam na prichod rotora"; for(zzIndex=0; zzIndex<49l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=300);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.IdleTime.IN=Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1);
@@ -139,7 +139,7 @@ if(Preklapac.KoniecCyklu){
 
 }break;case 108:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"108 - Automaticky Rezim - cakam na vysunutie vstupneho dotlacaca"; for(zzIndex=0; zzIndex<64l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=100);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.IdleTime.IN=Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1);
@@ -151,23 +151,9 @@ if(((SC_Preklapac.Switch1^1)&Preklapac.IN.Vytah_SpodnaPoloha_MS6)){
 
 if((Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1&SC_Preklapac.IdleTime.Q)){
 (SC_Preklapac.ResetStep=1);
-(SC_Preklapac.Step=110);
-}
-
-}break;case 110:{
-{int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"110 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca"; for(zzIndex=0; zzIndex<64l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
-(SC_Preklapac.AlarmTime.PT=5000);
-
-if((SC_Preklapac.Switch1^1)){
-(VstupnyDotlacac_ZASUN=1);
-(SC_Preklapac.Switch1=1);
-}
-
-if(Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2){
-(SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=115);
 }
+
 
 }break;case 115:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"115 - Automaticky Rezim - kontrolujem pocet kusov na zdvihu"; for(zzIndex=0; zzIndex<59l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
@@ -179,17 +165,33 @@ if((Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1&Preklapac.IN.Vytah_Pozicia2_Pri
 (SC_Preklapac.Step=120);
 }else{
 (SC_Preklapac.ResetStep=1);
+(SC_Preklapac.Step=118);
+}
+
+}break;case 118:{
+{int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"118 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca"; for(zzIndex=0; zzIndex<64l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.AlarmTime.PT=5000);
+
+if((SC_Preklapac.Switch1^1)){
+(VstupnyDotlacac_ZASUN=1);
+(SC_Preklapac.Switch1=1);
+}
+
+if(Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2){
+(SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=100);
 }
 
+
 }break;case 120:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"120 - Automaticky Rezim - cakam na presun zdvihu do hornej polohy"; for(zzIndex=0; zzIndex<65l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=100);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.IdleTime.IN=Preklapac.IN.Vytah_HornaPoloha_MS5);
 
-if(((SC_Preklapac.Switch1^1)&Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2&Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4)){
+if(((SC_Preklapac.Switch1^1)&Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4)){
 (Zdvih_VYSUN=1);
 (SC_Preklapac.Switch1=1);
 }
@@ -201,7 +203,7 @@ if((Preklapac.IN.Vytah_HornaPoloha_MS5&SC_Preklapac.IdleTime.Q)){
 
 }break;case 125:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"125 - Automaticky Rezim - kontrola zaplnenia vystupneho dopravnika"; for(zzIndex=0; zzIndex<66l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=200);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.AlarmTime.IN=Preklapac.KoniecCyklu);
@@ -219,7 +221,7 @@ if(SC_Preklapac.IdleTime.Q){
 
 }break;case 128:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"128 - Automaticky Rezim - cakam na vysunutie vystupneho dotlacaca"; for(zzIndex=0; zzIndex<65l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=100);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.IdleTime.IN=Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3);
@@ -252,20 +254,38 @@ if(Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4){
 
 }break;case 135:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"135 - Automaticky Rezim - cakam na presun zdvihu do spodnej polohy"; for(zzIndex=0; zzIndex<66l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
-(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.IdleTime.PT=100);
 (SC_Preklapac.AlarmTime.PT=5000);
 
 (SC_Preklapac.IdleTime.IN=Preklapac.IN.Vytah_SpodnaPoloha_MS6);
 
-if(((SC_Preklapac.Switch1^1)&Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2&Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4)){
+if(((SC_Preklapac.Switch1^1)&Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4)){
 (Zdvih_ZASUN=1);
 (SC_Preklapac.Switch1=1);
 }
 
 if(Preklapac.IN.Vytah_SpodnaPoloha_MS6){
 (SC_Preklapac.ResetStep=1);
+(SC_Preklapac.Step=138);
+}
+
+
+}break;case 138:{
+{int zzIndex; plcstring* zzLValue=(plcstring*)SC_Preklapac.StepName; plcstring* zzRValue=(plcstring*)"138 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca"; for(zzIndex=0; zzIndex<64l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+(SC_Preklapac.IdleTime.PT=500);
+(SC_Preklapac.AlarmTime.PT=5000);
+
+if((SC_Preklapac.Switch1^1)){
+(VstupnyDotlacac_ZASUN=1);
+(SC_Preklapac.Switch1=1);
+}
+
+if(Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2){
+(SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=100);
 }
+
+
 
 
 
@@ -283,14 +303,14 @@ if(Preklapac.IN.Vytah_SpodnaPoloha_MS6){
 }break;}
 
 
-}imp4_case1_15:imp4_endcase1_0:;}
-#line 281 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
-#line 283 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.st"
+}imp4_case1_16:imp4_endcase1_0:;}
+#line 301 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 303 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
 
 
 }}
-#line 286 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 306 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/VstupnyDotlacac.st"
 static void __AS__Action__VstupnyDotlacac(void){
 {
@@ -305,8 +325,8 @@ case 0:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_VstupnyDotlacac.StepName; plcstring* zzRValue=(plcstring*)"0 - Nulovanie"; for(zzIndex=0; zzIndex<13l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 (VstupnyDotlacac_VYSUN=0);
 (VstupnyDotlacac_ZASUN=0);
-(Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1=0);
-(Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2=0);
+
+
 
 if((((unsigned long)(unsigned short)SC_Preklapac.Step!=(unsigned long)(unsigned short)0))){
 (SC_VstupnyDotlacac.ResetStep=1);
@@ -344,10 +364,22 @@ if((Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1|SC_VstupnyDotlacac.IdleTime.Q)){
 (SC_VstupnyDotlacac.ResetStep=1);
 (SC_VstupnyDotlacac.Step=0);
 }else if(SC_VstupnyDotlacac.AlarmTime.Q){
+(SC_VstupnyDotlacac.ResetStep=1);
+(SC_VstupnyDotlacac.Step=15);
+}
+
+}break;case 15:{
+{int zzIndex; plcstring* zzLValue=(plcstring*)SC_VstupnyDotlacac.StepName; plcstring* zzRValue=(plcstring*)"15 - Zasunutie dotlacaca pri poruche"; for(zzIndex=0; zzIndex<36l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+(SC_VstupnyDotlacac.IdleTime.PT=3000);
+(SC_VstupnyDotlacac.AlarmTime.PT=3000);
+
+(Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1=0);
+(Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2=1);
 (Alarmy[CheckBounds(5,0,100)]=1);
 (SC_VstupnyDotlacac.ResetStep=1);
 (SC_VstupnyDotlacac.Step=0);
-}
+
+
 
 
 
@@ -386,8 +418,8 @@ if((Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2|SC_VstupnyDotlacac.IdleTime.Q)){
 
 
 
-}imp16385_case0_3:imp16385_endcase0_0:;}
-#line 288 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+}imp16385_case0_4:imp16385_endcase0_0:;}
+#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Zdvih.st"
 static void __AS__Action__Zdvih(void){
 {
@@ -402,8 +434,8 @@ case 0:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_Zdvih.StepName; plcstring* zzRValue=(plcstring*)"0 - Nulovanie"; for(zzIndex=0; zzIndex<13l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 (Zdvih_VYSUN=0);
 (Zdvih_ZASUN=0);
-(Preklapac.OUT.Vytah_ZDVIH_YV5=0);
-(Preklapac.OUT.Vytah_ZOSTUP_YV6=0);
+
+
 
 if((((unsigned long)(unsigned short)SC_Preklapac.Step!=(unsigned long)(unsigned short)0))){
 (SC_Zdvih.ResetStep=1);
@@ -441,11 +473,21 @@ if((Preklapac.IN.Vytah_HornaPoloha_MS5|SC_Zdvih.IdleTime.Q)){
 (SC_Zdvih.ResetStep=1);
 (SC_Zdvih.Step=0);
 }else if(SC_Zdvih.AlarmTime.Q){
+(SC_Zdvih.ResetStep=1);
+(SC_Zdvih.Step=15);
+}
+
+
+}break;case 15:{
+{int zzIndex; plcstring* zzLValue=(plcstring*)SC_Zdvih.StepName; plcstring* zzRValue=(plcstring*)"15 - Zasunutie zdvihu pri poruche"; for(zzIndex=0; zzIndex<33l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+(SC_Zdvih.IdleTime.PT=3000);
+(SC_Zdvih.AlarmTime.PT=3000);
+
+(Preklapac.OUT.Vytah_ZDVIH_YV5=0);
+(Preklapac.OUT.Vytah_ZOSTUP_YV6=1);
 (Alarmy[CheckBounds(7,0,100)]=1);
 (SC_Zdvih.ResetStep=1);
 (SC_Zdvih.Step=0);
-}
-
 
 
 }break;case 20:{
@@ -482,8 +524,8 @@ if((Preklapac.IN.Vytah_SpodnaPoloha_MS6|SC_Zdvih.IdleTime.Q)){
 }break;}
 
 
-}imp16387_case0_3:imp16387_endcase0_0:;}
-#line 288 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+}imp16387_case0_4:imp16387_endcase0_0:;}
+#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/VystupnyDotlacac.st"
 static void __AS__Action__VystupnyDotlacac(void){
 {
@@ -498,8 +540,8 @@ case 0:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_VystupnyDotlacac.StepName; plcstring* zzRValue=(plcstring*)"0 - Nulovanie"; for(zzIndex=0; zzIndex<13l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 (VystupnyDotlacac_VYSUN=0);
 (VystupnyDotlacac_ZASUN=0);
-(Preklapac.OUT.VystupnyDotlacac_VYSUN_YV3=0);
-(Preklapac.OUT.VystupnyDotlacac_ZASUN_YV4=0);
+
+
 
 if((((unsigned long)(unsigned short)SC_Preklapac.Step!=(unsigned long)(unsigned short)0))){
 (SC_VystupnyDotlacac.ResetStep=1);
@@ -526,7 +568,6 @@ if(Preklapac.Automat){
 }
 
 if((SC_VystupnyDotlacac.Switch1^1)){
-(Preklapac.OUT.VystupnyDotlacac_ZASUN_YV4=0);
 (Preklapac.OUT.VystupnyDotlacac_VYSUN_YV3=1);
 (SC_VystupnyDotlacac.IdleTime.IN=1);
 (SC_VystupnyDotlacac.Switch1=1);
@@ -537,10 +578,21 @@ if((Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3|SC_VystupnyDotlacac.IdleTime.Q)){
 (SC_VystupnyDotlacac.ResetStep=1);
 (SC_VystupnyDotlacac.Step=0);
 }else if(SC_VystupnyDotlacac.AlarmTime.Q){
+(SC_VystupnyDotlacac.ResetStep=1);
+(SC_VystupnyDotlacac.Step=15);
+}
+
+}break;case 15:{
+{int zzIndex; plcstring* zzLValue=(plcstring*)SC_VystupnyDotlacac.StepName; plcstring* zzRValue=(plcstring*)"15 - Zasunutie dotlacaca pri poruche"; for(zzIndex=0; zzIndex<36l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
+(SC_VystupnyDotlacac.IdleTime.PT=3000);
+(SC_VystupnyDotlacac.AlarmTime.PT=3000);
+
+(Preklapac.OUT.VystupnyDotlacac_VYSUN_YV3=0);
 (Alarmy[CheckBounds(9,0,100)]=1);
 (SC_VystupnyDotlacac.ResetStep=1);
 (SC_VystupnyDotlacac.Step=0);
-}
+
+
 
 
 
@@ -557,7 +609,6 @@ if(Preklapac.Automat){
 
 if((SC_VystupnyDotlacac.Switch1^1)){
 (Preklapac.OUT.VystupnyDotlacac_VYSUN_YV3=0);
-(Preklapac.OUT.VystupnyDotlacac_ZASUN_YV4=1);
 (SC_VystupnyDotlacac.Switch1=1);
 }
 
@@ -579,8 +630,8 @@ if((Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4|SC_VystupnyDotlacac.IdleTime.Q)){
 
 
 
-}imp16386_case0_3:imp16386_endcase0_0:;}
-#line 288 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+}imp16386_case0_4:imp16386_endcase0_0:;}
+#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 

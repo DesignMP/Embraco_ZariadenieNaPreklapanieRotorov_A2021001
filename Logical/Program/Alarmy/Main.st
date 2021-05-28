@@ -47,7 +47,7 @@ PROGRAM _CYCLIC
     END_IF	
     
     //**************************************Porucha tlaku vzduchu*********************************************************// 
-    CasKontroly_TlakuVzduchu.IN:= Zariadenie.IN.Safety_Aktivne_KF1 AND NOT Zariadenie.IN.TlakVzduchu_OK_S1; 
+    CasKontroly_TlakuVzduchu.IN:= Zariadenie.IN.Safety_Aktivne AND NOT Zariadenie.IN.TlakVzduchu_OK_S1; 
     
     IF CasKontroly_TlakuVzduchu.Q THEN
         Alarmy[0]:= TRUE;
@@ -57,7 +57,7 @@ PROGRAM _CYCLIC
     CasKontroly_TlakuVzduchu();
     
     //**********************************Porucha - karty PLC niesu online**************************************************//
-    CasKontroly_KarietPLC.IN:= Zariadenie.IN.Safety_Aktivne_KF1 AND NOT Zariadenie.STAV.Hardware_OK;
+    CasKontroly_KarietPLC.IN:= Zariadenie.IN.Safety_Aktivne AND NOT Zariadenie.STAV.Hardware_OK;
     
     
     IF CasKontroly_KarietPLC.Q THEN
@@ -78,9 +78,9 @@ PROGRAM _CYCLIC
     
     
     //*********************************Porucha - bezpeènostného okruhu*******************************************************//
-    IF EDGEPOS(Zariadenie.IN.Safety_Aktivne_KF1 = FALSE) THEN
-        Alarmy[4]:= TRUE;
-    END_IF
+//    IF EDGENEG(Zariadenie.IN.Safety_Aktivne) THEN
+//        Alarmy[4]:= TRUE;
+//    END_IF
     
     
 END_PROGRAM

@@ -197,7 +197,7 @@
               <Double Name="PVMaxVal">1</Double>
               <Int32 Name="Offset">508</Int32>
             </Group>
-            <Group Name="Zariadenie.IN.Safety_Aktivne_KF1">
+            <Group Name="Zariadenie.IN.Safety_Aktivne">
               <UInt16 Name="ID">20</UInt16>
               <UInt16 Name="PVType">1</UInt16>
               <UInt32 Name="PVOffset">20</UInt32>
@@ -213,7 +213,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">0</Double>
-              <Int32 Name="Offset">578</Int32>
+              <Int32 Name="Offset">574</Int32>
             </Group>
             <Group Name="Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1">
               <UInt16 Name="ID">22</UInt16>
@@ -222,7 +222,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">600</Int32>
+              <Int32 Name="Offset">596</Int32>
             </Group>
             <Group Name="Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2">
               <UInt16 Name="ID">23</UInt16>
@@ -231,7 +231,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">642</Int32>
+              <Int32 Name="Offset">638</Int32>
             </Group>
             <Group Name="Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3">
               <UInt16 Name="ID">24</UInt16>
@@ -240,7 +240,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">684</Int32>
+              <Int32 Name="Offset">680</Int32>
             </Group>
             <Group Name="Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4">
               <UInt16 Name="ID">25</UInt16>
@@ -249,7 +249,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">727</Int32>
+              <Int32 Name="Offset">723</Int32>
             </Group>
             <Group Name="Preklapac.IN.Vytah_HornaPoloha_MS5">
               <UInt16 Name="ID">26</UInt16>
@@ -258,7 +258,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">770</Int32>
+              <Int32 Name="Offset">766</Int32>
             </Group>
             <Group Name="Preklapac.IN.Vytah_SpodnaPoloha_MS6">
               <UInt16 Name="ID">27</UInt16>
@@ -267,7 +267,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">805</Int32>
+              <Int32 Name="Offset">801</Int32>
             </Group>
             <Group Name="Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1">
               <UInt16 Name="ID">28</UInt16>
@@ -276,7 +276,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">841</Int32>
+              <Int32 Name="Offset">837</Int32>
             </Group>
             <Group Name="Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1">
               <UInt16 Name="ID">29</UInt16>
@@ -285,7 +285,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">887</Int32>
+              <Int32 Name="Offset">883</Int32>
             </Group>
             <Group Name="Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2">
               <UInt16 Name="ID">30</UInt16>
@@ -294,7 +294,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">932</Int32>
+              <Int32 Name="Offset">928</Int32>
             </Group>
             <Group Name="Preklapac.IN.VystupnyDopravnik_PLNY_OS3">
               <UInt16 Name="ID">31</UInt16>
@@ -303,7 +303,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">977</Int32>
+              <Int32 Name="Offset">973</Int32>
             </Group>
             <Group Name="Preklapac:VystupnyDotlacac_ZASUN">
               <UInt16 Name="ID">32</UInt16>
@@ -312,7 +312,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1017</Int32>
+              <Int32 Name="Offset">1013</Int32>
             </Group>
             <Group Name="Preklapac:VystupnyDotlacac_VYSUN">
               <UInt16 Name="ID">33</UInt16>
@@ -321,7 +321,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1050</Int32>
+              <Int32 Name="Offset">1046</Int32>
             </Group>
             <Group Name="Preklapac:Zdvih_ZASUN">
               <UInt16 Name="ID">34</UInt16>
@@ -330,7 +330,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1083</Int32>
+              <Int32 Name="Offset">1079</Int32>
             </Group>
             <Group Name="Preklapac:Zdvih_VYSUN">
               <UInt16 Name="ID">35</UInt16>
@@ -339,7 +339,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1105</Int32>
+              <Int32 Name="Offset">1101</Int32>
             </Group>
             <Group Name="Preklapac:VstupnyDotlacac_ZASUN">
               <UInt16 Name="ID">36</UInt16>
@@ -348,7 +348,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1127</Int32>
+              <Int32 Name="Offset">1123</Int32>
             </Group>
             <Group Name="Preklapac:VstupnyDotlacac_VYSUN">
               <UInt16 Name="ID">37</UInt16>
@@ -357,7 +357,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1159</Int32>
+              <Int32 Name="Offset">1155</Int32>
             </Group>
             <Group Name="Hesla">
               <UInt16 Name="ID">38</UInt16>
@@ -366,7 +366,7 @@
               <UInt32 Name="PVDim">4</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">0</Double>
-              <Int32 Name="Offset">1191</Int32>
+              <Int32 Name="Offset">1187</Int32>
             </Group>
             <Group Name="Hesla[1]">
               <UInt16 Name="ID">39</UInt16>
@@ -375,7 +375,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">0</Double>
-              <Int32 Name="Offset">1197</Int32>
+              <Int32 Name="Offset">1193</Int32>
             </Group>
             <Group Name="Hesla[2]">
               <UInt16 Name="ID">40</UInt16>
@@ -384,7 +384,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">0</Double>
-              <Int32 Name="Offset">1206</Int32>
+              <Int32 Name="Offset">1202</Int32>
             </Group>
             <Group Name="Hesla[0]">
               <UInt16 Name="ID">41</UInt16>
@@ -393,7 +393,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">0</Double>
-              <Int32 Name="Offset">1215</Int32>
+              <Int32 Name="Offset">1211</Int32>
             </Group>
             <Group Name="PotvrdenieAlarmov">
               <UInt16 Name="ID">42</UInt16>
@@ -402,7 +402,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1224</Int32>
+              <Int32 Name="Offset">1220</Int32>
             </Group>
             <Group Name="Alarmy">
               <UInt16 Name="ID">43</UInt16>
@@ -411,7 +411,7 @@
               <UInt32 Name="PVDim">101</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1242</Int32>
+              <Int32 Name="Offset">1238</Int32>
             </Group>
             <Group Name="TP_ZobrazPopUpPrihlasenie">
               <UInt16 Name="ID">44</UInt16>
@@ -420,7 +420,7 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">255</Double>
-              <Int32 Name="Offset">1249</Int32>
+              <Int32 Name="Offset">1245</Int32>
             </Group>
             <Group Name="ZobrazSymbolAlarmu">
               <UInt16 Name="ID">45</UInt16>
@@ -429,10 +429,10 @@
               <UInt32 Name="PVDim">1</UInt32>
               <Double Name="PVMinVal">0</Double>
               <Double Name="PVMaxVal">1</Double>
-              <Int32 Name="Offset">1275</Int32>
+              <Int32 Name="Offset">1271</Int32>
             </Group>
           </Table>
-          <Binary Name="Name" Encoding="Base64">Vml6dS5DaXNsb0FrdHVhbG5lak9icmF6b3ZreQBWaXp1LkNpc2xvWmFkYW5lak9icmF6b3ZreQBWaXp1LlRMX1JlemltQXV0b21hdABWaXp1LlRMX1JlemltTWFudWFsX0RJU0FCTEUAVml6dS5UTF9TdGFydEF1dG9tYXRfRElTQUJMRQBWaXp1LlRMX1Vrb25jZW5pZUN5a2x1X0RJU0FCTEUAVml6dS5TbGlkZXIAVml6dS5GYXJiYVRsYWNpdGthQWxhcm1fSW5kZXgAVml6dS5ab2JyYXpIbGFzZW5pZV9SZXNldFphcmlhZGVuaWEAVml6dS5Qb2RzdmlldGVuaWVUbGFjaXRrYV9SZXNldENTAFZpenUuVExfUmVzZXRfRElTQUJMRQBWaXp1LlRMX1JSX1ByZWtsYXBhY0RvdGxhY2FjZV9ESVNBQkxFAFZpenUuVExfUlJfUHJla2xhcGFjWmR2aWhfRElTQUJMRQBaYXJpYWRlbmllLkF1dG9tYXQAWmFyaWFkZW5pZS5NYW51YWwAWmFyaWFkZW5pZS5SZXNldABaYXJpYWRlbmllLktvbmllY0N5a2x1AFphcmlhZGVuaWUuT1VULlNhZmV0eV9SRVNFVABaYXJpYWRlbmllLklOLlRsYWtWemR1Y2h1X09LX1MxAFphcmlhZGVuaWUuSU4uU2FmZXR5X1NwYXRuYVZhemJhX0tGMQBaYXJpYWRlbmllLklOLlNhZmV0eV9Ba3Rpdm5lX0tGMQBTQ19QcmVrbGFwYWMuU3RlcE5hbWUAUHJla2xhcGFjLklOLlZzdHVwbnlEb3RsYWNhY19WWVNVTlVUWV9NUzEAUHJla2xhcGFjLklOLlZzdHVwbnlEb3RsYWNhY19aQVNVTlVUWV9NUzIAUHJla2xhcGFjLklOLlZ5c3R1cG55RG90bGFjYWNfVllTVU5VVFlfTVMzAFByZWtsYXBhYy5JTi5WeXN0dXBueURvdGxhY2FjX1pBU1VOVVRZX01TNABQcmVrbGFwYWMuSU4uVnl0YWhfSG9ybmFQb2xvaGFfTVM1AFByZWtsYXBhYy5JTi5WeXRhaF9TcG9kbmFQb2xvaGFfTVM2AFByZWtsYXBhYy5JTi5Wc3R1cG55RG90bGFjYWNfUHJpdG9tUm90b3JhX0lTMQBQcmVrbGFwYWMuSU4uVnl0YWhfUG96aWNpYTFfUHJpdG9tUm90b3JhX09TMQBQcmVrbGFwYWMuSU4uVnl0YWhfUG96aWNpYTJfUHJpdG9tUm90b3JhX09TMgBQcmVrbGFwYWMuSU4uVnlzdHVwbnlEb3ByYXZuaWtfUExOWV9PUzMAUHJla2xhcGFjOlZ5c3R1cG55RG90bGFjYWNfWkFTVU4AUHJla2xhcGFjOlZ5c3R1cG55RG90bGFjYWNfVllTVU4AUHJla2xhcGFjOlpkdmloX1pBU1VOAFByZWtsYXBhYzpaZHZpaF9WWVNVTgBQcmVrbGFwYWM6VnN0dXBueURvdGxhY2FjX1pBU1VOAFByZWtsYXBhYzpWc3R1cG55RG90bGFjYWNfVllTVU4ASGVzbGEASGVzbGFbMV0ASGVzbGFbMl0ASGVzbGFbMF0AUG90dnJkZW5pZUFsYXJtb3YAQWxhcm15AFRQX1pvYnJhelBvcFVwUHJpaGxhc2VuaWUAWm9icmF6U3ltYm9sQWxhcm11AA==</Binary>
+          <Binary Name="Name" Encoding="Base64">Vml6dS5DaXNsb0FrdHVhbG5lak9icmF6b3ZreQBWaXp1LkNpc2xvWmFkYW5lak9icmF6b3ZreQBWaXp1LlRMX1JlemltQXV0b21hdABWaXp1LlRMX1JlemltTWFudWFsX0RJU0FCTEUAVml6dS5UTF9TdGFydEF1dG9tYXRfRElTQUJMRQBWaXp1LlRMX1Vrb25jZW5pZUN5a2x1X0RJU0FCTEUAVml6dS5TbGlkZXIAVml6dS5GYXJiYVRsYWNpdGthQWxhcm1fSW5kZXgAVml6dS5ab2JyYXpIbGFzZW5pZV9SZXNldFphcmlhZGVuaWEAVml6dS5Qb2RzdmlldGVuaWVUbGFjaXRrYV9SZXNldENTAFZpenUuVExfUmVzZXRfRElTQUJMRQBWaXp1LlRMX1JSX1ByZWtsYXBhY0RvdGxhY2FjZV9ESVNBQkxFAFZpenUuVExfUlJfUHJla2xhcGFjWmR2aWhfRElTQUJMRQBaYXJpYWRlbmllLkF1dG9tYXQAWmFyaWFkZW5pZS5NYW51YWwAWmFyaWFkZW5pZS5SZXNldABaYXJpYWRlbmllLktvbmllY0N5a2x1AFphcmlhZGVuaWUuT1VULlNhZmV0eV9SRVNFVABaYXJpYWRlbmllLklOLlRsYWtWemR1Y2h1X09LX1MxAFphcmlhZGVuaWUuSU4uU2FmZXR5X1NwYXRuYVZhemJhX0tGMQBaYXJpYWRlbmllLklOLlNhZmV0eV9Ba3Rpdm5lAFNDX1ByZWtsYXBhYy5TdGVwTmFtZQBQcmVrbGFwYWMuSU4uVnN0dXBueURvdGxhY2FjX1ZZU1VOVVRZX01TMQBQcmVrbGFwYWMuSU4uVnN0dXBueURvdGxhY2FjX1pBU1VOVVRZX01TMgBQcmVrbGFwYWMuSU4uVnlzdHVwbnlEb3RsYWNhY19WWVNVTlVUWV9NUzMAUHJla2xhcGFjLklOLlZ5c3R1cG55RG90bGFjYWNfWkFTVU5VVFlfTVM0AFByZWtsYXBhYy5JTi5WeXRhaF9Ib3JuYVBvbG9oYV9NUzUAUHJla2xhcGFjLklOLlZ5dGFoX1Nwb2RuYVBvbG9oYV9NUzYAUHJla2xhcGFjLklOLlZzdHVwbnlEb3RsYWNhY19Qcml0b21Sb3RvcmFfSVMxAFByZWtsYXBhYy5JTi5WeXRhaF9Qb3ppY2lhMV9Qcml0b21Sb3RvcmFfT1MxAFByZWtsYXBhYy5JTi5WeXRhaF9Qb3ppY2lhMl9Qcml0b21Sb3RvcmFfT1MyAFByZWtsYXBhYy5JTi5WeXN0dXBueURvcHJhdm5pa19QTE5ZX09TMwBQcmVrbGFwYWM6VnlzdHVwbnlEb3RsYWNhY19aQVNVTgBQcmVrbGFwYWM6VnlzdHVwbnlEb3RsYWNhY19WWVNVTgBQcmVrbGFwYWM6WmR2aWhfWkFTVU4AUHJla2xhcGFjOlpkdmloX1ZZU1VOAFByZWtsYXBhYzpWc3R1cG55RG90bGFjYWNfWkFTVU4AUHJla2xhcGFjOlZzdHVwbnlEb3RsYWNhY19WWVNVTgBIZXNsYQBIZXNsYVsxXQBIZXNsYVsyXQBIZXNsYVswXQBQb3R2cmRlbmllQWxhcm1vdgBBbGFybXkAVFBfWm9icmF6UG9wVXBQcmlobGFzZW5pZQBab2JyYXpTeW1ib2xBbGFybXUA</Binary>
         </Object>
       </Folder>
     </Folder>

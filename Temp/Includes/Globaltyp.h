@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1621416302_1_
-#define _BUR_1621416302_1_
+#ifndef _BUR_1622038082_1_
+#define _BUR_1622038082_1_
 
 #include <bur/plctypes.h>
 
@@ -35,7 +35,10 @@ typedef struct Vizu_typ
 typedef struct ZariadenieIN_typ
 {	plcbit TlakVzduchu_OK_S1;
 	plcbit Safety_SpatnaVazba_KF1;
-	plcbit Safety_Aktivne_KF1;
+	plcbit Safety_ReleCakaNaReset_KF1;
+	plcbit Safety_SpatnaVazba_Ventil_YVS1;
+	plcbit Safety_SpatnaVazba_Ventil_YVS2;
+	plcbit Safety_Aktivne;
 } ZariadenieIN_typ;
 
 typedef struct ZariadenieOUT_typ
@@ -88,7 +91,6 @@ typedef struct PreklapacOUT_typ
 {	plcbit VstupnyDotlacac_VYSUN_YV1;
 	plcbit VstupnyDotlacac_ZASUN_YV2;
 	plcbit VystupnyDotlacac_VYSUN_YV3;
-	plcbit VystupnyDotlacac_ZASUN_YV4;
 	plcbit Vytah_ZDVIH_YV5;
 	plcbit Vytah_ZOSTUP_YV6;
 } PreklapacOUT_typ;
@@ -127,5 +129,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1621416302_1_ */
+#endif /* _BUR_1622038082_1_ */
 

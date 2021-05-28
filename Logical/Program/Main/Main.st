@@ -36,7 +36,7 @@ PROGRAM _CYCLIC
     //Èervené svetlo//
     IF NastalaPorucha THEN
         Zariadenie.OUT.Majak_CerveneSvetlo:= TRUE; 
-    ELSIF NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    ELSIF NOT Zariadenie.IN.Safety_Aktivne THEN
         Zariadenie.OUT.Majak_CerveneSvetlo:= TRUE;
     ELSE
         Zariadenie.OUT.Majak_CerveneSvetlo:= FALSE;

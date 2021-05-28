@@ -13,7 +13,7 @@
       <Property Name="StyleableMode" Value="1"/>
     </PropertyEditor>
     <ImportSettings>
-      <Property Name="ImportPath" Value="D:\Projekty BER\Embraco_VymenaRobotaUR_A2021002"/>
+      <Property Name="ImportPath" Value="D:\Projekty BER\MappDemo\mappDemo"/>
     </ImportSettings>
   </EditorMainFrame>
   <GridSettings>

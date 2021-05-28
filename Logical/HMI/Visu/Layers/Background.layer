@@ -57,25 +57,27 @@
     </Control>
     <Control ClassId="0x00001002" Name="Button_2">
       <Property Name="BackColor" Value="7"/>
-      <Property Name="Bitmap" Value="Source[local].Bitmap[EmergencyButton24x24]"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[Emergency_stop_button24x24]"/>
       <Property Name="BitmapAlignmentHorizontal" Value="Left of Text"/>
       <Property Name="BitmapIndexDatapoint" Value="None"/>
       <Property Name="BitmapSource" Value="SingleBitmap"/>
-      <Property Name="Border" Value="Source[local].Border[OverdriveBorder]"/>
+      <Property Name="Border" Value="Source[local].Border[RaisedInner]"/>
       <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.Vizu.PodsvietenieTlacitka_ResetCS]"/>
       <Property Name="ColorMap" Value="Source[local].ColorMap[SchemaBezpecnosti]"/>
       <Property Name="ColorMapIndexOffset" Value="0"/>
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_69]"/>
-      <Property Name="Font" Value="Source[local].Font[Input]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial11]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Height" Value="30"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
       <Property Name="Left" Value="6"/>
       <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="PressedBackColor" Value="0"/>
       <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-      <Property Name="PressedBorder" Value="Source[local].Border[Mp_Button_Control_pressed]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[Button_Global_Area_pressed]"/>
+      <Property Name="PressedForeColor" Value="0"/>
       <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
       <Property Name="SpacingHorizontal" Value="16"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
@@ -121,13 +123,13 @@
       <Property Name="Width" Value="60"/>
     </Control>
     <Control ClassId="0x0000100A" Name="DateTime_1">
-      <Property Name="AlignmentHorizontal" Value="Right"/>
-      <Property Name="BackColor" Value="254"/>
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="0"/>
       <Property Name="Border" Value="Source[local].Border[SunkenNGgray]"/>
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="FillStyle" Value="Opaque"/>
-      <Property Name="Font" Value="Source[local].Font[Arial12_Bold]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12]"/>
       <Property Name="ForeColor" Value="15"/>
       <Property Name="Height" Value="30"/>
       <Property Name="Left" Value="267"/>
@@ -146,9 +148,9 @@
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
       <Property Name="Height" Value="22"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
-      <Property Name="Left" Value="269"/>
+      <Property Name="Left" Value="271"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-      <Property Name="Top" Value="11"/>
+      <Property Name="Top" Value="10"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_61]"/>
       <Property Name="Width" Value="203"/>
     </Control>
@@ -165,7 +167,7 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_75]"/>
-      <Property Name="Font" Value="Source[local].Font[Arial11_Bold]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial11]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Height" Value="40"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
@@ -195,7 +197,7 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_88]"/>
-      <Property Name="Font" Value="Source[local].Font[Arial11_Bold]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial11]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Height" Value="40"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
@@ -226,7 +228,7 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_90]"/>
-      <Property Name="Font" Value="Source[local].Font[Arial11_Bold]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial11]"/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Height" Value="40"/>
       <Property Name="KeyMatrixOffset" Value="None"/>

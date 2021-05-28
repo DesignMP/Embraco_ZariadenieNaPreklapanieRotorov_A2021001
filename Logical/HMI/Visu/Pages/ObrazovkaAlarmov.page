@@ -29,8 +29,8 @@
       <Property Name="Z-Order" Value="0"/>
       <TextGroup>
         <TextLayer LanguageId="en">
-          <Text ID="236851" Value="  Historia alarmov"/>
-          <Text ID="236852" Value="Potvrdenie alarmu"/>
+          <Text ID="236851" Value="Historia\nalarmov"/>
+          <Text ID="236852" Value="Potvrdenie\nalarmu"/>
           <Text ID="236853" Value="Aktuálne alarmy"/>
         </TextLayer>
         <TextLayer LanguageId="de">
@@ -149,7 +149,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
@@ -180,7 +180,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[Arial8_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial8]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="40"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
@@ -205,11 +205,11 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="249"/>
-          <Property Name="Border" Value="Source[local].Border[Mp_SunkenNG]"/>
+          <Property Name="Border" Value="Source[local].Border[ProgressBarBorder]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="20"/>
           <Property Name="Left" Value="140"/>
           <Property Name="SimulationIndex" Value="0"/>

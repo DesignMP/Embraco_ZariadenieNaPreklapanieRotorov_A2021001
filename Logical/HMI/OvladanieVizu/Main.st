@@ -23,9 +23,9 @@ PROGRAM _CYCLIC
     
     //******************************************************Podsvietenie tlaèítok**********************************************************//
     //Tlaèítko Reset CS//
-    IF Zariadenie.IN.Safety_SpatnaVazba_KF1 AND NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    IF Zariadenie.IN.Safety_SpatnaVazba_KF1 AND NOT Zariadenie.IN.Safety_Aktivne THEN
         Vizu.PodsvietenieTlacitka_ResetCS:= Blikac500ms;
-    ELSIF Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    ELSIF Zariadenie.IN.Safety_Aktivne THEN
         Vizu.PodsvietenieTlacitka_ResetCS:= 2;
     ELSE	
         Vizu.PodsvietenieTlacitka_ResetCS:= 3;
@@ -46,14 +46,16 @@ PROGRAM _CYCLIC
     //*************************************************Zamknutie tlaèítok*******************************************************//
     //Tlaèítko režim manual//
     IF Zariadenie.STAV.Automat THEN
-        Vizu.TL_RezimManual_DISABLE:= TRUE;
+		Vizu.TL_RezimManual_DISABLE:= TRUE;
+	ELSIF NOT Zariadenie.IN.Safety_Aktivne THEN
+		Vizu.TL_RezimManual_DISABLE:= TRUE;
     ELSE 
         Vizu.TL_RezimManual_DISABLE:= FALSE;
     END_IF
     
     
     //Tlaèítko Štart Automat//
-    IF NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    IF NOT Zariadenie.IN.Safety_Aktivne THEN
         Vizu.TL_StartAutomat_DISABLE:= TRUE;
     ELSIF NastalaPorucha THEN
         Vizu.TL_StartAutomat_DISABLE:= TRUE;
@@ -81,7 +83,7 @@ PROGRAM _CYCLIC
 	 
     //Tlaèítka ovládania preklápaèa v ruènom režime//
     //Dotláèaèe//
-    IF NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    IF NOT Zariadenie.IN.Safety_Aktivne THEN
         Vizu.TL_RR_PreklapacDotlacace_DISABLE:= TRUE;
     ELSIF NastalaPorucha THEN
         Vizu.TL_RR_PreklapacDotlacace_DISABLE:= TRUE;
@@ -90,11 +92,9 @@ PROGRAM _CYCLIC
     END_IF    
         
     //Zdvih//
-    IF NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    IF NOT Zariadenie.IN.Safety_Aktivne THEN
         Vizu.TL_RR_PreklapacZdvih_DISABLE:= TRUE;
     ELSIF NastalaPorucha THEN
-        Vizu.TL_RR_PreklapacZdvih_DISABLE:= TRUE;
-    ELSIF NOT Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 THEN
         Vizu.TL_RR_PreklapacZdvih_DISABLE:= TRUE;
     ELSIF NOT Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4 THEN
         Vizu.TL_RR_PreklapacZdvih_DISABLE:= TRUE;    

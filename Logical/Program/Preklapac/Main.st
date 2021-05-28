@@ -17,7 +17,7 @@ PROGRAM _CYCLIC
     VystupnyDotlacac;
 	 
     //Reset sekcie //
-    IF NOT Zariadenie.IN.Safety_Aktivne_KF1 THEN
+    IF NOT Zariadenie.IN.Safety_Aktivne THEN
         SC_Preklapac.Step:= 0;
     ELSIF NastalaPorucha THEN
         SC_Preklapac.Step:= 0;
@@ -38,7 +38,7 @@ PROGRAM _CYCLIC
             SC_Zdvih.Step:= 0;
             SC_VystupnyDotlacac.Step:= 0;
                         
-            IF Zariadenie.IN.Safety_Aktivne_KF1 AND NOT NastalaPorucha THEN
+            IF Zariadenie.IN.Safety_Aktivne AND NOT NastalaPorucha THEN
                 SC_Preklapac.ResetStep:= TRUE;
                 SC_Preklapac.Step:= 1;
             END_IF
@@ -118,7 +118,7 @@ PROGRAM _CYCLIC
         
         100:  
             SC_Preklapac.StepName:='100 - Automaticky Rezim - cakam na prichod rotora';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#300ms;
             SC_Preklapac.AlarmTime.PT:= T#5s; 
         
             SC_Preklapac.IdleTime.IN:= Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1;
@@ -134,7 +134,7 @@ PROGRAM _CYCLIC
         
         108:
             SC_Preklapac.StepName:='108 - Automaticky Rezim - cakam na vysunutie vstupneho dotlacaca';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#100ms;
             SC_Preklapac.AlarmTime.PT:= T#5s; 
         
             SC_Preklapac.IdleTime.IN:= Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1;
@@ -146,45 +146,47 @@ PROGRAM _CYCLIC
         
             IF Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1 AND SC_Preklapac.IdleTime.Q THEN
                 SC_Preklapac.ResetStep:= TRUE;
-                SC_Preklapac.Step:= 110;
-            END_IF 
-        
-        110:
-            SC_Preklapac.StepName:='110 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
-            SC_Preklapac.AlarmTime.PT:= T#5s; 
-        
-            IF NOT SC_Preklapac.Switch1 THEN
-                VstupnyDotlacac_ZASUN:= TRUE;
-                SC_Preklapac.Switch1:= TRUE;
-            END_IF
-        
-            IF Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 THEN
-                SC_Preklapac.ResetStep:= TRUE;
                 SC_Preklapac.Step:= 115;
             END_IF 
         
-        115:
-            SC_Preklapac.StepName:='115 - Automaticky Rezim - kontrolujem pocet kusov na zdvihu';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
-            SC_Preklapac.AlarmTime.PT:= T#5s; 
+                
+		115:
+			SC_Preklapac.StepName:='115 - Automaticky Rezim - kontrolujem pocet kusov na zdvihu';
+			SC_Preklapac.IdleTime.PT:= T#500ms;
+			SC_Preklapac.AlarmTime.PT:= T#5s; 
         
-            IF Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1 AND Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2 THEN
-                SC_Preklapac.ResetStep:= TRUE;
-                SC_Preklapac.Step:= 120;
-            ELSE
-                SC_Preklapac.ResetStep:= TRUE;
-                SC_Preklapac.Step:= 100;
-            END_IF    
+			IF Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1 AND Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2 THEN
+				SC_Preklapac.ResetStep:= TRUE;
+				SC_Preklapac.Step:= 120;
+			ELSE
+				SC_Preklapac.ResetStep:= TRUE;
+				SC_Preklapac.Step:= 118;
+			END_IF    
         
+		118:
+			SC_Preklapac.StepName:='118 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca';
+			SC_Preklapac.IdleTime.PT:= T#500ms;
+			SC_Preklapac.AlarmTime.PT:= T#5s; 
+        
+			IF NOT SC_Preklapac.Switch1 THEN
+				VstupnyDotlacac_ZASUN:= TRUE;
+				SC_Preklapac.Switch1:= TRUE;
+			END_IF
+        
+			IF Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 THEN
+				SC_Preklapac.ResetStep:= TRUE;
+				SC_Preklapac.Step:= 100;
+			END_IF 
+			
+			
         120:
             SC_Preklapac.StepName:='120 - Automaticky Rezim - cakam na presun zdvihu do hornej polohy';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#100ms;
             SC_Preklapac.AlarmTime.PT:= T#5s; 
         
             SC_Preklapac.IdleTime.IN:= Preklapac.IN.Vytah_HornaPoloha_MS5;
             
-            IF NOT SC_Preklapac.Switch1 AND Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 AND Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4 THEN
+            IF NOT SC_Preklapac.Switch1 AND Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4 THEN
                 Zdvih_VYSUN:= TRUE;
                 SC_Preklapac.Switch1:= TRUE;
             END_IF
@@ -196,7 +198,7 @@ PROGRAM _CYCLIC
         
         125:
             SC_Preklapac.StepName:='125 - Automaticky Rezim - kontrola zaplnenia vystupneho dopravnika';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#200ms;
             SC_Preklapac.AlarmTime.PT:= T#5s;     
         
             SC_Preklapac.AlarmTime.IN:= Preklapac.KoniecCyklu;
@@ -214,7 +216,7 @@ PROGRAM _CYCLIC
         
         128:
             SC_Preklapac.StepName:='128 - Automaticky Rezim - cakam na vysunutie vystupneho dotlacaca';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#100ms;
             SC_Preklapac.AlarmTime.PT:= T#5s;
         
             SC_Preklapac.IdleTime.IN:= Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3;
@@ -247,28 +249,46 @@ PROGRAM _CYCLIC
         
         135:
             SC_Preklapac.StepName:='135 - Automaticky Rezim - cakam na presun zdvihu do spodnej polohy';
-            SC_Preklapac.IdleTime.PT:= T#500ms;
+            SC_Preklapac.IdleTime.PT:= T#100ms;
             SC_Preklapac.AlarmTime.PT:= T#5s; 
         
             SC_Preklapac.IdleTime.IN:= Preklapac.IN.Vytah_SpodnaPoloha_MS6;
             
-            IF NOT SC_Preklapac.Switch1 AND Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 AND Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4 THEN
+            IF NOT SC_Preklapac.Switch1 AND Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4 THEN
                 Zdvih_ZASUN:= TRUE;
                 SC_Preklapac.Switch1:= TRUE;
             END_IF
         
             IF Preklapac.IN.Vytah_SpodnaPoloha_MS6 THEN
                 SC_Preklapac.ResetStep:= TRUE;
-                SC_Preklapac.Step:= 100;
+                SC_Preklapac.Step:= 138;
             END_IF
         
         
+		138:
+			SC_Preklapac.StepName:='138 - Automaticky Rezim - cakam na zasunutie vstupneho dotlacaca';
+			SC_Preklapac.IdleTime.PT:= T#500ms;
+			SC_Preklapac.AlarmTime.PT:= T#5s; 
+        
+			IF NOT SC_Preklapac.Switch1 THEN
+				VstupnyDotlacac_ZASUN:= TRUE;
+				SC_Preklapac.Switch1:= TRUE;
+			END_IF
+        
+			IF Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2 THEN
+				SC_Preklapac.ResetStep:= TRUE;
+				SC_Preklapac.Step:= 100;
+			END_IF 	
+			
+			
+			
+			
         
             //*******************************************Manuálny režim***************************************************************//
         700:
             SC_Preklapac.StepName:='700 - Manualny rezim';
-            SC_Preklapac.IdleTime.PT:= T#3s;
-            SC_Preklapac.AlarmTime.PT:= T#5s;	
+			SC_Preklapac.IdleTime.PT:= T#3s;
+			SC_Preklapac.AlarmTime.PT:= T#5s;	
 		
         
         

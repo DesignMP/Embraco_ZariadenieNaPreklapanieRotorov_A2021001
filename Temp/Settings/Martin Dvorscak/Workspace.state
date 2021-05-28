@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.7.6.114 SP?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Main.st" CaretLine="59" CaretColumn="44" FirstVisibleLine="43">
+  <TextEdit ID="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Main.st" CaretLine="203" CaretColumn="9" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\VstupnyDotlacac.st" CaretLine="70" CaretColumn="4" FirstVisibleLine="49">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Zdvih.st" CaretLine="70" CaretColumn="4" FirstVisibleLine="55">
     <Bookmarks />
   </TextEdit>
 </State>

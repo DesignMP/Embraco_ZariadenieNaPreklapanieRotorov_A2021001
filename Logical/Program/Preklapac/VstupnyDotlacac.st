@@ -12,8 +12,8 @@ ACTION VstupnyDotlacac:
             SC_VstupnyDotlacac.StepName:= '0 - Nulovanie';
             VstupnyDotlacac_VYSUN:= FALSE;
             VstupnyDotlacac_ZASUN:= FALSE;
-            Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1:= FALSE;
-            Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2:= FALSE;
+//            Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1:= FALSE;
+//            Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2:= FALSE;
             
             IF SC_Preklapac.Step <> 0 THEN
                 SC_VstupnyDotlacac.ResetStep:= TRUE;
@@ -51,11 +51,23 @@ ACTION VstupnyDotlacac:
                 SC_VstupnyDotlacac.ResetStep:= TRUE;
                 SC_VstupnyDotlacac.Step:= 0;
             ELSIF SC_VstupnyDotlacac.AlarmTime.Q THEN  
-                Alarmy[5]:= TRUE;
                 SC_VstupnyDotlacac.ResetStep:= TRUE;
-                SC_VstupnyDotlacac.Step:= 0;
+                SC_VstupnyDotlacac.Step:= 15;
             END_IF
 		
+		15:
+			SC_VstupnyDotlacac.StepName:= '15 - Zasunutie dotlacaca pri poruche';
+			SC_VstupnyDotlacac.IdleTime.PT:= T#3s;
+			SC_VstupnyDotlacac.AlarmTime.PT:= T#3s;
+			
+			Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1:= FALSE;
+			Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2:= TRUE;
+			Alarmy[5]:= TRUE;
+			SC_VstupnyDotlacac.ResetStep:= TRUE;
+			SC_VstupnyDotlacac.Step:= 0;
+			
+			
+			
 			
 			
         20:

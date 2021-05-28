@@ -12,8 +12,8 @@ ACTION Zdvih:
             SC_Zdvih.StepName:= '0 - Nulovanie';
             Zdvih_VYSUN:= FALSE;
             Zdvih_ZASUN:= FALSE;
-            Preklapac.OUT.Vytah_ZDVIH_YV5:= FALSE;
-            Preklapac.OUT.Vytah_ZOSTUP_YV6:= FALSE;
+//            Preklapac.OUT.Vytah_ZDVIH_YV5:= FALSE;
+//            Preklapac.OUT.Vytah_ZOSTUP_YV6:= FALSE;
             
             IF SC_Preklapac.Step <> 0 THEN
                 SC_Zdvih.ResetStep:= TRUE;
@@ -51,11 +51,21 @@ ACTION Zdvih:
                 SC_Zdvih.ResetStep:= TRUE;
                 SC_Zdvih.Step:= 0;
             ELSIF SC_Zdvih.AlarmTime.Q THEN  
-                Alarmy[7]:= TRUE;
                 SC_Zdvih.ResetStep:= TRUE;
-                SC_Zdvih.Step:= 0;
+                SC_Zdvih.Step:= 15;
             END_IF
 		
+			
+		15:
+			SC_Zdvih.StepName:= '15 - Zasunutie zdvihu pri poruche';
+			SC_Zdvih.IdleTime.PT:= T#3s;
+			SC_Zdvih.AlarmTime.PT:= T#3s;
+			
+			Preklapac.OUT.Vytah_ZDVIH_YV5:= FALSE;
+			Preklapac.OUT.Vytah_ZOSTUP_YV6:= TRUE;
+			Alarmy[7]:= TRUE;
+			SC_Zdvih.ResetStep:= TRUE;
+			SC_Zdvih.Step:= 0;
 			
 			
         20:

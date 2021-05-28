@@ -18,7 +18,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_SunkenNG]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[ProgressBarBorder]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
@@ -48,7 +48,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -83,7 +83,7 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
@@ -108,7 +108,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -162,7 +162,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -187,12 +187,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -212,7 +212,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -247,12 +247,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -272,7 +272,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -326,7 +326,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -351,12 +351,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -376,7 +376,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -411,12 +411,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -436,7 +436,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -485,12 +485,12 @@
             <Group Name="ColorDatapoint">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne_KF1]</Reference>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]</Reference>
             </Group>
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -515,12 +515,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -540,7 +540,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -575,12 +575,12 @@
             <Group Name="Border">
               <UInt16 Name="Offset">0</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="BRD">Source[local].Border[SliderBorder09]</Reference>
+              <Reference Name="Data" Type="BRD">Source[local].Border[Mp_TabActive]</Reference>
             </Group>
             <Group Name="BackColor">
               <UInt16 Name="Offset">12</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <UInt32 Name="Data">8</UInt32>
+              <UInt32 Name="Data">250</UInt32>
             </Group>
             <Group Name="FillStyle">
               <UInt16 Name="Offset">20</UInt16>
@@ -600,7 +600,7 @@
             <Group Name="Font">
               <UInt16 Name="Offset">24</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10_Bold]</Reference>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10]</Reference>
             </Group>
             <Group Name="TextSource">
               <UInt16 Name="Offset">40</UInt16>
@@ -654,7 +654,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -698,7 +698,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -742,7 +742,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>
@@ -786,7 +786,7 @@
             <Group Name="ColorMap">
               <UInt16 Name="Offset">20</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="CLM">Source[local].ColorMap[cervena_zelena]</Reference>
+              <Reference Name="Data" Type="CLM">Source[local].ColorMap[siva_zelena]</Reference>
             </Group>
             <Group Name="ColorMapIndexOffset">
               <UInt16 Name="Offset">24</UInt16>

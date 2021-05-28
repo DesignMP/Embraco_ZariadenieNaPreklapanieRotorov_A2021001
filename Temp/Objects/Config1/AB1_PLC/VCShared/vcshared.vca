@@ -64,7 +64,7 @@
   <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]" />
   <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]" />
   <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]" />
-  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne_KF1]" />
+  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]" />
   <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[DataSource.SC_Preklapac.StepName]" />
   <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1]" />
   <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2]" />

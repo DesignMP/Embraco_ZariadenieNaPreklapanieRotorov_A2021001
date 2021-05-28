@@ -6,6 +6,7 @@
       <Task Name="Blikanie10" Source="Blikace.Blikanie100ms.prg" />
       <Task Name="Blikanie20" Source="Blikace.Blikanie200ms.prg" />
       <Task Name="DatumCasPL" Source="DatumCasPLC.DatumCasPLC.prg" />
+      <Task Name="Main" Source="Program.Main.prg" />
       <Task Name="Preklapac" Source="Program.Preklapac.prg" />
       <Task Name="Alarmy" Source="Program.Alarmy.prg" />
       <Task Name="OvladanieV" Source="HMI.OvladanieVizu.prg" />

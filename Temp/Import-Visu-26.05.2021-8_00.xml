@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.6.114 SP"?>
+<?xml-stylesheet type="text/xsl" href="SG4_Import_ToDo_Generator.xsl"?>
+<ImportLog>
+  <Header>
+    <Property Name="ImportDate" Value="26.05.2021 8:00"/>
+    <Property Name="SourceVisualization" Value="D:\Projekty BER\MappDemo\mappDemo\Logical\Visu"/>
+    <Property Name="TargetVisualization" Value="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\Visu"/>
+  </Header>
+  <Resources>
+    <Resource>
+      <Property Name="Forced" Value="1"/>
+      <Property Name="Operation" Value="Skip"/>
+      <Property Name="Reference" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpGroupControlAlarm]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpGroupControl]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpLabelBorder]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_control]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_control_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_decrease]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_decrease_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_default]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_default_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_error]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area_bottom]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area_left]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area_pres_bottom]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area_press_left]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_global_area_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_increase]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_increase_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_off]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_on]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_radio_selected]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_radio_unselected]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_ready]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_down]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_down_multi]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_down_multi_press]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_down_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_left]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_left_multi]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_left_multi_press]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_left_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_right]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_right_multi]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_right_multi_pres]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_right_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_up]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_up_multi]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_up_multi_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_scroll_up_pressed]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpCheckbox_small]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpCheckbox_small_checked]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpCheckbox_small_gray]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpFrameHeader]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpInputBorderCenterless]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpInputBorderInactiveCenterless]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpInputBorderInactive]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpInputBorder]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpLabelBorderDown]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpLabelBorderLeft]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpOutputBorder]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpProgressBorder]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+      </LostDependencies>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="1"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].BitmapGroups[MpPMLStatesGraphics]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_BlueOFF]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_BlueON]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_GreenOFF]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_GreenON]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_YellowOFF]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpPackML_YellowON]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="1"/>
+      <Property Name="Modification" Value="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;Resource '1003': index already exists in ressource.
+&quot;Resource '1004': index already exists in ressource.
+&quot;Resource '504': index already exists in ressource.
+&quot;Resource '47': index already exists in ressource.
+&quot;Resource '35': index already exists in ressource.
+&quot;Resource '1505': index already exists in ressource.
+&quot;Resource '1078': index already exists in ressource.
+&quot;Resource '1079': index already exists in ressource.
+&quot;Resource '1416': index already exists in ressource.
+&quot;Resource '1417': index already exists in ressource.
+&quot;Resource '1400': index already exists in ressource.
+&quot;Resource '1401': index already exists in ressource.
+&quot;Resource '1421': index already exists in ressource.
+&quot;Resource '1424': index already exists in ressource.
+&quot;Resource '1445': index already exists in ressource.
+&quot;Resource '1426': index already exists in ressource.
+&quot;Resource '1446': index already exists in ressource.
+&quot;Resource '1427': index already exists in ressource.
+&quot;Resource '1425': index already exists in ressource.
+&quot;Resource '1414': index already exists in ressource.
+&quot;Resource '1415': index already exists in ressource.
+&quot;Resource '1418': index already exists in ressource.
+&quot;Resource '1419': index already exists in ressource.
+&quot;Resource '1422': index already exists in ressource.
+&quot;Resource '1423': index already exists in ressource.
+&quot;Resource '1420': index already exists in ressource.
+&quot;Resource '1404': index already exists in ressource.
+&quot;Resource '1412': index already exists in ressource.
+&quot;Resource '1413': index already exists in ressource.
+&quot;Resource '1405': index already exists in ressource.
+&quot;Resource '1408': index already exists in ressource.
+&quot;Resource '1336': index already exists in ressource.
+&quot;Resource '1335': index already exists in ressource.
+&quot;Resource '1409': index already exists in ressource.
+&quot;Resource '1406': index already exists in ressource.
+&quot;Resource '1338': index already exists in ressource.
+&quot;Resource '1337': index already exists in ressource.
+&quot;Resource '1407': index already exists in ressource.
+&quot;Resource '1402': index already exists in ressource.
+&quot;Resource '1410': index already exists in ressource.
+&quot;Resource '1411': index already exists in ressource.
+&quot;Resource '1403': index already exists in ressource.
+&quot;Resource '1442': index already exists in ressource.
+&quot;Resource '1443': index already exists in ressource.
+&quot;Resource '1444': index already exists in ressource.
+&quot;Resource '1491': index already exists in ressource.
+&quot;Resource '1498': index already exists in ressource.
+&quot;Resource '1499': index already exists in ressource.
+&quot;Resource '1497': index already exists in ressource.
+&quot;Resource '1493': index already exists in ressource.
+&quot;Resource '2019': index already exists in ressource.
+&quot;Resource '2004': index already exists in ressource.
+&quot;Resource '2020': index already exists in ressource.
+&quot;Resource '2021': index already exists in ressource.
+&quot;Resource '2022': index already exists in ressource.
+&quot;Resource '2023': index already exists in ressource.
+&quot;Resource '2024': index already exists in ressource.
+&quot;Resource '2026': index already exists in ressource.
+&quot;Resource '2027': index already exists in ressource.
+&quot;Resource '2028': index already exists in ressource.
+&quot;Resource '2029': index already exists in ressource.
+&quot;Resource '2030': index already exists in ressource.
+&quot;Resource '2031': index already exists in ressource.
+&quot;Resource '2032': index already exists in ressource.
+&quot;Resource '2033': index already exists in ressource.
+&quot;Resource '2034': index already exists in ressource.
+&quot;Resource '2035': index already exists in ressource.
+&quot;Resource '2036': index already exists in ressource.
+&quot;Resource '2037': index already exists in ressource.
+&quot;Resource '2038': index already exists in ressource.
+&quot;Resource '2039': index already exists in ressource.
+&quot;Resource '2040': index already exists in ressource.
+&quot;Resource '996': index already exists in ressource.
+&quot;Resource '998': index already exists in ressource.
+&quot;Resource '1076': index already exists in ressource.
+&quot;Resource '1490': index already exists in ressource.
+&quot;Resource '5000': index already exists in ressource.
+&quot;Resource '5002': index already exists in ressource.
+&quot;Resource '5001': index already exists in ressource.
+&quot;Resource '5003': index already exists in ressource.
+&quot;Resource '5004': index already exists in ressource.
+&quot;Resource '5006': index already exists in ressource.
+&quot;Resource '5013': index already exists in ressource.
+&quot;Resource '5014': index already exists in ressource.
+&quot;Resource '5015': index already exists in ressource.
+&quot;Resource '5016': index already exists in ressource.
+&quot;Resource '5017': index already exists in ressource.
+&quot;Resource '5018': index already exists in ressource.
+&quot;Resource '5007': index already exists in ressource.
+&quot;Resource '5008': index already exists in ressource.
+&quot;Resource '5100': index already exists in ressource.
+&quot;Resource '5009': index already exists in ressource.
+&quot;Resource '5010': index already exists in ressource.
+&quot;Resource '5011': index already exists in ressource.
+&quot;Resource '5012': index already exists in ressource.
+&quot;Resource '5019': index already exists in ressource.
+&quot;Resource '5020': index already exists in ressource.
+&quot;Resource '5021': index already exists in ressource.
+&quot;Resource '5022': index already exists in ressource.
+&quot;Resource '113': index already exists in ressource.
+&quot;"/>
+      <Property Name="NewName" Value="MpStateGroup"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].BitmapGroups[MpStateGroup]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_gray16]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_gray24]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_green16]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_green24]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_red16]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[state_red24]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Alarm_Quit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Modification" Value="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;Resource '1003': index already exists in ressource.
+&quot;Resource '1004': index already exists in ressource.
+&quot;Resource '504': index already exists in ressource.
+&quot;Resource '47': index already exists in ressource.
+&quot;Resource '35': index already exists in ressource.
+&quot;Resource '1505': index already exists in ressource.
+&quot;Resource '1078': index already exists in ressource.
+&quot;Resource '1079': index already exists in ressource.
+&quot;Resource '1416': index already exists in ressource.
+&quot;Resource '1417': index already exists in ressource.
+&quot;Resource '1400': index already exists in ressource.
+&quot;Resource '1401': index already exists in ressource.
+&quot;Resource '1421': index already exists in ressource.
+&quot;Resource '1424': index already exists in ressource.
+&quot;Resource '1445': index already exists in ressource.
+&quot;Resource '1426': index already exists in ressource.
+&quot;Resource '1446': index already exists in ressource.
+&quot;Resource '1427': index already exists in ressource.
+&quot;Resource '1425': index already exists in ressource.
+&quot;Resource '1414': index already exists in ressource.
+&quot;Resource '1415': index already exists in ressource.
+&quot;Resource '1418': index already exists in ressource.
+&quot;Resource '1419': index already exists in ressource.
+&quot;Resource '1422': index already exists in ressource.
+&quot;Resource '1423': index already exists in ressource.
+&quot;Resource '1420': index already exists in ressource.
+&quot;Resource '1404': index already exists in ressource.
+&quot;Resource '1412': index already exists in ressource.
+&quot;Resource '1413': index already exists in ressource.
+&quot;Resource '1405': index already exists in ressource.
+&quot;Resource '1408': index already exists in ressource.
+&quot;Resource '1336': index already exists in ressource.
+&quot;Resource '1335': index already exists in ressource.
+&quot;Resource '1409': index already exists in ressource.
+&quot;Resource '1406': index already exists in ressource.
+&quot;Resource '1338': index already exists in ressource.
+&quot;Resource '1337': index already exists in ressource.
+&quot;Resource '1407': index already exists in ressource.
+&quot;Resource '1402': index already exists in ressource.
+&quot;Resource '1410': index already exists in ressource.
+&quot;Resource '1411': index already exists in ressource.
+&quot;Resource '1403': index already exists in ressource.
+&quot;Resource '1442': index already exists in ressource.
+&quot;Resource '1443': index already exists in ressource.
+&quot;Resource '1444': index already exists in ressource.
+&quot;Resource '1491': index already exists in ressource.
+&quot;Resource '1498': index already exists in ressource.
+&quot;Resource '1499': index already exists in ressource.
+&quot;Resource '1497': index already exists in ressource.
+&quot;Resource '1493': index already exists in ressource.
+&quot;Resource '2019': index already exists in ressource.
+&quot;Resource '2004': index already exists in ressource.
+&quot;Resource '2020': index already exists in ressource.
+&quot;Resource '2021': index already exists in ressource.
+&quot;Resource '2022': index already exists in ressource.
+&quot;Resource '2023': index already exists in ressource.
+&quot;Resource '2024': index already exists in ressource.
+&quot;Resource '2026': index already exists in ressource.
+&quot;Resource '2027': index already exists in ressource.
+&quot;Resource '2028': index already exists in ressource.
+&quot;Resource '2029': index already exists in ressource.
+&quot;Resource '2030': index already exists in ressource.
+&quot;Resource '2031': index already exists in ressource.
+&quot;Resource '2032': index already exists in ressource.
+&quot;Resource '2033': index already exists in ressource.
+&quot;Resource '2034': index already exists in ressource.
+&quot;Resource '2035': index already exists in ressource.
+&quot;Resource '2036': index already exists in ressource.
+&quot;Resource '2037': index already exists in ressource.
+&quot;Resource '2038': index already exists in ressource.
+&quot;Resource '2039': index already exists in ressource.
+&quot;Resource '2040': index already exists in ressource.
+&quot;Resource '996': index already exists in ressource.
+&quot;Resource '998': index already exists in ressource.
+&quot;Resource '1076': index already exists in ressource.
+&quot;Resource '1490': index already exists in ressource.
+&quot;Resource '5000': index already exists in ressource.
+&quot;Resource '5002': index already exists in ressource.
+&quot;Resource '5001': index already exists in ressource.
+&quot;Resource '5003': index already exists in ressource.
+&quot;Resource '5004': index already exists in ressource.
+&quot;Resource '5006': index already exists in ressource.
+&quot;Resource '5013': index already exists in ressource.
+&quot;Resource '5014': index already exists in ressource.
+&quot;Resource '5015': index already exists in ressource.
+&quot;Resource '5016': index already exists in ressource.
+&quot;Resource '5017': index already exists in ressource.
+&quot;Resource '5018': index already exists in ressource.
+&quot;Resource '5007': index already exists in ressource.
+&quot;Resource '5008': index already exists in ressource.
+&quot;Resource '5100': index already exists in ressource.
+&quot;Resource '5009': index already exists in ressource.
+&quot;Resource '5010': index already exists in ressource.
+&quot;Resource '5011': index already exists in ressource.
+&quot;Resource '5012': index already exists in ressource.
+&quot;Resource '5019': index already exists in ressource.
+&quot;Resource '5020': index already exists in ressource.
+&quot;Resource '5021': index already exists in ressource.
+&quot;Resource '5022': index already exists in ressource.
+&quot;Resource '113': index already exists in ressource.
+&quot;"/>
+      <Property Name="NewName" Value="Brewing"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Brewing]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Cappucino]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[CoffeeCup]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Coffee]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[CustomCoffee]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Espresso]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Modification" Value="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;Resource '1003': index already exists in ressource.
+&quot;Resource '1004': index already exists in ressource.
+&quot;Resource '504': index already exists in ressource.
+&quot;Resource '47': index already exists in ressource.
+&quot;Resource '35': index already exists in ressource.
+&quot;Resource '1505': index already exists in ressource.
+&quot;Resource '1078': index already exists in ressource.
+&quot;Resource '1079': index already exists in ressource.
+&quot;Resource '1416': index already exists in ressource.
+&quot;Resource '1417': index already exists in ressource.
+&quot;Resource '1400': index already exists in ressource.
+&quot;Resource '1401': index already exists in ressource.
+&quot;Resource '1421': index already exists in ressource.
+&quot;Resource '1424': index already exists in ressource.
+&quot;Resource '1445': index already exists in ressource.
+&quot;Resource '1426': index already exists in ressource.
+&quot;Resource '1446': index already exists in ressource.
+&quot;Resource '1427': index already exists in ressource.
+&quot;Resource '1425': index already exists in ressource.
+&quot;Resource '1414': index already exists in ressource.
+&quot;Resource '1415': index already exists in ressource.
+&quot;Resource '1418': index already exists in ressource.
+&quot;Resource '1419': index already exists in ressource.
+&quot;Resource '1422': index already exists in ressource.
+&quot;Resource '1423': index already exists in ressource.
+&quot;Resource '1420': index already exists in ressource.
+&quot;Resource '1404': index already exists in ressource.
+&quot;Resource '1412': index already exists in ressource.
+&quot;Resource '1413': index already exists in ressource.
+&quot;Resource '1405': index already exists in ressource.
+&quot;Resource '1408': index already exists in ressource.
+&quot;Resource '1336': index already exists in ressource.
+&quot;Resource '1335': index already exists in ressource.
+&quot;Resource '1409': index already exists in ressource.
+&quot;Resource '1406': index already exists in ressource.
+&quot;Resource '1338': index already exists in ressource.
+&quot;Resource '1337': index already exists in ressource.
+&quot;Resource '1407': index already exists in ressource.
+&quot;Resource '1402': index already exists in ressource.
+&quot;Resource '1410': index already exists in ressource.
+&quot;Resource '1411': index already exists in ressource.
+&quot;Resource '1403': index already exists in ressource.
+&quot;Resource '1442': index already exists in ressource.
+&quot;Resource '1443': index already exists in ressource.
+&quot;Resource '1444': index already exists in ressource.
+&quot;Resource '1491': index already exists in ressource.
+&quot;Resource '1498': index already exists in ressource.
+&quot;Resource '1499': index already exists in ressource.
+&quot;Resource '1497': index already exists in ressource.
+&quot;Resource '1493': index already exists in ressource.
+&quot;Resource '2019': index already exists in ressource.
+&quot;Resource '2004': index already exists in ressource.
+&quot;Resource '2020': index already exists in ressource.
+&quot;Resource '2021': index already exists in ressource.
+&quot;Resource '2022': index already exists in ressource.
+&quot;Resource '2023': index already exists in ressource.
+&quot;Resource '2024': index already exists in ressource.
+&quot;Resource '2026': index already exists in ressource.
+&quot;Resource '2027': index already exists in ressource.
+&quot;Resource '2028': index already exists in ressource.
+&quot;Resource '2029': index already exists in ressource.
+&quot;Resource '2030': index already exists in ressource.
+&quot;Resource '2031': index already exists in ressource.
+&quot;Resource '2032': index already exists in ressource.
+&quot;Resource '2033': index already exists in ressource.
+&quot;Resource '2034': index already exists in ressource.
+&quot;Resource '2035': index already exists in ressource.
+&quot;Resource '2036': index already exists in ressource.
+&quot;Resource '2037': index already exists in ressource.
+&quot;Resource '2038': index already exists in ressource.
+&quot;Resource '2039': index already exists in ressource.
+&quot;Resource '2040': index already exists in ressource.
+&quot;Resource '996': index already exists in ressource.
+&quot;Resource '998': index already exists in ressource.
+&quot;Resource '1076': index already exists in ressource.
+&quot;Resource '1490': index already exists in ressource.
+&quot;Resource '5000': index already exists in ressource.
+&quot;Resource '5002': index already exists in ressource.
+&quot;Resource '5001': index already exists in ressource.
+&quot;Resource '5003': index already exists in ressource.
+&quot;Resource '5004': index already exists in ressource.
+&quot;Resource '5006': index already exists in ressource.
+&quot;Resource '5013': index already exists in ressource.
+&quot;Resource '5014': index already exists in ressource.
+&quot;Resource '5015': index already exists in ressource.
+&quot;Resource '5016': index already exists in ressource.
+&quot;Resource '5017': index already exists in ressource.
+&quot;Resource '5018': index already exists in ressource.
+&quot;Resource '5007': index already exists in ressource.
+&quot;Resource '5008': index already exists in ressource.
+&quot;Resource '5100': index already exists in ressource.
+&quot;Resource '5009': index already exists in ressource.
+&quot;Resource '5010': index already exists in ressource.
+&quot;Resource '5011': index already exists in ressource.
+&quot;Resource '5012': index already exists in ressource.
+&quot;Resource '5019': index already exists in ressource.
+&quot;Resource '5020': index already exists in ressource.
+&quot;Resource '5021': index already exists in ressource.
+&quot;Resource '5022': index already exists in ressource.
+&quot;Resource '113': index already exists in ressource.
+&quot;"/>
+      <Property Name="NewName" Value="Gauge1Scaled"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Gauge1Scaled]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_AcknowledgeReset]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_Active]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_BypassON]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_Inactive]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_NotQuit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_Quit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAlarm_ResetAcknowledge]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_3rdPartyEvent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_CheckBox]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_CheckBox_checked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_CustomEvent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_UserEvent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAudit_VC4Event]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAxis_Alarm]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAxis_Gear_Off]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAxis_Gear_On]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpAxis_Warning]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpBackTransparent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpBackgroundSemiTransparent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpBackgroundVGA_Logo]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpBorderSlider09x09]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_control]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_control_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_decrease]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_decrease_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_default]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_default_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_device_selected_left]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_device_unselected_left]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_error]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area_bottom]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area_left]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area_pres_bottom]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area_press_left]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_global_area_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_increase]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_increase_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_off]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_on]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_radio_selected]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_radio_unselected]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_ready]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_down]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_down_multi]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_down_multi_press]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_down_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_left]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_left_multi]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_left_multi_press]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_left_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_right]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_right_multi]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_right_multi_pres]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_right_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_up]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_up_multi]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_up_multi_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpButton_scroll_up_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCheckBoxGray]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCheckBoxOrange]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCheckbox_small]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCheckbox_small_checked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCheckbox_small_gray]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpClickMe]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCoffee_Cooling]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpCoffee_Heating]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpComLoggerAlarm]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpComLoggerInformation]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpComLoggerUI]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpComLoggerWarning]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_ArrowDown]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_ArrowLeft]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_ArrowRight]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_ArrowUp]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_BMP]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_CSV]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_Cancel]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_DOC]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_FILE]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_FOLDER]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_HTML]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_JPG]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_OK]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_PDF]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_TXT]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_UNKOWN]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER10]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER2]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER3]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER4]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER5]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER6]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER7]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER8]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_USER9]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_XLS]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFile_XML]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFrameHeader]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpFrameInvisible]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpGroupControlAlarm]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Modification" Value="Resource 'MpGroupControl': renamed to 'MpGroupControl_0'.
+"/>
+      <Property Name="NewName" Value="MpGroupControl_0"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpGroupControl]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAlarmClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAlarmXClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAlarmX]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAlarm]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAuditClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAudit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAxis1Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAxis1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAxisClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpAxis]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCnc1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCnc2Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCnc3Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCnc]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCoffeeClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpComClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpCom]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpDataClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpData]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpDelta1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpDelta3Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpDelta4Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpDelta]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpEnergyClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpEnergy]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpFileClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpFile]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpHeat]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpOeeClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpOeeList]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpOeeTimeline]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpOeeTrend]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpOee]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpPackMLClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpPackML]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRecipeClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRecipeXClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRecipeX]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRecipe]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm4Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm4]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm5Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm5]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm6Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpRoboArm6]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpScara1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpScara2Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpScara4Click]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpScara]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpSpindleClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpSpindle]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpTeachClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpTeach]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpTrendClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpTrend]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpUser1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpUserClick1]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpUserClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpUser]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpWebXsClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpWebXs]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpWinderClick]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_MpWinder]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpIcon_mapp]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_ActiveWarning]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Coffee]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Config]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Diagnostics]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Home]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Warning]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpImg_Warning_0]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpInputBorderCenterless]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpInputBorderInactiveCenterless]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpInputBorderInactive]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpInputBorder]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_lowerPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_lower]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_numeric2Pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_numeric2]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_numericPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_numeric]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_upperPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_AlphaPad_upper]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_lowerPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_lower]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_numeric2Pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_numeric2]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_numericPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_numeric]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_upperPressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_EditPad_upper]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_ListPadHor]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_ListPadHor_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_ListPadVer]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_ListPadVer_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_Numpad]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpKey_Numpad_pressed]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpLabelBorderDown]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpLabelBorderLeft]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Modification" Value="Resource 'MpLabelBorder': renamed to 'MpLabelBorder_0'.
+"/>
+      <Property Name="NewName" Value="MpLabelBorder_0"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpLabelBorder]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpLogoTransparent]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeList]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeList_64x64]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeTimeline]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeTimeline_64x64]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeTrend]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOeeTrend_64x64]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpOutputBorder]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_BlueOFF]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_BlueON]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_GreenOFF]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_GreenON]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_Main]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_YellowOFF]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpPackML_YellowON]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpProgressBorder]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpSlider_BallGray]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpSlider_BallGray_small]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Add]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Copy]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Cut]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Delete]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Export]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Generate]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Import]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Insert]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_MoveDown]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_MoveUp]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Paste]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpTeach_Replace]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_add]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_add_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_delete]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_delete_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_edit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUserGroup_edit_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_CriteriaError]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_CriteriaOK]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Exit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Exit_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Export]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Export_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Import]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_Import_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_UserEdit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_UserGroupEdit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_add]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_add_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_clock_stop]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_delete]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_delete_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_edit]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_edit_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_lock]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_lock_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_pw_change]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[MpUser_pw_change_locked]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[NeedleActScaled]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[NeedleSetScaled]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[Transport_belt]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_gray16]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_gray24]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_green16]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_green24]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_red16]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Modification" Value="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;Resource '1003': index already exists in ressource.
+&quot;Resource '1004': index already exists in ressource.
+&quot;Resource '504': index already exists in ressource.
+&quot;Resource '47': index already exists in ressource.
+&quot;Resource '35': index already exists in ressource.
+&quot;Resource '1505': index already exists in ressource.
+&quot;Resource '1078': index already exists in ressource.
+&quot;Resource '1079': index already exists in ressource.
+&quot;Resource '1416': index already exists in ressource.
+&quot;Resource '1417': index already exists in ressource.
+&quot;Resource '1400': index already exists in ressource.
+&quot;Resource '1401': index already exists in ressource.
+&quot;Resource '1421': index already exists in ressource.
+&quot;Resource '1424': index already exists in ressource.
+&quot;Resource '1445': index already exists in ressource.
+&quot;Resource '1426': index already exists in ressource.
+&quot;Resource '1446': index already exists in ressource.
+&quot;Resource '1427': index already exists in ressource.
+&quot;Resource '1425': index already exists in ressource.
+&quot;Resource '1414': index already exists in ressource.
+&quot;Resource '1415': index already exists in ressource.
+&quot;Resource '1418': index already exists in ressource.
+&quot;Resource '1419': index already exists in ressource.
+&quot;Resource '1422': index already exists in ressource.
+&quot;Resource '1423': index already exists in ressource.
+&quot;Resource '1420': index already exists in ressource.
+&quot;Resource '1404': index already exists in ressource.
+&quot;Resource '1412': index already exists in ressource.
+&quot;Resource '1413': index already exists in ressource.
+&quot;Resource '1405': index already exists in ressource.
+&quot;Resource '1408': index already exists in ressource.
+&quot;Resource '1336': index already exists in ressource.
+&quot;Resource '1335': index already exists in ressource.
+&quot;Resource '1409': index already exists in ressource.
+&quot;Resource '1406': index already exists in ressource.
+&quot;Resource '1338': index already exists in ressource.
+&quot;Resource '1337': index already exists in ressource.
+&quot;Resource '1407': index already exists in ressource.
+&quot;Resource '1402': index already exists in ressource.
+&quot;Resource '1410': index already exists in ressource.
+&quot;Resource '1411': index already exists in ressource.
+&quot;Resource '1403': index already exists in ressource.
+&quot;Resource '1442': index already exists in ressource.
+&quot;Resource '1443': index already exists in ressource.
+&quot;Resource '1444': index already exists in ressource.
+&quot;Resource '1491': index already exists in ressource.
+&quot;Resource '1498': index already exists in ressource.
+&quot;Resource '1499': index already exists in ressource.
+&quot;Resource '1497': index already exists in ressource.
+&quot;Resource '1493': index already exists in ressource.
+&quot;Resource '2019': index already exists in ressource.
+&quot;Resource '2004': index already exists in ressource.
+&quot;Resource '2020': index already exists in ressource.
+&quot;Resource '2021': index already exists in ressource.
+&quot;Resource '2022': index already exists in ressource.
+&quot;Resource '2023': index already exists in ressource.
+&quot;Resource '2024': index already exists in ressource.
+&quot;Resource '2026': index already exists in ressource.
+&quot;Resource '2027': index already exists in ressource.
+&quot;Resource '2028': index already exists in ressource.
+&quot;Resource '2029': index already exists in ressource.
+&quot;Resource '2030': index already exists in ressource.
+&quot;Resource '2031': index already exists in ressource.
+&quot;Resource '2032': index already exists in ressource.
+&quot;Resource '2033': index already exists in ressource.
+&quot;Resource '2034': index already exists in ressource.
+&quot;Resource '2035': index already exists in ressource.
+&quot;Resource '2036': index already exists in ressource.
+&quot;Resource '2037': index already exists in ressource.
+&quot;Resource '2038': index already exists in ressource.
+&quot;Resource '2039': index already exists in ressource.
+&quot;Resource '2040': index already exists in ressource.
+&quot;Resource '996': index already exists in ressource.
+&quot;Resource '998': index already exists in ressource.
+&quot;Resource '1076': index already exists in ressource.
+&quot;Resource '1490': index already exists in ressource.
+&quot;Resource '5000': index already exists in ressource.
+&quot;Resource '5002': index already exists in ressource.
+&quot;Resource '5001': index already exists in ressource.
+&quot;Resource '5003': index already exists in ressource.
+&quot;Resource '5004': index already exists in ressource.
+&quot;Resource '5006': index already exists in ressource.
+&quot;Resource '5013': index already exists in ressource.
+&quot;Resource '5014': index already exists in ressource.
+&quot;Resource '5015': index already exists in ressource.
+&quot;Resource '5016': index already exists in ressource.
+&quot;Resource '5017': index already exists in ressource.
+&quot;Resource '5018': index already exists in ressource.
+&quot;Resource '5007': index already exists in ressource.
+&quot;Resource '5008': index already exists in ressource.
+&quot;Resource '5100': index already exists in ressource.
+&quot;Resource '5009': index already exists in ressource.
+&quot;Resource '5010': index already exists in ressource.
+&quot;Resource '5011': index already exists in ressource.
+&quot;Resource '5012': index already exists in ressource.
+&quot;Resource '5019': index already exists in ressource.
+&quot;Resource '5020': index already exists in ressource.
+&quot;Resource '5021': index already exists in ressource.
+&quot;Resource '5022': index already exists in ressource.
+&quot;Resource '113': index already exists in ressource.
+&quot;"/>
+      <Property Name="NewName" Value="state_red24"/>
+      <Property Name="Operation" Value="Rename &amp; Modify"/>
+      <Property Name="Reference" Value="Source[Visu].Bitmaps[state_red24]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_AttentionOff]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpAxis_Warning]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_AttentionOn]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpAxis_Alarm]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Control]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Control_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Device_Select_Left]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_device_selected_left]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Device_Unselect_Left]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpButton_device_unselected_left]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_KeyRingOff]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_KeyRingOn]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Multi_Scroll_Down]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Multi_Scroll_Dwn_press]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Multi_Scroll_Up]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Multi_Scroll_Up_press]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scoll_Up]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scoll_Up_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Down]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Down_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Left]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Left_Multi]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Left_Multi_pres]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Left_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Right]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Right_Multi]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Right_Multi_pr]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_Scroll_Right_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Button_pressed]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_CheckBox_checked]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_Flat_grey]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_FrameInvisible]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpFrameInvisible]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_GroupControlAlarm]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_GroupControl]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_InputBorderInactive]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_InputBorder]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_LabelBorderDown]"/>
+      <ImportedDependencies/>
+      <LostDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpLabelBorderDown]"/>
+          <Property Name="Resolution" Value="Removed"/>
+        </Dependency>
+      </LostDependencies>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_LabelBorder]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_MoveOff]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpAxis_Gear_Off]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_MoveOn]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpAxis_Gear_On]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_OutputBorder]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_PackML_States]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpPMLStatesGraphics]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_SliderBorder09]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].Bitmaps[MpBorderSlider09x09]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_State_gray]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpStateGroup]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_State_green]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpStateGroup]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_State_red]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpStateGroup]"/>
+          <Property Name="Resolution" Value="Imported"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_SunkenNG]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_SunkenNGgray]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Overwrite"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_TabActive]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_TeachInputBorderActive]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="0"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Borders[Mp_TeachInputBorderInactive]"/>
+      <ImportedDependencies>
+        <Dependency>
+          <Property Name="ReferencePath" Value="Source[Visu].BitmapGroups[MpBorders]"/>
+          <Property Name="Resolution" Value="Redirected"/>
+        </Dependency>
+      </ImportedDependencies>
+      <LostDependencies/>
+    </Resource>
+    <Resource>
+      <Property Name="Forced" Value="1"/>
+      <Property Name="Operation" Value="Import"/>
+      <Property Name="Reference" Value="Source[Visu].Palette[Palette]"/>
+      <ImportedDependencies/>
+      <LostDependencies/>
+    </Resource>
+  </Resources>
+</ImportLog>

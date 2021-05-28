@@ -28,9 +28,9 @@ TON(&CasZobrazeniaUvodnejObrazovky);
 
 
 
-if((Zariadenie.IN.Safety_SpatnaVazba_KF1&(Zariadenie.IN.Safety_Aktivne_KF1^1))){
+if((Zariadenie.IN.Safety_SpatnaVazba_KF1&(Zariadenie.IN.Safety_Aktivne^1))){
 (Vizu.PodsvietenieTlacitka_ResetCS=Blikac500ms);
-}else if(Zariadenie.IN.Safety_Aktivne_KF1){
+}else if(Zariadenie.IN.Safety_Aktivne){
 (Vizu.PodsvietenieTlacitka_ResetCS=2);
 }else{
 (Vizu.PodsvietenieTlacitka_ResetCS=3);
@@ -52,13 +52,15 @@ if(((((unsigned long)(unsigned char)CasZobrazeniaUvodnejObrazovky.Q==(unsigned l
 
 if(Zariadenie.STAV.Automat){
 (Vizu.TL_RezimManual_DISABLE=1);
+}else if((Zariadenie.IN.Safety_Aktivne^1)){
+(Vizu.TL_RezimManual_DISABLE=1);
 }else{
 (Vizu.TL_RezimManual_DISABLE=0);
 }
 
 
 
-if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
+if((Zariadenie.IN.Safety_Aktivne^1)){
 (Vizu.TL_StartAutomat_DISABLE=1);
 }else if(NastalaPorucha){
 (Vizu.TL_StartAutomat_DISABLE=1);
@@ -86,7 +88,7 @@ if((Zariadenie.STAV.PoINIT&(Zariadenie.STAV.UkoncenieCyklu_BUSY^1))){
 
 
 
-if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
+if((Zariadenie.IN.Safety_Aktivne^1)){
 (Vizu.TL_RR_PreklapacDotlacace_DISABLE=1);
 }else if(NastalaPorucha){
 (Vizu.TL_RR_PreklapacDotlacace_DISABLE=1);
@@ -95,11 +97,9 @@ if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
 }
 
 
-if((Zariadenie.IN.Safety_Aktivne_KF1^1)){
+if((Zariadenie.IN.Safety_Aktivne^1)){
 (Vizu.TL_RR_PreklapacZdvih_DISABLE=1);
 }else if(NastalaPorucha){
-(Vizu.TL_RR_PreklapacZdvih_DISABLE=1);
-}else if((Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2^1)){
 (Vizu.TL_RR_PreklapacZdvih_DISABLE=1);
 }else if((Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4^1)){
 (Vizu.TL_RR_PreklapacZdvih_DISABLE=1);

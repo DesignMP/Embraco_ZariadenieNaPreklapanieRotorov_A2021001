@@ -49,11 +49,11 @@
           <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="AlignmentVertical" Value="Center"/>
           <Property Name="BackColor" Value="249"/>
-          <Property Name="Border" Value="Source[local].Border[Mp_SunkenNG]"/>
+          <Property Name="Border" Value="Source[local].Border[ProgressBarBorder]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="FillStyle" Value="Opaque"/>
-          <Property Name="Font" Value="Source[local].Font[Arial10_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial10]"/>
           <Property Name="Height" Value="20"/>
           <Property Name="Left" Value="140"/>
           <Property Name="Multiline" Value="Automatic"/>
@@ -75,7 +75,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_1]"/>
-          <Property Name="Font" Value="Source[local].Font[Arial11_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="50"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
@@ -105,7 +105,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_2]"/>
-          <Property Name="Font" Value="Source[local].Font[Arial11_Bold]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial12]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="50"/>
           <Property Name="KeyMatrixOffset" Value="None"/>

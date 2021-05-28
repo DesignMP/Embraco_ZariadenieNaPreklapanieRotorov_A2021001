@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="MpGroupControlAlarm" ClsId="0x306" Version="1" TargetIndex="995" Type="GFX" RefString="Source[local].Bitmap[MpGroupControlAlarm]">
+        <UInt16 Name="Width">219</UInt16>
+        <UInt16 Name="Height">119</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAANsAAAB3CAYAAACKXTXVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVHhe7djNShthAIbR3oq9D+/fUHfWatUKVq0YhLqr4M/UsYmUNqULkwc058ALgWQ+ZvOQYd5NJluDma1+T7Hdvn//Kvaa7tXs94nNLJrYzKKJzSya2Myiic0smtjMoonNLJrYzKKJzSya2Myiic0smtjMoonNLJrYzKKJzSya2Myiic0smtjMoonNLJrYzKKJzSya2Myiic0smtjMoonNLJrYzKKJzSya2Myiic0smtjMoj3H9tItOvx/m0wmf51j9pb3FNtLPDw8DAcHBwuD+teOjg6Hy8vL2Qnw9i0lttHd3d2wu/txYVh/7vj4yzCdTmdXwnpYWmyjm5ubYWdnZ2Fg852efh3Oz89nV8D6WGpso+vr78P+/v7C0C4uLoaTk5PZL2G9LD220TyqeWQ/NjeHy8fHxvHxEdbVSmIbjS9Arq6uhtuNjWF6djZ8Pjwc7u/vZ9/C+llZbGNYe3ufHv/lvj29qRQa625lsc1tb3+YfYL1tvLYgF/EBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRMQGEbFBRGwQERtExAYRsUFEbBARG0TEBhGxQURsEBEbRJ5jM7NVb2v4CaydgBET+jZ4AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

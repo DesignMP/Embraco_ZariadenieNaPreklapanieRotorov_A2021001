@@ -57,7 +57,10 @@ TYPE
 	ZariadenieIN_typ : 	STRUCT 
 		TlakVzduchu_OK_S1 : BOOL;
 		Safety_SpatnaVazba_KF1 : BOOL;
-		Safety_Aktivne_KF1 : BOOL;
+		Safety_ReleCakaNaReset_KF1 : BOOL;
+		Safety_SpatnaVazba_Ventil_YVS1 : BOOL;
+		Safety_SpatnaVazba_Ventil_YVS2 : BOOL;
+		Safety_Aktivne : BOOL;
 	END_STRUCT;
 	ZariadenieOUT_typ : 	STRUCT 
 		Majak_ZeleneSvetlo : BOOL;
@@ -108,7 +111,6 @@ TYPE
 		VstupnyDotlacac_VYSUN_YV1 : BOOL;
 		VstupnyDotlacac_ZASUN_YV2 : BOOL;
 		VystupnyDotlacac_VYSUN_YV3 : BOOL;
-		VystupnyDotlacac_ZASUN_YV4 : BOOL;
 		Vytah_ZDVIH_YV5 : BOOL;
 		Vytah_ZOSTUP_YV6 : BOOL;
 	END_STRUCT;

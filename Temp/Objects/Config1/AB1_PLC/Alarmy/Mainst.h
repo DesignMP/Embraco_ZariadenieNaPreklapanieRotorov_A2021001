@@ -102,7 +102,10 @@ typedef struct Vizu_typ
 typedef struct ZariadenieIN_typ
 {	plcbit TlakVzduchu_OK_S1;
 	plcbit Safety_SpatnaVazba_KF1;
-	plcbit Safety_Aktivne_KF1;
+	plcbit Safety_ReleCakaNaReset_KF1;
+	plcbit Safety_SpatnaVazba_Ventil_YVS1;
+	plcbit Safety_SpatnaVazba_Ventil_YVS2;
+	plcbit Safety_Aktivne;
 } ZariadenieIN_typ;
 #endif
 
@@ -173,4 +176,3 @@ _GLOBAL plcbit PotvrdenieAlarmov;
 _GLOBAL HardwareSTAV_typ Hardware;
 _GLOBAL Zariadenie_typ Zariadenie;
 _GLOBAL Vizu_typ Vizu;
-_LOCAL plcbit Edge0000100000;

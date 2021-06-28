@@ -11,7 +11,6 @@ VAR_CONFIG
 	Cyclic#1.Preklapac.IN.Vytah_SpodnaPoloha_MS6 AT %IX."AB3_16DI".DigitalInput07;
 	Cyclic#1.Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1 AT %IX."AB3_16DI".DigitalInput08;
 	Cyclic#1.Zariadenie.IN.Safety_SpatnaVazba_KF1 AT %IX."AB3_16DI".DigitalInput09;
-	Cyclic#1.Zariadenie.IN.Safety_ReleCakaNaReset_KF1 AT %IX."AB3_16DI".DigitalInput10;
 	Cyclic#1.Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1 AT %IX."AB3_16DI".DigitalInput11;
 	Cyclic#1.Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2 AT %IX."AB3_16DI".DigitalInput12;
 	Cyclic#1.Preklapac.IN.VystupnyDopravnik_PLNY_OS3 AT %IX."AB3_16DI".DigitalInput13;
@@ -28,4 +27,5 @@ VAR_CONFIG
 	Cyclic#1.Zariadenie.IN.Safety_SpatnaVazba_Ventil_YVS1 AT %IX."AB3_16DI".DigitalInput14;
 	Cyclic#1.Zariadenie.IN.Safety_SpatnaVazba_Ventil_YVS2 AT %IX."AB3_16DI".DigitalInput15;
 	Cyclic#1.Zariadenie.IN.Safety_Aktivne AT %IX."AB3_16DI".DigitalInput16;
+	Cyclic#1.Preklapac.IN.VystupnyDopravnik_StavOK AT %IX."AB3_16DI".DigitalInput10;
 END_VAR

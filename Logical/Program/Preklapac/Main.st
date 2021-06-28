@@ -18,8 +18,8 @@ PROGRAM _CYCLIC
 	 
     //Reset sekcie //
     IF NOT Zariadenie.IN.Safety_Aktivne THEN
-        SC_Preklapac.Step:= 0;
-    ELSIF NastalaPorucha THEN
+		SC_Preklapac.Step:= 0;
+	ELSIF NastalaPorucha THEN
         SC_Preklapac.Step:= 0;
     ELSIF Preklapac.Reset THEN
         SC_Preklapac.Step:= 0;
@@ -125,7 +125,9 @@ PROGRAM _CYCLIC
             
             IF Preklapac.KoniecCyklu THEN
                 SC_Preklapac.ResetStep:= TRUE;
-                SC_Preklapac.Step:= 0;
+				SC_Preklapac.Step:= 0;
+			ELSIF NOT Preklapac.IN.VystupnyDopravnik_StavOK THEN
+				SC_Preklapac.Step:= 0;	
             ELSIF SC_Preklapac.IdleTime.Q THEN
                 SC_Preklapac.ResetStep:= TRUE;
                 SC_Preklapac.Step:= 108;
@@ -203,9 +205,11 @@ PROGRAM _CYCLIC
         
             SC_Preklapac.AlarmTime.IN:= Preklapac.KoniecCyklu;
             
-            SC_Preklapac.IdleTime.IN:= NOT Preklapac.IN.VystupnyDopravnik_PLNY_OS3;
+            SC_Preklapac.IdleTime.IN:= NOT Preklapac.IN.VystupnyDopravnik_PLNY_OS3 AND Preklapac.IN.VystupnyDopravnik_StavOK;
         
-            IF SC_Preklapac.IdleTime.Q THEN
+			IF NOT Preklapac.IN.VystupnyDopravnik_StavOK THEN
+				SC_Preklapac.Step:= 0;
+            ELSIF SC_Preklapac.IdleTime.Q THEN
                 SC_Preklapac.ResetStep:= TRUE;
                 SC_Preklapac.Step:= 128;
             ELSIF SC_Preklapac.AlarmTime.Q THEN

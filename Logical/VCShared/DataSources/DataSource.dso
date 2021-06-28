@@ -167,6 +167,15 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="BOOL"/>
       </DataPoint>
+      <DataPoint Name="TP_PopUp_VystupDopRozpojeny">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="USINT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+      </DataPoint>
     </Folder>
     <Folder Name="Zariadenie">
       <Property Name="Description" Value=""/>
@@ -461,5 +470,14 @@
         </DataPoint>
       </Folder>
     </Folder>
+    <DataPoint Name="Blikac500ms">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="HMI\Visu"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="BOOL"/>
+    </DataPoint>
   </DataPoints>
 </DataSource>

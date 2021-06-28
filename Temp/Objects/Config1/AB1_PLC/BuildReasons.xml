@@ -9,4 +9,8 @@
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\ab1_plc\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\ab1_plc\visu.br" differs.
+</BuildReason>
+  </Rule>
 </BuildReasons>

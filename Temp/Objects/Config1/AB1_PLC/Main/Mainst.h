@@ -92,7 +92,8 @@ typedef struct Vizu_typ
 	unsigned char Slider;
 	plcbit FarbaTlacitkaAlarm_Index;
 	plcbit ZobrazSymbolAlarmu;
-	unsigned char ZobrazHlasenie_ResetZariadenia;
+	unsigned char TP_PopUp_ResetZariadenia;
+	unsigned char TP_PopUp_VystupDopRozpojeny;
 	unsigned char PodsvietenieTlacitka_ResetCS;
 } Vizu_typ;
 #endif
@@ -167,6 +168,7 @@ typedef struct PreklapacIN_typ
 	plcbit Vytah_Pozicia1_PritomRotora_OS1;
 	plcbit Vytah_Pozicia2_PritomRotora_OS2;
 	plcbit VystupnyDopravnik_PLNY_OS3;
+	plcbit VystupnyDopravnik_StavOK;
 } PreklapacIN_typ;
 #endif
 

@@ -32,16 +32,19 @@
           <Text ID="236814" Value="ŠTART"/>
           <Text ID="236815" Value="STOP"/>
           <Text ID="236937" Value="RESET"/>
+          <Text ID="237842" Value="Výstupný dopravník je rozpojený !!!"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="236814" Value=""/>
           <Text ID="236815" Value=""/>
           <Text ID="236937" Value=""/>
+          <Text ID="237842" Value="Text_1"/>
         </TextLayer>
         <IndexMap>
           <Index ID="236814" Value="6"/>
           <Index ID="236815" Value="8"/>
           <Index ID="236937" Value="2"/>
+          <Index ID="237842" Value="4"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -149,12 +152,37 @@
           <Property Name="Font" Value="Source[local].Font[Arial11]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="25"/>
-          <Property Name="Left" Value="5"/>
+          <Property Name="Left" Value="4"/>
           <Property Name="SimulationValue" Value="ABC"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="Top" Value="42"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.SC_Preklapac.StepName]"/>
           <Property Name="Width" Value="470"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="48"/>
+          <Property Name="Border" Value="Source[local].Border[SunkenNGgray]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial18_Bold]"/>
+          <Property Name="Height" Value="65"/>
+          <Property Name="HighlightingBackColor" Value="0"/>
+          <Property Name="HighlightingBorder" Value="Source[local].Border[SunkenNGgray]"/>
+          <Property Name="HighlightingDatapoint" Value="Source[global].Variable[DataSource.Blikac500ms]"/>
+          <Property Name="HighlightingForeColor" Value="48"/>
+          <Property Name="Left" Value="23"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.Vizu.TP_PopUp_VystupDopRozpojeny]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="84"/>
+          <Property Name="Width" Value="432"/>
         </Control>
       </Controls>
       <KeyMapping>

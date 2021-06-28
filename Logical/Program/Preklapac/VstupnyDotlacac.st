@@ -12,8 +12,8 @@ ACTION VstupnyDotlacac:
             SC_VstupnyDotlacac.StepName:= '0 - Nulovanie';
             VstupnyDotlacac_VYSUN:= FALSE;
             VstupnyDotlacac_ZASUN:= FALSE;
-//            Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1:= FALSE;
-//            Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2:= FALSE;
+            Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1:= FALSE;
+            Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2:= FALSE;
             
             IF SC_Preklapac.Step <> 0 THEN
                 SC_VstupnyDotlacac.ResetStep:= TRUE;

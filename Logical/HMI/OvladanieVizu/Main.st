@@ -1,7 +1,7 @@
 
 PROGRAM _INIT
 	CasZobrazeniaUvodnejObrazovky.IN:= TRUE;
-	 
+	
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -62,7 +62,9 @@ PROGRAM _CYCLIC
     ELSIF NOT Zariadenie.STAV.READY_TO_START THEN
         Vizu.TL_StartAutomat_DISABLE:= TRUE;
     ELSIF Zariadenie.STAV.Automat THEN
-        Vizu.TL_StartAutomat_DISABLE:= TRUE;
+		Vizu.TL_StartAutomat_DISABLE:= TRUE;
+	ELSIF NOT Preklapac.IN.VystupnyDopravnik_StavOK THEN
+		Vizu.TL_StartAutomat_DISABLE:= TRUE;
     ELSE    
         Vizu.TL_StartAutomat_DISABLE:= FALSE;
     END_IF    
@@ -103,8 +105,12 @@ PROGRAM _CYCLIC
     END_IF    
     
     
-    
-    
+	//***************************************************Zobrazenie Pop Up********************************************************//
+	IF NOT Preklapac.IN.VystupnyDopravnik_StavOK THEN
+		Vizu.TP_PopUp_VystupDopRozpojeny:= 0;
+	ELSE	
+		Vizu.TP_PopUp_VystupDopRozpojeny:= 1;
+	END_IF	
     
     
 END_PROGRAM

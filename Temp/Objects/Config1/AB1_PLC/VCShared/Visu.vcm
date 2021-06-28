@@ -17,12 +17,12 @@
       <Property Name="Platform" Value="Platform.x86.Generic" />
     </Module>
     <Module>
-      <Property Name="Name" Value="vccshape.br" />
+      <Property Name="Name" Value="vcctext.br" />
       <Property Name="Version" Value="01.00" />
       <Property Name="Platform" Value="Platform.x86.Generic" />
     </Module>
     <Module>
-      <Property Name="Name" Value="vcctext.br" />
+      <Property Name="Name" Value="vccshape.br" />
       <Property Name="Version" Value="01.00" />
       <Property Name="Platform" Value="Platform.x86.Generic" />
     </Module>

@@ -5,8 +5,8 @@
   <File Name="vccbar.br" />
   <File Name="vccbtn.br" />
   <File Name="vccstr.br" />
-  <File Name="vccshape.br" />
   <File Name="vcctext.br" />
+  <File Name="vccshape.br" />
   <File Name="vccnum.br" />
   <File Name="vccalarm.br" />
   <File Name="vccovl.br" />

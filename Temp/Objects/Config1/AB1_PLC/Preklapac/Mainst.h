@@ -136,6 +136,7 @@ typedef struct PreklapacIN_typ
 	plcbit Vytah_Pozicia1_PritomRotora_OS1;
 	plcbit Vytah_Pozicia2_PritomRotora_OS2;
 	plcbit VystupnyDopravnik_PLNY_OS3;
+	plcbit VystupnyDopravnik_StavOK;
 } PreklapacIN_typ;
 #endif
 

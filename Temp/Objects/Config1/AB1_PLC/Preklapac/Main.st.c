@@ -131,6 +131,8 @@ if((Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1|Preklapac.IN.Vytah_Pozicia2_Pri
 if(Preklapac.KoniecCyklu){
 (SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=0);
+}else if((Preklapac.IN.VystupnyDopravnik_StavOK^1)){
+(SC_Preklapac.Step=0);
 }else if(SC_Preklapac.IdleTime.Q){
 (SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=108);
@@ -208,9 +210,11 @@ if((Preklapac.IN.Vytah_HornaPoloha_MS5&SC_Preklapac.IdleTime.Q)){
 
 (SC_Preklapac.AlarmTime.IN=Preklapac.KoniecCyklu);
 
-(SC_Preklapac.IdleTime.IN=(Preklapac.IN.VystupnyDopravnik_PLNY_OS3^1));
+(SC_Preklapac.IdleTime.IN=((Preklapac.IN.VystupnyDopravnik_PLNY_OS3^1)&Preklapac.IN.VystupnyDopravnik_StavOK));
 
-if(SC_Preklapac.IdleTime.Q){
+if((Preklapac.IN.VystupnyDopravnik_StavOK^1)){
+(SC_Preklapac.Step=0);
+}else if(SC_Preklapac.IdleTime.Q){
 (SC_Preklapac.ResetStep=1);
 (SC_Preklapac.Step=128);
 }else if(SC_Preklapac.AlarmTime.Q){
@@ -304,13 +308,13 @@ if(Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2){
 
 
 }imp4_case1_16:imp4_endcase1_0:;}
-#line 301 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
-#line 303 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.st"
+#line 305 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 307 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
 
 
 }}
-#line 306 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 310 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/VstupnyDotlacac.st"
 static void __AS__Action__VstupnyDotlacac(void){
 {
@@ -325,8 +329,8 @@ case 0:{
 {int zzIndex; plcstring* zzLValue=(plcstring*)SC_VstupnyDotlacac.StepName; plcstring* zzRValue=(plcstring*)"0 - Nulovanie"; for(zzIndex=0; zzIndex<13l && zzRValue[zzIndex]!=0; zzIndex++) zzLValue[zzIndex] = zzRValue[zzIndex]; zzLValue[zzIndex] = 0;};
 (VstupnyDotlacac_VYSUN=0);
 (VstupnyDotlacac_ZASUN=0);
-
-
+(Preklapac.OUT.VstupnyDotlacac_VYSUN_YV1=0);
+(Preklapac.OUT.VstupnyDotlacac_ZASUN_YV2=0);
 
 if((((unsigned long)(unsigned short)SC_Preklapac.Step!=(unsigned long)(unsigned short)0))){
 (SC_VstupnyDotlacac.ResetStep=1);
@@ -419,7 +423,7 @@ if((Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2|SC_VstupnyDotlacac.IdleTime.Q)){
 
 
 }imp16385_case0_4:imp16385_endcase0_0:;}
-#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 312 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Zdvih.st"
 static void __AS__Action__Zdvih(void){
 {
@@ -525,7 +529,7 @@ if((Preklapac.IN.Vytah_SpodnaPoloha_MS6|SC_Zdvih.IdleTime.Q)){
 
 
 }imp16387_case0_4:imp16387_endcase0_0:;}
-#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 312 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 #line 2 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/VystupnyDotlacac.st"
 static void __AS__Action__VystupnyDotlacac(void){
 {
@@ -631,7 +635,7 @@ if((Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4|SC_VystupnyDotlacac.IdleTime.Q)){
 
 
 }imp16386_case0_4:imp16386_endcase0_0:;}
-#line 308 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
+#line 312 "D:/Projekty BER/Embraco_ZariadenieNaPreklapanieRotorov_A2021001/Logical/Program/Preklapac/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 

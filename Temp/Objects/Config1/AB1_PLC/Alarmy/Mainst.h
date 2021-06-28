@@ -92,7 +92,8 @@ typedef struct Vizu_typ
 	unsigned char Slider;
 	plcbit FarbaTlacitkaAlarm_Index;
 	plcbit ZobrazSymbolAlarmu;
-	unsigned char ZobrazHlasenie_ResetZariadenia;
+	unsigned char TP_PopUp_ResetZariadenia;
+	unsigned char TP_PopUp_VystupDopRozpojeny;
 	unsigned char PodsvietenieTlacitka_ResetCS;
 } Vizu_typ;
 #endif

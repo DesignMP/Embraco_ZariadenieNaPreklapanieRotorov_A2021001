@@ -35,7 +35,8 @@ TYPE
 		Slider : USINT;
 		FarbaTlacitkaAlarm_Index : BOOL;
 		ZobrazSymbolAlarmu : BOOL;
-		ZobrazHlasenie_ResetZariadenia : USINT;
+		TP_PopUp_ResetZariadenia : USINT;
+		TP_PopUp_VystupDopRozpojeny : USINT;
 		PodsvietenieTlacitka_ResetCS : USINT;
 	END_STRUCT;
 END_TYPE
@@ -106,6 +107,7 @@ TYPE
 		Vytah_Pozicia1_PritomRotora_OS1 : BOOL;
 		Vytah_Pozicia2_PritomRotora_OS2 : BOOL;
 		VystupnyDopravnik_PLNY_OS3 : BOOL;
+		VystupnyDopravnik_StavOK : BOOL;
 	END_STRUCT;
 	PreklapacOUT_typ : 	STRUCT 
 		VstupnyDotlacac_VYSUN_YV1 : BOOL;

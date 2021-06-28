@@ -102,7 +102,7 @@
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput10" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput10" Kind="io"/>
-<Cons Device="TC#1-CPYDEV" DPName="Zariadenie.IN.Safety_ReleCakaNaReset_KF1" Kind="pv"/>
+<Cons Device="TC#1-CPYDEV" DPName="Preklapac.IN.VystupnyDopravnik_StavOK" Kind="pv"/>
 </LN>
 <LN ID="%IX.IF4.ST1.IF1.ST2.DigitalInput11" Type="BOOL">
 <Prod Device="IF4.ST1.IF1.ST2" DPName="DigitalInput11" Kind="io"/>

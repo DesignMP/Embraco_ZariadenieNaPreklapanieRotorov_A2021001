@@ -10,7 +10,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="132665115999492375"
+    LastWriteTime="132689897684973712"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Global.var"
@@ -243,7 +243,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Main.st"
     LogicalPath="Program.Main.Main.st"
     Type="File"
-    LastWriteTime="132665124605461708"
+    LastWriteTime="132693393527652608"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Main\Types.typ"
@@ -266,7 +266,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Main.st"
     LogicalPath="Program.Preklapac.Main.st"
     Type="File"
-    LastWriteTime="132665859126449707"
+    LastWriteTime="132689890725188912"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Types.typ"
@@ -284,13 +284,13 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\VstupnyDotlacac.st"
     LogicalPath="Program.Preklapac.VstupnyDotlacac.st"
     Type="File"
-    LastWriteTime="132665888054107468"
+    LastWriteTime="132693393981443102"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\Zdvih.st"
     LogicalPath="Program.Preklapac.Zdvih.st"
     Type="File"
-    LastWriteTime="132665888936614265"
+    LastWriteTime="132672758405117368"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\Program\Preklapac\VystupnyDotlacac.st"
@@ -335,7 +335,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\Main.st"
     LogicalPath="HMI.OvladanieVizu.Main.st"
     Type="File"
-    LastWriteTime="132665152717216522"
+    LastWriteTime="132689901278354945"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Logical\HMI\OvladanieVizu\Types.typ"
@@ -470,7 +470,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Cpu.pkg"
     LogicalPath="Config1.AB1_PLC"
     Type="Cpu"
-    LastWriteTime="132665139294541183" />
+    LastWriteTime="132672756952850337" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\Cpu.sw"
     LogicalPath="Config1.AB1_PLC.Cpu.sw"
@@ -487,7 +487,7 @@
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\IoMap.iom"
     LogicalPath="Config1.AB1_PLC.IoMap.iom"
     Type="File"
-    LastWriteTime="132665116143114159"
+    LastWriteTime="132693393246498111"
     Private="false" />
   <Object
     Path="D:\Projekty BER\Embraco_ZariadenieNaPreklapanieRotorov_A2021001\Physical\Config1\AB1_PLC\PvMap.vvm"

@@ -57,56 +57,58 @@
   <Symbol Name="\DPV\POBJ" Index="10" Type="DP" RefString="Source[global].Variable[DataSource.Vizu.TL_Reset_DISABLE]" />
   <Symbol Name="\DPV\POBJ" Index="11" Type="DP" RefString="Source[global].Variable[DataSource.Vizu.TL_RR_PreklapacDotlacace_DISABLE]" />
   <Symbol Name="\DPV\POBJ" Index="12" Type="DP" RefString="Source[global].Variable[DataSource.Vizu.TL_RR_PreklapacZdvih_DISABLE]" />
-  <Symbol Name="\DPV\POBJ" Index="13" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Automat]" />
-  <Symbol Name="\DPV\POBJ" Index="14" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Manual]" />
-  <Symbol Name="\DPV\POBJ" Index="15" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Reset]" />
-  <Symbol Name="\DPV\POBJ" Index="16" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.KoniecCyklu]" />
-  <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]" />
-  <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]" />
-  <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]" />
-  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]" />
-  <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[DataSource.SC_Preklapac.StepName]" />
-  <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1]" />
-  <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2]" />
-  <Symbol Name="\DPV\POBJ" Index="24" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3]" />
-  <Symbol Name="\DPV\POBJ" Index="25" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4]" />
-  <Symbol Name="\DPV\POBJ" Index="26" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_HornaPoloha_MS5]" />
-  <Symbol Name="\DPV\POBJ" Index="27" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_SpodnaPoloha_MS6]" />
-  <Symbol Name="\DPV\POBJ" Index="28" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1]" />
-  <Symbol Name="\DPV\POBJ" Index="29" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1]" />
-  <Symbol Name="\DPV\POBJ" Index="30" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2]" />
-  <Symbol Name="\DPV\POBJ" Index="31" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDopravnik_PLNY_OS3]" />
-  <Symbol Name="\DPV\POBJ" Index="32" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VystupnyDotlacac_ZASUN]" />
-  <Symbol Name="\DPV\POBJ" Index="33" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VystupnyDotlacac_VYSUN]" />
-  <Symbol Name="\DPV\POBJ" Index="34" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.Zdvih_ZASUN]" />
-  <Symbol Name="\DPV\POBJ" Index="35" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.Zdvih_VYSUN]" />
-  <Symbol Name="\DPV\POBJ" Index="36" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VstupnyDotlacac_ZASUN]" />
-  <Symbol Name="\DPV\POBJ" Index="37" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VstupnyDotlacac_VYSUN]" />
-  <Symbol Name="\DPV\POBJ" Index="38" Type="DP" RefString="Source[global].Variable[DataSource.Hesla]" />
-  <Symbol Name="\DPV\POBJ" Index="39" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[1]]" />
-  <Symbol Name="\DPV\POBJ" Index="40" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[2]]" />
-  <Symbol Name="\DPV\POBJ" Index="41" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[0]]" />
-  <Symbol Name="\DPV\POBJ" Index="42" Type="DP" RefString="Source[global].Variable[DataSource.PotvrdenieAlarmov]" />
-  <Symbol Name="\DPV\POBJ" Index="43" Type="DP" RefString="Source[global].Variable[DataSource.Alarmy]" />
-  <Symbol Name="\DPV\POBJ" Index="44" Type="DP" RefString="Source[global].Variable[DataSource.TP_ZobrazPopUpPrihlasenie]" />
-  <Symbol Name="\DPV\POBJ" Index="45" Type="DP" RefString="Source[global].Variable[DataSource.ZobrazSymbolAlarmu]" />
-  <Symbol Name="\DPV\POBJ" Index="46" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
-  <Symbol Name="\DPV\POBJ" Index="47" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
-  <Symbol Name="\DPV\POBJ" Index="48" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
-  <Symbol Name="\DPV\POBJ" Index="49" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
-  <Symbol Name="\DPV\POBJ" Index="50" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
-  <Symbol Name="\DPV\POBJ" Index="51" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
-  <Symbol Name="\DPV\POBJ" Index="52" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
-  <Symbol Name="\DPV\POBJ" Index="53" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
-  <Symbol Name="\DPV\POBJ" Index="54" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
-  <Symbol Name="\DPV\POBJ" Index="55" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
-  <Symbol Name="\DPV\POBJ" Index="56" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
-  <Symbol Name="\DPV\POBJ" Index="57" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
-  <Symbol Name="\DPV\POBJ" Index="58" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
-  <Symbol Name="\DPV\POBJ" Index="59" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
-  <Symbol Name="\DPV\POBJ" Index="60" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
-  <Symbol Name="\DPV\POBJ" Index="61" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
-  <Symbol Name="\DPV\POBJ" Index="62" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
+  <Symbol Name="\DPV\POBJ" Index="13" Type="DP" RefString="Source[global].Variable[DataSource.Vizu.TP_PopUp_VystupDopRozpojeny]" />
+  <Symbol Name="\DPV\POBJ" Index="14" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Automat]" />
+  <Symbol Name="\DPV\POBJ" Index="15" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Manual]" />
+  <Symbol Name="\DPV\POBJ" Index="16" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.Reset]" />
+  <Symbol Name="\DPV\POBJ" Index="17" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.KoniecCyklu]" />
+  <Symbol Name="\DPV\POBJ" Index="18" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.OUT.Safety_RESET]" />
+  <Symbol Name="\DPV\POBJ" Index="19" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.TlakVzduchu_OK_S1]" />
+  <Symbol Name="\DPV\POBJ" Index="20" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_SpatnaVazba_KF1]" />
+  <Symbol Name="\DPV\POBJ" Index="21" Type="DP" RefString="Source[global].Variable[DataSource.Zariadenie.IN.Safety_Aktivne]" />
+  <Symbol Name="\DPV\POBJ" Index="22" Type="DP" RefString="Source[global].Variable[DataSource.SC_Preklapac.StepName]" />
+  <Symbol Name="\DPV\POBJ" Index="23" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_VYSUNUTY_MS1]" />
+  <Symbol Name="\DPV\POBJ" Index="24" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_ZASUNUTY_MS2]" />
+  <Symbol Name="\DPV\POBJ" Index="25" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDotlacac_VYSUNUTY_MS3]" />
+  <Symbol Name="\DPV\POBJ" Index="26" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDotlacac_ZASUNUTY_MS4]" />
+  <Symbol Name="\DPV\POBJ" Index="27" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_HornaPoloha_MS5]" />
+  <Symbol Name="\DPV\POBJ" Index="28" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_SpodnaPoloha_MS6]" />
+  <Symbol Name="\DPV\POBJ" Index="29" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VstupnyDotlacac_PritomRotora_IS1]" />
+  <Symbol Name="\DPV\POBJ" Index="30" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia1_PritomRotora_OS1]" />
+  <Symbol Name="\DPV\POBJ" Index="31" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.Vytah_Pozicia2_PritomRotora_OS2]" />
+  <Symbol Name="\DPV\POBJ" Index="32" Type="DP" RefString="Source[global].Variable[DataSource.Preklapac.IN.VystupnyDopravnik_PLNY_OS3]" />
+  <Symbol Name="\DPV\POBJ" Index="33" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VystupnyDotlacac_ZASUN]" />
+  <Symbol Name="\DPV\POBJ" Index="34" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VystupnyDotlacac_VYSUN]" />
+  <Symbol Name="\DPV\POBJ" Index="35" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.Zdvih_ZASUN]" />
+  <Symbol Name="\DPV\POBJ" Index="36" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.Zdvih_VYSUN]" />
+  <Symbol Name="\DPV\POBJ" Index="37" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VstupnyDotlacac_ZASUN]" />
+  <Symbol Name="\DPV\POBJ" Index="38" Type="DP" RefString="Source[global].Variable[DataSource.Program.Preklapac.VstupnyDotlacac_VYSUN]" />
+  <Symbol Name="\DPV\POBJ" Index="39" Type="DP" RefString="Source[global].Variable[DataSource.Hesla]" />
+  <Symbol Name="\DPV\POBJ" Index="40" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[1]]" />
+  <Symbol Name="\DPV\POBJ" Index="41" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[2]]" />
+  <Symbol Name="\DPV\POBJ" Index="42" Type="DP" RefString="Source[global].Variable[DataSource.Hesla[0]]" />
+  <Symbol Name="\DPV\POBJ" Index="43" Type="DP" RefString="Source[global].Variable[DataSource.PotvrdenieAlarmov]" />
+  <Symbol Name="\DPV\POBJ" Index="44" Type="DP" RefString="Source[global].Variable[DataSource.Alarmy]" />
+  <Symbol Name="\DPV\POBJ" Index="45" Type="DP" RefString="Source[global].Variable[DataSource.TP_ZobrazPopUpPrihlasenie]" />
+  <Symbol Name="\DPV\POBJ" Index="46" Type="DP" RefString="Source[global].Variable[DataSource.ZobrazSymbolAlarmu]" />
+  <Symbol Name="\DPV\POBJ" Index="47" Type="DP" RefString="Source[global].Variable[DataSource.Blikac500ms]" />
+  <Symbol Name="\DPV\POBJ" Index="48" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
+  <Symbol Name="\DPV\POBJ" Index="49" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
+  <Symbol Name="\DPV\POBJ" Index="50" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
+  <Symbol Name="\DPV\POBJ" Index="51" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
+  <Symbol Name="\DPV\POBJ" Index="52" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
+  <Symbol Name="\DPV\POBJ" Index="53" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
+  <Symbol Name="\DPV\POBJ" Index="54" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
+  <Symbol Name="\DPV\POBJ" Index="55" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
+  <Symbol Name="\DPV\POBJ" Index="56" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
+  <Symbol Name="\DPV\POBJ" Index="57" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
+  <Symbol Name="\DPV\POBJ" Index="58" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
+  <Symbol Name="\DPV\POBJ" Index="59" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
+  <Symbol Name="\DPV\POBJ" Index="60" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
+  <Symbol Name="\DPV\POBJ" Index="61" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
+  <Symbol Name="\DPV\POBJ" Index="62" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
+  <Symbol Name="\DPV\POBJ" Index="63" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
+  <Symbol Name="\DPV\POBJ" Index="64" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
   <Symbol Name="Source[global].UnitGroup[Length]" Index="3221225472" Type="UG" RefString="Source[global].UnitGroup[Length]" />
   <Symbol Name="Source[global].UnitGroup[Length].Unit[$OneToOne]" Index="3221225480" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[$OneToOne]" />
   <Symbol Name="Source[global].UnitGroup[Mass]" Index="3221225473" Type="UG" RefString="Source[global].UnitGroup[Mass]" />
@@ -243,6 +245,12 @@
   <Symbol Name="\Projects\Visu" Index="0" Type="REF" RefString="Source[local].BitmapGroup[msgBox]" />
   <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="0" Type="BMPG" RefString="Source[local].BitmapGroup[msgBox_en]" />
   <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="0" Type="BMPG" RefString="Source[local].BitmapGroup[msgBox_de]" />
+  <Symbol Name="\Projects\Visu" Index="1040" Type="REF" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics]" />
+  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_en]" />
+  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_de]" />
+  <Symbol Name="\Projects\Visu" Index="1005" Type="REF" RefString="Source[local].BitmapGroup[MpStateGroup]" />
+  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_en]" />
+  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_de]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="509" Type="GFX" RefString="Source[local].Bitmap[Alarm_AcknowledgeReset]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="500" Type="GFX" RefString="Source[local].Bitmap[Alarm_Active]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="506" Type="GFX" RefString="Source[local].Bitmap[Alarm_BypassOFF]" />
@@ -484,12 +492,6 @@
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="13" Type="GFX" RefString="Source[local].Bitmap[PageUP2_24x24]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7114" Type="GFX" RefString="Source[local].Bitmap[Mechanik1_32x32]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="7115" Type="GFX" RefString="Source[local].Bitmap[Mechanik1_48x48]" />
-  <Symbol Name="\Projects\Visu" Index="1040" Type="REF" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics]" />
-  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_en]" />
-  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1040" Type="BMPG" RefString="Source[local].BitmapGroup[MpPMLStatesGraphics_de]" />
-  <Symbol Name="\Projects\Visu" Index="1005" Type="REF" RefString="Source[local].BitmapGroup[MpStateGroup]" />
-  <Symbol Name="\Projects\Visu\Language\en\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_en]" />
-  <Symbol Name="\Projects\Visu\Language\de\BitmapGroups\POBJ" Index="1005" Type="BMPG" RefString="Source[local].BitmapGroup[MpStateGroup_de]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="89" Type="GFX" RefString="Source[local].Bitmap[BarieraAktivna_50x50]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="91" Type="GFX" RefString="Source[local].Bitmap[BarieraNeaktivna_50x50]" />
   <Symbol Name="\Projects\Visu\Bitmaps\POBJ" Index="92" Type="GFX" RefString="Source[local].Bitmap[CentralStopAktivny_50x50]" />
@@ -846,68 +848,69 @@
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_1]" Index="1073741826" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_1]" />
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_9]" Index="1073741827" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Button_9]" />
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].Control[String_1]" Index="1073741828" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[String_1]" />
+  <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Text_1]" Index="1073741829" Type="CTRL" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].Control[Text_1]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_34]" Index="1073741824" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_34]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_39]" Index="1073741825" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_39]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_40]" Index="1073741826" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_40]" />
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default]" Index="1073741825" Type="LAY" RefString="Source[local].Page[AutomatickyRezim].Layer[Default]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_3]" Index="1073741829" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_3]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_2]" Index="1073741830" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_2]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_2]" Index="1073741831" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]" Index="1073741832" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]" Index="1073741833" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]" Index="1073741834" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_4]" Index="1073741835" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_4]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_5]" Index="1073741836" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_5]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_6]" Index="1073741837" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_6]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]" Index="1073741838" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]" Index="1073741839" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]" Index="1073741840" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_8]" Index="1073741841" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_8]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_9]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_9]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_10]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_10]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_12]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_12]" />
-  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_13]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_13]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_3]" Index="1073741830" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_3]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_2]" Index="1073741831" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Shape_2]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_2]" Index="1073741832" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]" Index="1073741833" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setSecond]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]" Index="1073741834" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setMinute]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]" Index="1073741835" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setHour]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_4]" Index="1073741836" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_4]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_5]" Index="1073741837" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_5]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_6]" Index="1073741838" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_6]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]" Index="1073741839" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setYear]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]" Index="1073741840" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[SetMonth]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]" Index="1073741841" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[setDay]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_8]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_8]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_9]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_9]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_10]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_10]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_12]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_12]" />
+  <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_13]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].Control[Text_13]" />
   <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer]" Index="1073741826" Type="LAY" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer]" />
   <Symbol Name="Source[local].VirtualKey[BrightnessMinus]" Index="1073741827" Type="VKEY" RefString="Source[local].VirtualKey[BrightnessMinus]" />
   <Symbol Name="Source[local].VirtualKey[BrightnessPlus]" Index="1073741828" Type="VKEY" RefString="Source[local].VirtualKey[BrightnessPlus]" />
   <Symbol Name="Source[local].VirtualKey[TouchCalibration]" Index="1073741829" Type="VKEY" RefString="Source[local].VirtualKey[TouchCalibration]" />
   <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[Default]" Index="1073741827" Type="LAY" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[Default]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[AlarmCurrent]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[AlarmCurrent]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmUp]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmUp]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmDown]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmDown]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmPageHistory]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmPageHistory]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAcknowledge]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAcknowledge]" />
-  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[Text_2]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[AlarmCurrent]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[AlarmCurrent]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmUp]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmUp]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmDown]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmDown]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmPageHistory]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAlarmPageHistory]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAcknowledge]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[cmdAcknowledge]" />
+  <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[Text_2]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default].Control[Text_2]" />
   <Symbol Name="Source[local].VirtualKey[AlarmDown]" Index="1073741830" Type="VKEY" RefString="Source[local].VirtualKey[AlarmDown]" />
   <Symbol Name="Source[local].VirtualKey[AlarmPgDown]" Index="1073741831" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgDown]" />
   <Symbol Name="Source[local].VirtualKey[AlarmPgUp]" Index="1073741832" Type="VKEY" RefString="Source[local].VirtualKey[AlarmPgUp]" />
   <Symbol Name="Source[local].VirtualKey[AlarmUp]" Index="1073741833" Type="VKEY" RefString="Source[local].VirtualKey[AlarmUp]" />
   <Symbol Name="Source[local].VirtualKey[pageAlarmHistory]" Index="1073741834" Type="VKEY" RefString="Source[local].VirtualKey[pageAlarmHistory]" />
   <Symbol Name="Source[local].Page[ObrazovkaAlarmov].Layer[Default]" Index="1073741828" Type="LAY" RefString="Source[local].Page[ObrazovkaAlarmov].Layer[Default]" />
-  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[Text_2]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[AlarmHistory]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[AlarmHistory]" />
-  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmUp]" Index="1073741854" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmUp]" />
-  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmDown]" Index="1073741855" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmDown]" />
+  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[Text_2]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[AlarmHistory]" Index="1073741854" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[AlarmHistory]" />
+  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmUp]" Index="1073741855" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmUp]" />
+  <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmDown]" Index="1073741856" Type="CTRL" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default].Control[cmdAlarmDown]" />
   <Symbol Name="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default]" Index="1073741829" Type="LAY" RefString="Source[local].Page[ObrazovkaHistorieAlarmov].Layer[Default]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_1]" Index="1073741856" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_1]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_2]" Index="1073741857" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_13]" Index="1073741858" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_13]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_7]" Index="1073741859" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_7]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_2]" Index="1073741860" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_2]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_8]" Index="1073741861" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_8]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_3]" Index="1073741862" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_3]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_9]" Index="1073741863" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_9]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_14]" Index="1073741864" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_14]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_4]" Index="1073741865" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_4]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_5]" Index="1073741866" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_5]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_15]" Index="1073741867" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_15]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_16]" Index="1073741868" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_16]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_6]" Index="1073741869" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_6]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_7]" Index="1073741870" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_7]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_17]" Index="1073741871" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_17]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_18]" Index="1073741872" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_18]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_8]" Index="1073741873" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_8]" />
-  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_9]" Index="1073741874" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_9]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_1]" Index="1073741857" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_1]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_2]" Index="1073741858" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_13]" Index="1073741859" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_13]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_7]" Index="1073741860" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_7]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_2]" Index="1073741861" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_2]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_8]" Index="1073741862" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_8]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_3]" Index="1073741863" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_3]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_9]" Index="1073741864" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Text_9]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_14]" Index="1073741865" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_14]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_4]" Index="1073741866" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_4]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_5]" Index="1073741867" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_5]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_15]" Index="1073741868" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_15]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_16]" Index="1073741869" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_16]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_6]" Index="1073741870" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_6]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_7]" Index="1073741871" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_7]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_17]" Index="1073741872" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_17]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_18]" Index="1073741873" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Button_18]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_8]" Index="1073741874" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_8]" />
+  <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_9]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer].Control[Shape_9]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_5]" Index="1073741835" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_6]" Index="1073741836" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_7]" Index="1073741837" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_7]" />
@@ -916,41 +919,41 @@
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_10]" Index="1073741840" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_10]" />
   <Symbol Name="Source[local].Page[RR_Preklapac].Layer[FrameLayer]" Index="1073741830" Type="LAY" RefString="Source[local].Page[RR_Preklapac].Layer[FrameLayer]" />
   <Symbol Name="Source[local].Page[RR_Preklapac].Layer[Default]" Index="1073741831" Type="LAY" RefString="Source[local].Page[RR_Preklapac].Layer[Default]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" Index="1073741876" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" />
-  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" Index="1073741877" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" Index="1073741876" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" Index="1073741877" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_13]" />
+  <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" Index="1073741878" Type="CTRL" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer].Control[Button_14]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_1]" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_2]" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]" />
   <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" Index="1073741832" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[FrameLayer]" />
   <Symbol Name="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" Index="1073741833" Type="LAY" RefString="Source[local].Page[RR_HlavnaObrazovka].Layer[Default]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" Index="1073741878" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" Index="1073741879" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" Index="1073741880" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" Index="1073741881" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" Index="1073741882" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" Index="1073741883" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" Index="1073741884" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" Index="1073741885" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" Index="1073741886" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" Index="1073741887" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" Index="1073741888" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" Index="1073741889" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" Index="1073741890" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" Index="1073741891" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" />
-  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" Index="1073741892" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" Index="1073741879" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" Index="1073741880" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_1]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" Index="1073741881" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_4]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" Index="1073741882" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_3]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" Index="1073741883" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_5]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" Index="1073741884" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_5]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" Index="1073741885" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_6]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" Index="1073741886" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_8]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" Index="1073741887" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_6]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" Index="1073741888" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_9]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" Index="1073741889" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Text_11]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" Index="1073741890" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_7]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" Index="1073741891" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_8]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" Index="1073741892" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_9]" />
+  <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" Index="1073741893" Type="CTRL" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer].Control[Shape_10]" />
   <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" Index="1073741834" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[FrameLayer]" />
   <Symbol Name="Source[local].Page[RR_PrehladVstupov].Layer[Default]" Index="1073741835" Type="LAY" RefString="Source[local].Page[RR_PrehladVstupov].Layer[Default]" />
-  <Symbol Name="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" Index="1073741893" Type="CTRL" RefString="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" />
+  <Symbol Name="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" Index="1073741894" Type="CTRL" RefString="Source[local].Layer[Pozadie_DMP].Control[Bitmap_1]" />
   <Symbol Name="Source[local].Layer[Pozadie_DMP]" Index="1073741836" Type="LAY" RefString="Source[local].Layer[Pozadie_DMP]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Text_2]" Index="1073741894" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_2]" Index="1073741895" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Text_3]" Index="1073741896" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_3]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Bitmap_2]" Index="1073741897" Type="CTRL" RefString="Source[local].Layer[Background].Control[Bitmap_2]" />
-  <Symbol Name="Source[local].Layer[Background].Control[DateTime_1]" Index="1073741898" Type="CTRL" RefString="Source[local].Layer[Background].Control[DateTime_1]" />
-  <Symbol Name="Source[local].Layer[Background].Control[HotSpot_1]" Index="1073741899" Type="CTRL" RefString="Source[local].Layer[Background].Control[HotSpot_1]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_6]" Index="1073741900" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_6]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_8]" Index="1073741901" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_8]" />
-  <Symbol Name="Source[local].Layer[Background].Control[Button_11]" Index="1073741902" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_11]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Text_2]" Index="1073741895" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_2]" Index="1073741896" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Text_3]" Index="1073741897" Type="CTRL" RefString="Source[local].Layer[Background].Control[Text_3]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Bitmap_2]" Index="1073741898" Type="CTRL" RefString="Source[local].Layer[Background].Control[Bitmap_2]" />
+  <Symbol Name="Source[local].Layer[Background].Control[DateTime_1]" Index="1073741899" Type="CTRL" RefString="Source[local].Layer[Background].Control[DateTime_1]" />
+  <Symbol Name="Source[local].Layer[Background].Control[HotSpot_1]" Index="1073741900" Type="CTRL" RefString="Source[local].Layer[Background].Control[HotSpot_1]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_6]" Index="1073741901" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_6]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_8]" Index="1073741902" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_8]" />
+  <Symbol Name="Source[local].Layer[Background].Control[Button_11]" Index="1073741903" Type="CTRL" RefString="Source[local].Layer[Background].Control[Button_11]" />
   <Symbol Name="Source[local].Layer[Background]" Index="1073741837" Type="LAY" RefString="Source[local].Layer[Background]" />
   <Symbol Name="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" Index="1073741826" Type="TG" RefString="Source[local].Page[AutomatickyRezim].Layer[Default].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded]" Index="1073741827" Type="TG" RefString="Source[local].Page[NastavenieCasuDatumu].Layer[FrameLayer].TextGroup[Embedded]" />
@@ -1123,35 +1126,35 @@
   <Symbol Name="Source[local].VirtualKey[button_ResetZariadenia]" Index="1073742000" Type="VKEY" RefString="Source[local].VirtualKey[button_ResetZariadenia]" />
   <Symbol Name="Source[local].VirtualKey[button_AutomatickyRezim]" Index="1073742001" Type="VKEY" RefString="Source[local].VirtualKey[button_AutomatickyRezim]" />
   <Symbol Name="Source[local].VirtualKey[button_RucnyRezim]" Index="1073742002" Type="VKEY" RefString="Source[local].VirtualKey[button_RucnyRezim]" />
-  <Symbol Name="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" Index="1073741903" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" Index="1073741904" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad_QVGA].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad_QVGA]" Index="1073741824" Type="OVL" RefString="Source[local].TouchPad[AlphaPad_QVGA]" />
-  <Symbol Name="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" Index="1073741904" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" Index="1073741905" Type="CTRL" RefString="Source[local].TouchPad[AlphaPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[AlphaPad]" Index="1073741825" Type="OVL" RefString="Source[local].TouchPad[AlphaPad]" />
   <Symbol Name="Source[local].TouchPad[EditPad]" Index="1073741826" Type="OVL" RefString="Source[local].TouchPad[EditPad]" />
-  <Symbol Name="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" Index="1073741905" Type="CTRL" RefString="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" Index="1073741906" Type="CTRL" RefString="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[MpAlphaPad]" Index="1073741827" Type="OVL" RefString="Source[local].TouchPad[MpAlphaPad]" />
-  <Symbol Name="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" Index="1073741906" Type="CTRL" RefString="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" Index="1073741907" Type="CTRL" RefString="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[MpNumPad]" Index="1073741828" Type="OVL" RefString="Source[local].TouchPad[MpNumPad]" />
   <Symbol Name="Source[local].TouchPad[NavigationPad_hor]" Index="1073741829" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_hor]" />
   <Symbol Name="Source[local].TouchPad[NavigationPad_ver]" Index="1073741830" Type="OVL" RefString="Source[local].TouchPad[NavigationPad_ver]" />
-  <Symbol Name="Source[local].TouchPad[NumPad].Control[TouchPadEdit_1]" Index="1073741907" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[NumPad].Control[TouchPadEdit_1]" Index="1073741908" Type="CTRL" RefString="Source[local].TouchPad[NumPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[NumPad]" Index="1073741831" Type="OVL" RefString="Source[local].TouchPad[NumPad]" />
-  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[TouchPadEdit_1]" Index="1073741908" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[TouchPadEdit_1]" />
-  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[Text_1]" Index="1073741909" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[Text_1]" />
-  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[Text_2]" Index="1073741910" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[Text_2]" />
+  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[TouchPadEdit_1]" Index="1073741909" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[Text_1]" Index="1073741910" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[Text_1]" />
+  <Symbol Name="Source[local].TouchPad[NumPad_Limits].Control[Text_2]" Index="1073741911" Type="CTRL" RefString="Source[local].TouchPad[NumPad_Limits].Control[Text_2]" />
   <Symbol Name="Source[local].TouchPad[NumPad_Limits]" Index="1073741832" Type="OVL" RefString="Source[local].TouchPad[NumPad_Limits]" />
   <Symbol Name="Source[local].Runtime[Visu]" Index="1073741824" Type="RTM" RefString="Source[local].Runtime[Visu]" />
   <Symbol Name="Source[local].TrendDataConfiguration[TrendData]" Index="1073741824" Type="TDC" RefString="Source[local].TrendDataConfiguration[TrendData]" />
   <Symbol Name="Source[local].TrendData[CPUTemperature]" Index="1073741824" Type="TRD" RefString="Source[local].TrendData[CPUTemperature]" />
   <Symbol Name="Source[local].TrendData[ROOMTemperature]" Index="1073741825" Type="TRD" RefString="Source[local].TrendData[ROOMTemperature]" />
   <Symbol Name="Source[local].Trend[Trend_Temperature]" Index="1073741824" Type="TRE" RefString="Source[local].Trend[Trend_Temperature]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendGrid_1]" Index="1073741911" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendGrid_1]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_1]" Index="1073741912" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_1]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_2]" Index="1073741913" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_2]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendTimeScale_1]" Index="1073741914" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendTimeScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendValueScale_1]" Index="1073741915" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendValueScale_1]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendCurveActTemp]" Index="1073741916" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendCurveActTemp]" />
-  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendCurveCpuTemp]" Index="1073741917" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendCurveCpuTemp]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendGrid_1]" Index="1073741912" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendGrid_1]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_1]" Index="1073741913" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_1]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_2]" Index="1073741914" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendScaleContainer_2]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendTimeScale_1]" Index="1073741915" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendTimeScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendValueScale_1]" Index="1073741916" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendValueScale_1]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendCurveActTemp]" Index="1073741917" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendCurveActTemp]" />
+  <Symbol Name="Source[local].Trend[Trend_Temperature].Control[TrendCurveCpuTemp]" Index="1073741918" Type="CTRL" RefString="Source[local].Trend[Trend_Temperature].Control[TrendCurveCpuTemp]" />
   <Symbol Name="Source[local].StyleGroup[0x00000400].StyleClass[Default]" Index="1073741838" Type="REF" RefString="Source[local].StyleGroup[0x00000400].StyleClass[Default]" />
   <Symbol Name="Source[local].StyleGroup[0x00001001].StyleClass[Default]" Index="1073741839" Type="REF" RefString="Source[local].StyleGroup[0x00001001].StyleClass[Default]" />
   <Symbol Name="Source[local].StyleGroup[0x00001002].StyleClass[BackwardButton]" Index="1073741840" Type="REF" RefString="Source[local].StyleGroup[0x00001002].StyleClass[BackwardButton]" />
